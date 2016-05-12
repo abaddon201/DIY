@@ -66,6 +66,7 @@
 <hole x="2.2225" y="2.2225" drill="4"/>
 <hole x="50.8" y="15.24" drill="4"/>
 <hole x="50.8" y="2.2225" drill="4"/>
+<text x="34.925" y="4.1275" size="1.778" layer="25">+</text>
 </plain>
 <libraries>
 <library name="resistor">
