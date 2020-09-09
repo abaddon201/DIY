@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GLS29EE010-70-4C-PHE
+D EEPROM 1MB, 5V, 70ns 128K x 8 Flash
+F https://www.greenliant.com/dotAsset/40840.pdf
+$ENDCMP
+#
+#End Doc Library

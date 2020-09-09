@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Tap2Wav_Converter - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/Resource.res" /d "NDEBUG" /d "_AFXDLL" "E:\From_Visual C++ 6.0\Workings projects\Прочее\ZX-TAP2WAV\Tap2Wav_Converter\Resource.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB246.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Release/Tap2Wav_Converter.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\From_Visual C++ 6.0\Workings projects\Прочее\ZX-TAP2WAV\Tap2Wav_Converter\cdialog_main.cpp"
+"E:\From_Visual C++ 6.0\Workings projects\Прочее\ZX-TAP2WAV\Tap2Wav_Converter\main.cpp"
+"E:\From_Visual C++ 6.0\Workings projects\Прочее\ZX-TAP2WAV\Tap2Wav_Converter\ThreadExecute.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB246.tmp" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB247.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Tap2Wav_Converter.pdb" /machine:I386 /out:"Release/Tap2Wav_Converter.exe" 
+".\Release\cdialog_main.obj"
+".\Release\main.obj"
+".\Release\ThreadExecute.obj"
+".\Release\Resource.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPB247.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+cdialog_main.cpp
+main.cpp
+ThreadExecute.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Tap2Wav_Converter.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

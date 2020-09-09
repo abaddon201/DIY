@@ -1,0 +1,325 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74HC240 U?
+U 1 1 5F5D6F8E
+P 5200 3250
+F 0 "U?" H 5200 4231 50  0000 C CNN
+F 1 "74HC240" H 5200 4140 50  0000 C CNN
+F 2 "" H 5200 3250 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT240.pdf" H 5200 3250 50  0001 C CNN
+	1    5200 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F5D814B
+P 4450 2550
+F 0 "#PWR?" H 4450 2400 50  0001 C CNN
+F 1 "+5V" H 4465 2723 50  0000 C CNN
+F 2 "" H 4450 2550 50  0001 C CNN
+F 3 "" H 4450 2550 50  0001 C CNN
+	1    4450 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2750 4450 2750
+Wire Wire Line
+	4450 2750 4450 2550
+Wire Wire Line
+	4700 2850 4450 2850
+Wire Wire Line
+	4450 2850 4450 2750
+Connection ~ 4450 2750
+Wire Wire Line
+	4700 2950 4450 2950
+Wire Wire Line
+	4450 2950 4450 2850
+Connection ~ 4450 2850
+Wire Wire Line
+	4700 3650 4700 3750
+Wire Wire Line
+	4700 3750 4100 3750
+Connection ~ 4700 3750
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F5D91B1
+P 1950 2450
+F 0 "SW?" H 1950 2735 50  0001 C CNN
+F 1 "FIRE" H 1950 2643 50  0000 C CNN
+F 2 "" H 1950 2650 50  0001 C CNN
+F 3 "~" H 1950 2650 50  0001 C CNN
+	1    1950 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 2450 1500 2450
+$Comp
+L Device:R R?
+U 1 1 5F5D9DAE
+P 3200 3750
+F 0 "R?" H 3270 3796 50  0000 L CNN
+F 1 "1K" H 3270 3705 50  0000 L CNN
+F 2 "" V 3130 3750 50  0001 C CNN
+F 3 "~" H 3200 3750 50  0001 C CNN
+	1    3200 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F5DA57C
+P 3450 3750
+F 0 "R?" H 3520 3796 50  0000 L CNN
+F 1 "1K" H 3520 3705 50  0000 L CNN
+F 2 "" V 3380 3750 50  0001 C CNN
+F 3 "~" H 3450 3750 50  0001 C CNN
+	1    3450 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F5DA88E
+P 3700 3750
+F 0 "R?" H 3770 3796 50  0000 L CNN
+F 1 "1K" H 3770 3705 50  0000 L CNN
+F 2 "" V 3630 3750 50  0001 C CNN
+F 3 "~" H 3700 3750 50  0001 C CNN
+	1    3700 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F5DABAB
+P 2950 3750
+F 0 "R?" H 3020 3796 50  0000 L CNN
+F 1 "1K" H 3020 3705 50  0000 L CNN
+F 2 "" V 2880 3750 50  0001 C CNN
+F 3 "~" H 2950 3750 50  0001 C CNN
+	1    2950 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F5DB19C
+P 2700 3750
+F 0 "R?" H 2770 3796 50  0000 L CNN
+F 1 "1K" H 2770 3705 50  0000 L CNN
+F 2 "" V 2630 3750 50  0001 C CNN
+F 3 "~" H 2700 3750 50  0001 C CNN
+	1    2700 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F5E1EAF
+P 1950 2700
+F 0 "SW?" H 1950 2985 50  0001 C CNN
+F 1 "UP" H 1950 2893 50  0000 C CNN
+F 2 "" H 1950 2900 50  0001 C CNN
+F 3 "~" H 1950 2900 50  0001 C CNN
+	1    1950 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F5E3BE1
+P 1950 2950
+F 0 "SW?" H 1950 3235 50  0001 C CNN
+F 1 "DOWN" H 1950 3143 50  0000 C CNN
+F 2 "" H 1950 3150 50  0001 C CNN
+F 3 "~" H 1950 3150 50  0001 C CNN
+	1    1950 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F5E3F61
+P 1950 3200
+F 0 "SW?" H 1950 3485 50  0001 C CNN
+F 1 "LEFT" H 1950 3393 50  0000 C CNN
+F 2 "" H 1950 3400 50  0001 C CNN
+F 3 "~" H 1950 3400 50  0001 C CNN
+	1    1950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F5E4476
+P 1950 3450
+F 0 "SW?" H 1950 3735 50  0001 C CNN
+F 1 "RIGHT" H 1950 3643 50  0000 C CNN
+F 2 "" H 1950 3650 50  0001 C CNN
+F 3 "~" H 1950 3650 50  0001 C CNN
+	1    1950 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3450 2700 3450
+Wire Wire Line
+	4700 3350 2950 3350
+Wire Wire Line
+	2250 3350 2250 3200
+Wire Wire Line
+	2250 3200 2150 3200
+Wire Wire Line
+	4700 3250 3200 3250
+Wire Wire Line
+	2300 3250 2300 2950
+Wire Wire Line
+	2300 2950 2150 2950
+Wire Wire Line
+	4700 3150 3450 3150
+Wire Wire Line
+	2350 3150 2350 2700
+Wire Wire Line
+	2350 2700 2150 2700
+Wire Wire Line
+	4700 3050 3700 3050
+Wire Wire Line
+	2400 3050 2400 2450
+Wire Wire Line
+	2400 2450 2150 2450
+Wire Wire Line
+	1750 2700 1500 2700
+Wire Wire Line
+	1500 2700 1500 2450
+Wire Wire Line
+	1500 2700 1500 2950
+Wire Wire Line
+	1500 3450 1750 3450
+Connection ~ 1500 2700
+Wire Wire Line
+	1750 3200 1500 3200
+Connection ~ 1500 3200
+Wire Wire Line
+	1500 3200 1500 3450
+Wire Wire Line
+	1750 2950 1500 2950
+Connection ~ 1500 2950
+Wire Wire Line
+	1500 2950 1500 3200
+$Comp
+L power:GND #PWR?
+U 1 1 5F5E8FDE
+P 1500 3750
+F 0 "#PWR?" H 1500 3500 50  0001 C CNN
+F 1 "GND" H 1505 3577 50  0000 C CNN
+F 2 "" H 1500 3750 50  0001 C CNN
+F 3 "" H 1500 3750 50  0001 C CNN
+	1    1500 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 3450 1500 3750
+Connection ~ 1500 3450
+$Comp
+L power:+5V #PWR?
+U 1 1 5F5E9E08
+P 3200 4200
+F 0 "#PWR?" H 3200 4050 50  0001 C CNN
+F 1 "+5V" H 3215 4373 50  0000 C CNN
+F 2 "" H 3200 4200 50  0001 C CNN
+F 3 "" H 3200 4200 50  0001 C CNN
+	1    3200 4200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3200 3900 3200 4050
+Wire Wire Line
+	2700 3900 2700 4050
+Wire Wire Line
+	2700 4050 2950 4050
+Connection ~ 3200 4050
+Wire Wire Line
+	3200 4050 3200 4200
+Wire Wire Line
+	3200 4050 3450 4050
+Wire Wire Line
+	3700 4050 3700 3900
+Wire Wire Line
+	3450 3900 3450 4050
+Connection ~ 3450 4050
+Wire Wire Line
+	3450 4050 3700 4050
+Wire Wire Line
+	2950 3900 2950 4050
+Connection ~ 2950 4050
+Wire Wire Line
+	2950 4050 3200 4050
+Wire Wire Line
+	2700 3600 2700 3450
+Connection ~ 2700 3450
+Wire Wire Line
+	2700 3450 2150 3450
+Wire Wire Line
+	2950 3600 2950 3350
+Connection ~ 2950 3350
+Wire Wire Line
+	2950 3350 2250 3350
+Wire Wire Line
+	3200 3600 3200 3250
+Connection ~ 3200 3250
+Wire Wire Line
+	3200 3250 2300 3250
+Wire Wire Line
+	3450 3600 3450 3150
+Connection ~ 3450 3150
+Wire Wire Line
+	3450 3150 2350 3150
+Wire Wire Line
+	3700 3600 3700 3050
+Connection ~ 3700 3050
+Wire Wire Line
+	3700 3050 2400 3050
+Text HLabel 4100 4150 3    50   Input ~ 0
+KEMPSTON_SELECT
+Wire Wire Line
+	4100 3750 4100 4150
+Text Notes 4300 4550 0    50   ~ 0
+A5=0,\n~IORQ=0\n~RD=0
+Wire Wire Line
+	5700 3450 6000 3450
+Wire Wire Line
+	5700 2750 6000 2750
+Wire Wire Line
+	5700 2850 6000 2850
+Wire Wire Line
+	5700 2950 6000 2950
+Wire Wire Line
+	5700 3050 6000 3050
+Wire Wire Line
+	5700 3150 6000 3150
+Wire Wire Line
+	5700 3250 6000 3250
+Wire Wire Line
+	5700 3350 6000 3350
+Text HLabel 6000 3450 2    50   Input ~ 0
+D0
+Text HLabel 6000 2750 2    50   Input ~ 0
+D7
+Text HLabel 6000 2850 2    50   Input ~ 0
+D6
+Text HLabel 6000 2950 2    50   Input ~ 0
+D5
+Text HLabel 6000 3050 2    50   Input ~ 0
+D4
+Text HLabel 6000 3150 2    50   Input ~ 0
+D3
+Text HLabel 6000 3250 2    50   Input ~ 0
+D2
+Text HLabel 6000 3350 2    50   Input ~ 0
+D1
+$EndSCHEMATC

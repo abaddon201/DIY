@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Wav2Tap_Converter - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP60.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Release/Wav2Tap_Converter.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\From_Visual C++ 6.0\Workings projects\Прочее\Wav2Tap_Converter\Wav2Tap_Converter-6\CTape.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP60.tmp" 
+Creating command line "link.exe winmm.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Wav2Tap_Converter.pdb" /machine:I386 /out:"Release/Wav2Tap_Converter.exe"  ".\Release\cdialog_main.obj" ".\Release\CTape.obj" ".\Release\Main.obj" ".\Release\Resource.res" "
+<h3>Output Window</h3>
+Compiling...
+CTape.cpp
+E:\From_Visual C++ 6.0\Workings projects\Прочее\Wav2Tap_Converter\Wav2Tap_Converter-6\CTape.cpp(10) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\From_Visual C++ 6.0\Workings projects\Прочее\Wav2Tap_Converter\Wav2Tap_Converter-6\CTape.cpp(12) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\From_Visual C++ 6.0\Workings projects\Прочее\Wav2Tap_Converter\Wav2Tap_Converter-6\CTape.cpp(15) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\From_Visual C++ 6.0\Workings projects\Прочее\Wav2Tap_Converter\Wav2Tap_Converter-6\CTape.cpp(20) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\From_Visual C++ 6.0\Workings projects\Прочее\Wav2Tap_Converter\Wav2Tap_Converter-6\CTape.cpp(21) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\From_Visual C++ 6.0\Workings projects\Прочее\Wav2Tap_Converter\Wav2Tap_Converter-6\CTape.cpp(22) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\From_Visual C++ 6.0\Workings projects\Прочее\Wav2Tap_Converter\Wav2Tap_Converter-6\CTape.cpp(24) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\From_Visual C++ 6.0\Workings projects\Прочее\Wav2Tap_Converter\Wav2Tap_Converter-6\CTape.cpp(148) : warning C4018: '<' : signed/unsigned mismatch
+E:\From_Visual C++ 6.0\Workings projects\Прочее\Wav2Tap_Converter\Wav2Tap_Converter-6\CTape.cpp(177) : warning C4018: '<' : signed/unsigned mismatch
+E:\From_Visual C++ 6.0\Workings projects\Прочее\Wav2Tap_Converter\Wav2Tap_Converter-6\CTape.cpp(190) : warning C4018: '>=' : signed/unsigned mismatch
+E:\From_Visual C++ 6.0\Workings projects\Прочее\Wav2Tap_Converter\Wav2Tap_Converter-6\CTape.cpp(197) : warning C4018: '>=' : signed/unsigned mismatch
+E:\From_Visual C++ 6.0\Workings projects\Прочее\Wav2Tap_Converter\Wav2Tap_Converter-6\CTape.cpp(237) : warning C4018: '<' : signed/unsigned mismatch
+E:\From_Visual C++ 6.0\Workings projects\Прочее\Wav2Tap_Converter\Wav2Tap_Converter-6\CTape.cpp(255) : warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+E:\From_Visual C++ 6.0\Workings projects\Прочее\Wav2Tap_Converter\Wav2Tap_Converter-6\CTape.cpp(230) : warning C4101: 'k' : unreferenced local variable
+E:\From_Visual C++ 6.0\Workings projects\Прочее\Wav2Tap_Converter\Wav2Tap_Converter-6\CTape.cpp(276) : warning C4018: '<' : signed/unsigned mismatch
+E:\From_Visual C++ 6.0\Workings projects\Прочее\Wav2Tap_Converter\Wav2Tap_Converter-6\CTape.cpp(305) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+E:\From_Visual C++ 6.0\Workings projects\Прочее\Wav2Tap_Converter\Wav2Tap_Converter-6\CTape.cpp(306) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+E:\From_Visual C++ 6.0\Workings projects\Прочее\Wav2Tap_Converter\Wav2Tap_Converter-6\CTape.cpp(363) : warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+Wav2Tap_Converter.exe - 0 error(s), 18 warning(s)
+</pre>
+</body>
+</html>
