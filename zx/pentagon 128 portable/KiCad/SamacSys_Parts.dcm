@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP 1072
+D Coin Cell Battery Holders BATTERY HOLDER FOR CR1220 / 1225 Tape and Reel
+K
+F http://www.keystoneelectronics.net/ENG._DEPT/WEB_ORACLE/PDF/PDF%20CAT%20NO%20DRAWINGS/1000-1999/1072.PDF
+$ENDCMP
+#
+$CMP 104031-0811
+D microSD 1.10mm SMT push-pull memory card microSD 1.10mm SMT push-pull memory card
+K
+F http://www.molex.com/webdocs/datasheets/pdf/en-us/1040310811_MEMORY_CARD_SOCKET.pdf
+$ENDCMP
+#
+$CMP 10033526-N3212LF
+D AMPHENOL FCI NANTONG - 10033526-N3212LF. - CONN USB RCP 5 POS 0.8MM SLDR RA SMD 5TERM
+K
+F https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10033526.pdf
+$ENDCMP
+#
+#End Doc Library
