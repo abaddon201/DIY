@@ -618,4 +618,55 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    14800 1650
 	1    0    0    -1  
 $EndComp
+$Comp
+L SamacSys_Parts:TXB0108PWR IC?
+U 1 1 5F5F8283
+P 6700 1850
+F 0 "IC?" H 7250 2115 50  0000 C CNN
+F 1 "TXB0108PWR" H 7250 2024 50  0000 C CNN
+F 2 "SOP65P640X120-20N" H 7650 1950 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/txb0108.pdf" H 7650 1850 50  0001 L CNN
+F 4 "8-Bit Bidirectional Voltage-Level Shifter with Auto Direction Sensing and +/-15-kV ESD Protect" H 7650 1750 50  0001 L CNN "Description"
+F 5 "1.2" H 7650 1650 50  0001 L CNN "Height"
+F 6 "595-TXB0108PWR" H 7650 1550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXB0108PWR?qs=oFXvjAmG9EgEUWGWzOVFCA%3D%3D" H 7650 1450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 7650 1350 50  0001 L CNN "Manufacturer_Name"
+F 9 "TXB0108PWR" H 7650 1250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:TXB0108PWR IC?
+U 1 1 5F5F8E20
+P 6700 3350
+F 0 "IC?" H 7250 3615 50  0000 C CNN
+F 1 "TXB0108PWR" H 7250 3524 50  0000 C CNN
+F 2 "SOP65P640X120-20N" H 7650 3450 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/txb0108.pdf" H 7650 3350 50  0001 L CNN
+F 4 "8-Bit Bidirectional Voltage-Level Shifter with Auto Direction Sensing and +/-15-kV ESD Protect" H 7650 3250 50  0001 L CNN "Description"
+F 5 "1.2" H 7650 3150 50  0001 L CNN "Height"
+F 6 "595-TXB0108PWR" H 7650 3050 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXB0108PWR?qs=oFXvjAmG9EgEUWGWzOVFCA%3D%3D" H 7650 2950 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 7650 2850 50  0001 L CNN "Manufacturer_Name"
+F 9 "TXB0108PWR" H 7650 2750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6700 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:TXB0108PWR IC?
+U 1 1 5F5F9A70
+P 6700 4700
+F 0 "IC?" H 7250 4965 50  0000 C CNN
+F 1 "TXB0108PWR" H 7250 4874 50  0000 C CNN
+F 2 "SOP65P640X120-20N" H 7650 4800 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/txb0108.pdf" H 7650 4700 50  0001 L CNN
+F 4 "8-Bit Bidirectional Voltage-Level Shifter with Auto Direction Sensing and +/-15-kV ESD Protect" H 7650 4600 50  0001 L CNN "Description"
+F 5 "1.2" H 7650 4500 50  0001 L CNN "Height"
+F 6 "595-TXB0108PWR" H 7650 4400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXB0108PWR?qs=oFXvjAmG9EgEUWGWzOVFCA%3D%3D" H 7650 4300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 7650 4200 50  0001 L CNN "Manufacturer_Name"
+F 9 "TXB0108PWR" H 7650 4100 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6700 4700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

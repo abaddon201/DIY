@@ -1,27 +1,51 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP NE555DR
-D Single Precision Timer
-K
-F http://www.ti.com/lit/ds/symlink/ne555.pdf
-$ENDCMP
-#
-$CMP 1072
-D Coin Cell Battery Holders BATTERY HOLDER FOR CR1220 / 1225 Tape and Reel
-K
-F http://www.keystoneelectronics.net/ENG._DEPT/WEB_ORACLE/PDF/PDF%20CAT%20NO%20DRAWINGS/1000-1999/1072.PDF
+$CMP 10033526-N3212LF
+D MiniUSB SMD AMPHENOL FCI NANTONG - 10033526-N3212LF. - CONN USB RCP 5 POS 0.8MM SLDR RA SMD 5TERM
+K miniusb
+F https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10033526.pdf
 $ENDCMP
 #
 $CMP 104031-0811
 D microSD 1.10mm SMT push-pull memory card microSD 1.10mm SMT push-pull memory card
-K
 F http://www.molex.com/webdocs/datasheets/pdf/en-us/1040310811_MEMORY_CARD_SOCKET.pdf
 $ENDCMP
 #
-$CMP 10033526-N3212LF
-D AMPHENOL FCI NANTONG - 10033526-N3212LF. - CONN USB RCP 5 POS 0.8MM SLDR RA SMD 5TERM
+$CMP 1072
+D Coin Cell Battery Holders BATTERY HOLDER FOR CR1220 / 1225 Tape and Reel
+F http://www.keystoneelectronics.net/ENG._DEPT/WEB_ORACLE/PDF/PDF%20CAT%20NO%20DRAWINGS/1000-1999/1072.PDF
+$ENDCMP
+#
+$CMP 8432-11B1-RK-TP
+D PLCC32 socket IC & Component Sockets 32P PLCC SOCKET THRU-HOLE
+F https://componentsearchengine.com/Datasheets/1/8432-11B1-RK-TP.pdf
+$ENDCMP
+#
+$CMP ABM3B-8.000MHZ-10-1-U-T
+D Abracon 8MHz Crystal +/-10ppm 4-SMD, No Lead 5 x 3 x 1.1mm
+F https://abracon.com/Resonators/abm3b.pdf
+$ENDCMP
+#
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP TXB0108PWR
+D 8-Bit Bidirectional Voltage-Level Shifter with Auto Direction Sensing and +/-15-kV ESD Protect
+F http://www.ti.com/lit/ds/symlink/txb0108.pdf
+$ENDCMP
+#
+$CMP IS62C1024AL-35QLI
+D STATIC RAM
 K
-F https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10033526.pdf
+F https://componentsearchengine.com/Datasheets/2/IS62C1024AL-35QLI.pdf
+$ENDCMP
+#
+$CMP SN74AHCT04D
+D IC, HEX INVERTER, SMD
+K
+F http://www.ti.com/lit/gpn/SN74AHCT04
 $ENDCMP
 #
 #End Doc Library
