@@ -48,4 +48,10 @@ K
 F http://www.ti.com/lit/gpn/SN74AHCT04
 $ENDCMP
 #
+$CMP Z84C0020AEG
+D Microprocessors - MPU 20 MHZ Z80 CMOS CPU
+K
+F https://componentsearchengine.com/Datasheets/1/Z84C0020AEG.pdf
+$ENDCMP
+#
 #End Doc Library

@@ -767,4 +767,6 @@ Connection ~ 6050 4500
 Wire Wire Line
 	6050 4400 6050 4300
 Connection ~ 6050 4400
+Text Notes 1050 1200 0    50   ~ 0
+inverter: add power capacitor\nconnect all unused inputs to the +5v\noutputs not connected
 $EndSCHEMATC
