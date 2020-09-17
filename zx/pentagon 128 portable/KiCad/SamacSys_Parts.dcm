@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1-1825910-4
+D Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4
+$ENDCMP
+#
 $CMP 10033526-N3212LF
 D MiniUSB SMD AMPHENOL FCI NANTONG - 10033526-N3212LF. - CONN USB RCP 5 POS 0.8MM SLDR RA SMD 5TERM
 K miniusb
@@ -26,9 +31,29 @@ D Abracon 8MHz Crystal +/-10ppm 4-SMD, No Lead 5 x 3 x 1.1mm
 F https://abracon.com/Resonators/abm3b.pdf
 $ENDCMP
 #
+$CMP IS62C1024AL-35QLI
+D STATIC RAM
+F https://componentsearchengine.com/Datasheets/2/IS62C1024AL-35QLI.pdf
+$ENDCMP
+#
 $CMP NE555DR
 D Single Precision Timer
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP SN74AHCT04D
+D IC, HEX INVERTER, SMD
+F http://www.ti.com/lit/gpn/SN74AHCT04
+$ENDCMP
+#
+$CMP SN74LS245DW
+D Octal bus transceivers
+F http://www.ti.com/lit/gpn/sn74ls245
+$ENDCMP
+#
+$CMP SN74LS27N
+D Triple 3 i/p NOR gate,SN74LS27N DIP14
+F http://www.ti.com/lit/gpn/sn74ls27
 $ENDCMP
 #
 $CMP TXB0108PWR
@@ -36,21 +61,8 @@ D 8-Bit Bidirectional Voltage-Level Shifter with Auto Direction Sensing and +/-1
 F http://www.ti.com/lit/ds/symlink/txb0108.pdf
 $ENDCMP
 #
-$CMP IS62C1024AL-35QLI
-D STATIC RAM
-K
-F https://componentsearchengine.com/Datasheets/2/IS62C1024AL-35QLI.pdf
-$ENDCMP
-#
-$CMP SN74AHCT04D
-D IC, HEX INVERTER, SMD
-K
-F http://www.ti.com/lit/gpn/SN74AHCT04
-$ENDCMP
-#
 $CMP Z84C0020AEG
 D Microprocessors - MPU 20 MHZ Z80 CMOS CPU
-K
 F https://componentsearchengine.com/Datasheets/1/Z84C0020AEG.pdf
 $ENDCMP
 #

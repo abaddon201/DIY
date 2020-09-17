@@ -1,0 +1,141 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_R_Small
+#
+DEF Device_R_Small R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_1-1825910-4
+#
+DEF SamacSys_Parts_1-1825910-4 S 0 30 Y Y 1 F N
+F0 "S" 200 250 50 H V L CNN
+F1 "SamacSys_Parts_1-1825910-4" 200 150 50 H V L CNN
+F2 "118259104" 1050 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4" 1050 0 50 H I L CNN
+F4 "Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm" 1050 -100 50 H I L CNN "Description"
+F5 "7.7" 1050 -200 50 H I L CNN "Height"
+F6 "506-1-1825910-4" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1-1825910-4" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+S 200 100 500 -200 0 1 0 N
+X C1 1 0 0 200 R 50 50 0 0 P
+X C2 2 0 -100 200 R 50 50 0 0 P
+X N1 3 700 0 200 L 50 50 0 0 P
+X N2 4 700 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_SN74LS245DW
+#
+DEF SamacSys_Parts_SN74LS245DW IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "SamacSys_Parts_SN74LS245DW" 850 200 50 H V L CNN
+F2 "SOIC127P1030X265-20N" 850 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/sn74ls245" 850 0 50 H I L CNN
+F4 "Octal bus transceivers" 850 -100 50 H I L CNN "Description"
+F5 "2.65" 850 -200 50 H I L CNN "Height"
+F6 "595-SN74LS245DW" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LS245DW?qs=ZA235jQDfbpxKQZqDHbgmw%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SN74LS245DW" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -1000 200 -1000 200 100 N
+X DIR 1 0 0 200 R 50 50 0 0 P
+X GND 10 0 -900 200 R 50 50 0 0 P
+X B8 11 1000 -900 200 L 50 50 0 0 P
+X B7 12 1000 -800 200 L 50 50 0 0 P
+X B6 13 1000 -700 200 L 50 50 0 0 P
+X B5 14 1000 -600 200 L 50 50 0 0 P
+X B4 15 1000 -500 200 L 50 50 0 0 P
+X B3 16 1000 -400 200 L 50 50 0 0 P
+X B2 17 1000 -300 200 L 50 50 0 0 P
+X B1 18 1000 -200 200 L 50 50 0 0 P
+X ~OE 19 1000 -100 200 L 50 50 0 0 P
+X A1 2 0 -100 200 R 50 50 0 0 P
+X VCC 20 1000 0 200 L 50 50 0 0 P
+X A2 3 0 -200 200 R 50 50 0 0 P
+X A3 4 0 -300 200 R 50 50 0 0 P
+X A4 5 0 -400 200 R 50 50 0 0 P
+X A5 6 0 -500 200 R 50 50 0 0 P
+X A6 7 0 -600 200 R 50 50 0 0 P
+X A7 8 0 -700 200 R 50 50 0 0 P
+X A8 9 0 -800 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_SN74LS27N
+#
+DEF SamacSys_Parts_SN74LS27N IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "SamacSys_Parts_SN74LS27N" 850 200 50 H V L CNN
+F2 "DIP794W53P254L1930H508Q14N" 850 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/sn74ls27" 850 0 50 H I L CNN
+F4 "Triple 3 i/p NOR gate,SN74LS27N DIP14" 850 -100 50 H I L CNN "Description"
+F5 "5.08" 850 -200 50 H I L CNN "Height"
+F6 "595-SN74LS27N" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LS27N?qs=SL3LIuy2dWyzTDlwJfCAiQ%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SN74LS27N" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -700 200 -700 200 100 N
+X 1A 1 0 0 200 R 50 50 0 0 P
+X 3B 10 1000 -400 200 L 50 50 0 0 P
+X 3C 11 1000 -300 200 L 50 50 0 0 P
+X 1Y 12 1000 -200 200 L 50 50 0 0 P
+X 1C 13 1000 -100 200 L 50 50 0 0 P
+X VCC 14 1000 0 200 L 50 50 0 0 P
+X 1B 2 0 -100 200 R 50 50 0 0 P
+X 2A 3 0 -200 200 R 50 50 0 0 P
+X 2B 4 0 -300 200 R 50 50 0 0 P
+X 2C 5 0 -400 200 R 50 50 0 0 P
+X 2Y 6 0 -500 200 R 50 50 0 0 P
+X GND 7 0 -600 200 R 50 50 0 0 P
+X 3Y 8 1000 -600 200 L 50 50 0 0 P
+X 3A 9 1000 -500 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
