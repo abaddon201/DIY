@@ -1,0 +1,205 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 14
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C_Small C?
+U 1 1 5F931994
+P 3750 3300
+F 0 "C?" V 3521 3300 50  0000 C CNN
+F 1 "8.2pF" V 3612 3300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3750 3300 50  0001 C CNN
+F 3 "~" H 3750 3300 50  0001 C CNN
+	1    3750 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F93199A
+P 3550 3300
+F 0 "#PWR?" H 3550 3050 50  0001 C CNN
+F 1 "GND" V 3555 3172 50  0000 R CNN
+F 2 "" H 3550 3300 50  0001 C CNN
+F 3 "" H 3550 3300 50  0001 C CNN
+	1    3550 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F9319A0
+P 3750 3800
+F 0 "C?" V 3521 3800 50  0000 C CNN
+F 1 "8.2pF" V 3612 3800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3750 3800 50  0001 C CNN
+F 3 "~" H 3750 3800 50  0001 C CNN
+	1    3750 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F9319A6
+P 3550 3800
+F 0 "#PWR?" H 3550 3550 50  0001 C CNN
+F 1 "GND" V 3555 3672 50  0000 R CNN
+F 2 "" H 3550 3800 50  0001 C CNN
+F 3 "" H 3550 3800 50  0001 C CNN
+	1    3550 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 3300 3600 3300
+Wire Wire Line
+	3550 3800 3650 3800
+Wire Wire Line
+	3850 3800 3950 3800
+$Comp
+L Device:Crystal Y?
+U 1 1 5F9319AF
+P 3850 2100
+F 0 "Y?" V 3804 2231 50  0000 L CNN
+F 1 "Q13FC1350000400" V 3895 2231 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_G8-2Pin_3.2x1.5mm" H 3850 2100 50  0001 C CNN
+F 3 "~" H 3850 2100 50  0001 C CNN
+	1    3850 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F9319B5
+P 3650 1850
+F 0 "C?" V 3421 1850 50  0000 C CNN
+F 1 "3.0pF" V 3512 1850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3650 1850 50  0001 C CNN
+F 3 "~" H 3650 1850 50  0001 C CNN
+	1    3650 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F9319BB
+P 3450 1850
+F 0 "#PWR?" H 3450 1600 50  0001 C CNN
+F 1 "GND" V 3455 1722 50  0000 R CNN
+F 2 "" H 3450 1850 50  0001 C CNN
+F 3 "" H 3450 1850 50  0001 C CNN
+	1    3450 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F9319C1
+P 3650 2350
+F 0 "C?" V 3421 2350 50  0000 C CNN
+F 1 "3.0pF" V 3512 2350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3650 2350 50  0001 C CNN
+F 3 "~" H 3650 2350 50  0001 C CNN
+	1    3650 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F9319C7
+P 3450 2350
+F 0 "#PWR?" H 3450 2100 50  0001 C CNN
+F 1 "GND" V 3455 2222 50  0000 R CNN
+F 2 "" H 3450 2350 50  0001 C CNN
+F 3 "" H 3450 2350 50  0001 C CNN
+	1    3450 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3450 1850 3550 1850
+Wire Wire Line
+	3450 2350 3550 2350
+Wire Wire Line
+	3750 1850 3850 1850
+Wire Wire Line
+	3850 1850 3850 1950
+Wire Wire Line
+	3750 2350 3850 2350
+Wire Wire Line
+	3850 2350 3850 2250
+Wire Wire Line
+	3850 1850 4200 1850
+Connection ~ 3850 1850
+Wire Wire Line
+	3850 2350 4200 2350
+Connection ~ 3850 2350
+Text Label 4050 3300 0    50   ~ 0
+HSE_IN
+Text Label 3900 1850 0    50   ~ 0
+LSE_IN
+Text Label 3900 2350 0    50   ~ 0
+LSE_OUT
+$Comp
+L Device:Crystal_GND24_Small Y?
+U 1 1 5F9319DA
+P 3950 3500
+F 0 "Y?" V 3904 3644 50  0000 L CNN
+F 1 "ABM3B-8.000MHZ-10-1-U-T" V 3995 3644 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm" H 3950 3500 50  0001 C CNN
+F 3 "~" H 3950 3500 50  0001 C CNN
+	1    3950 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 3300 3950 3300
+Wire Wire Line
+	3950 3400 3950 3300
+Connection ~ 3950 3300
+Wire Wire Line
+	3950 3300 4300 3300
+Wire Wire Line
+	3950 3600 3950 3800
+Wire Wire Line
+	4050 3500 4750 3500
+Wire Wire Line
+	4750 3500 4750 3400
+Wire Wire Line
+	3850 3500 3600 3500
+Wire Wire Line
+	3600 3500 3600 3300
+Connection ~ 3600 3300
+Wire Wire Line
+	3600 3300 3650 3300
+$Comp
+L power:GND #PWR?
+U 1 1 5F9319EB
+P 4750 3400
+F 0 "#PWR?" H 4750 3150 50  0001 C CNN
+F 1 "GND" V 4755 3272 50  0000 R CNN
+F 2 "" H 4750 3400 50  0001 C CNN
+F 3 "" H 4750 3400 50  0001 C CNN
+	1    4750 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F9319F1
+P 4150 3800
+F 0 "R?" H 4209 3846 50  0000 L CNN
+F 1 "220" H 4209 3755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4150 3800 50  0001 C CNN
+F 3 "~" H 4150 3800 50  0001 C CNN
+	1    4150 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 3800 4050 3800
+Connection ~ 3950 3800
+Text Label 4350 3800 0    50   ~ 0
+HSE_OUT
+Wire Wire Line
+	4250 3800 4600 3800
+$EndSCHEMATC

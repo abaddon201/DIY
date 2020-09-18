@@ -1,0 +1,772 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 14
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5300 1500 5300 1750
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 5F9881AE
+P 5300 1850
+F 0 "FB?" H 5400 1896 50  0000 L CNN
+F 1 "GZ2012D601TF" H 5400 1805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 5230 1850 50  0001 C CNN
+F 3 "~" H 5300 1850 50  0001 C CNN
+	1    5300 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1950 5300 2100
+Wire Wire Line
+	5300 2550 5600 2550
+Text Label 5350 2550 0    50   ~ 0
+VDD_REF+
+Wire Wire Line
+	5300 2100 5750 2100
+Connection ~ 5300 2100
+Text Label 5400 2100 0    50   ~ 0
+VDD_A
+Text Label 5300 1700 1    50   ~ 0
+VDD_MCU
+$Comp
+L Device:C_Small C?
+U 1 1 5F9881BB
+P 3050 2950
+F 0 "C?" H 3142 2996 50  0000 L CNN
+F 1 "2.2uF" H 3142 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3050 2950 50  0001 C CNN
+F 3 "~" H 3050 2950 50  0001 C CNN
+	1    3050 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F9881C1
+P 3050 3050
+F 0 "#PWR?" H 3050 2800 50  0001 C CNN
+F 1 "GND" H 3055 2877 50  0000 C CNN
+F 2 "" H 3050 3050 50  0001 C CNN
+F 3 "" H 3050 3050 50  0001 C CNN
+	1    3050 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2850 3050 2300
+Text Label 3050 2750 1    50   ~ 0
+DSI_VDD12
+$Comp
+L Device:C_Small C?
+U 1 1 5F9881C9
+P 3000 4100
+F 0 "C?" H 3092 4146 50  0000 L CNN
+F 1 "100nF" H 3092 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3000 4100 50  0001 C CNN
+F 3 "~" H 3000 4100 50  0001 C CNN
+	1    3000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F9881CF
+P 3400 4100
+F 0 "C?" H 3492 4146 50  0000 L CNN
+F 1 "100nF" H 3492 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3400 4100 50  0001 C CNN
+F 3 "~" H 3400 4100 50  0001 C CNN
+	1    3400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F9881D5
+P 3800 4100
+F 0 "C?" H 3892 4146 50  0000 L CNN
+F 1 "100nF" H 3892 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3800 4100 50  0001 C CNN
+F 3 "~" H 3800 4100 50  0001 C CNN
+	1    3800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F9881DB
+P 4200 4100
+F 0 "C?" H 4292 4146 50  0000 L CNN
+F 1 "100nF" H 4292 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4200 4100 50  0001 C CNN
+F 3 "~" H 4200 4100 50  0001 C CNN
+	1    4200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F9881E1
+P 4600 4100
+F 0 "C?" H 4692 4146 50  0000 L CNN
+F 1 "100nF" H 4692 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4600 4100 50  0001 C CNN
+F 3 "~" H 4600 4100 50  0001 C CNN
+	1    4600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F9881E7
+P 5000 4100
+F 0 "C?" H 5092 4146 50  0000 L CNN
+F 1 "100nF" H 5092 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5000 4100 50  0001 C CNN
+F 3 "~" H 5000 4100 50  0001 C CNN
+	1    5000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F9881ED
+P 5400 4100
+F 0 "C?" H 5492 4146 50  0000 L CNN
+F 1 "100nF" H 5492 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5400 4100 50  0001 C CNN
+F 3 "~" H 5400 4100 50  0001 C CNN
+	1    5400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F9881F3
+P 5800 4100
+F 0 "C?" H 5892 4146 50  0000 L CNN
+F 1 "100nF" H 5892 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5800 4100 50  0001 C CNN
+F 3 "~" H 5800 4100 50  0001 C CNN
+	1    5800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F9881F9
+P 6200 4100
+F 0 "C?" H 6292 4146 50  0000 L CNN
+F 1 "100nF" H 6292 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6200 4100 50  0001 C CNN
+F 3 "~" H 6200 4100 50  0001 C CNN
+	1    6200 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4000 3400 4000
+Wire Wire Line
+	3800 4000 3400 4000
+Connection ~ 3400 4000
+Wire Wire Line
+	3800 4000 4200 4000
+Connection ~ 3800 4000
+Wire Wire Line
+	4200 4000 4600 4000
+Connection ~ 4200 4000
+Wire Wire Line
+	4600 4000 5000 4000
+Connection ~ 4600 4000
+Wire Wire Line
+	5000 4000 5400 4000
+Connection ~ 5000 4000
+Wire Wire Line
+	5400 4000 5800 4000
+Connection ~ 5400 4000
+Wire Wire Line
+	5800 4000 6200 4000
+Connection ~ 5800 4000
+Wire Wire Line
+	6200 4200 5800 4200
+Wire Wire Line
+	5800 4200 5400 4200
+Connection ~ 5800 4200
+Wire Wire Line
+	5400 4200 5000 4200
+Connection ~ 5400 4200
+Wire Wire Line
+	5000 4200 4600 4200
+Connection ~ 5000 4200
+Wire Wire Line
+	4600 4200 4200 4200
+Connection ~ 4600 4200
+Wire Wire Line
+	4200 4200 3800 4200
+Connection ~ 4200 4200
+Wire Wire Line
+	3800 4200 3400 4200
+Connection ~ 3800 4200
+Wire Wire Line
+	3400 4200 3050 4200
+Connection ~ 3400 4200
+Text Label 3050 4000 0    50   ~ 0
+VDD_MCU
+$Comp
+L power:GND #PWR?
+U 1 1 5F98821E
+P 3050 4200
+F 0 "#PWR?" H 3050 3950 50  0001 C CNN
+F 1 "GND" H 3055 4027 50  0000 C CNN
+F 2 "" H 3050 4200 50  0001 C CNN
+F 3 "" H 3050 4200 50  0001 C CNN
+	1    3050 4200
+	1    0    0    -1  
+$EndComp
+Connection ~ 3050 4200
+Wire Wire Line
+	3050 4200 3000 4200
+$Comp
+L Device:C_Small C?
+U 1 1 5F988226
+P 3000 4700
+F 0 "C?" H 3092 4746 50  0000 L CNN
+F 1 "100nF" H 3092 4655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3000 4700 50  0001 C CNN
+F 3 "~" H 3000 4700 50  0001 C CNN
+	1    3000 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F98822C
+P 3400 4700
+F 0 "C?" H 3492 4746 50  0000 L CNN
+F 1 "100nF" H 3492 4655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3400 4700 50  0001 C CNN
+F 3 "~" H 3400 4700 50  0001 C CNN
+	1    3400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F988232
+P 3800 4700
+F 0 "C?" H 3892 4746 50  0000 L CNN
+F 1 "100nF" H 3892 4655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3800 4700 50  0001 C CNN
+F 3 "~" H 3800 4700 50  0001 C CNN
+	1    3800 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F988238
+P 4200 4700
+F 0 "C?" H 4292 4746 50  0000 L CNN
+F 1 "100nF" H 4292 4655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4200 4700 50  0001 C CNN
+F 3 "~" H 4200 4700 50  0001 C CNN
+	1    4200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F98823E
+P 4600 4700
+F 0 "C?" H 4692 4746 50  0000 L CNN
+F 1 "100nF" H 4692 4655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4600 4700 50  0001 C CNN
+F 3 "~" H 4600 4700 50  0001 C CNN
+	1    4600 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F988244
+P 5000 4700
+F 0 "C?" H 5092 4746 50  0000 L CNN
+F 1 "100nF" H 5092 4655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5000 4700 50  0001 C CNN
+F 3 "~" H 5000 4700 50  0001 C CNN
+	1    5000 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F98824A
+P 5400 4700
+F 0 "C?" H 5492 4746 50  0000 L CNN
+F 1 "100nF" H 5492 4655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5400 4700 50  0001 C CNN
+F 3 "~" H 5400 4700 50  0001 C CNN
+	1    5400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F988250
+P 5800 4700
+F 0 "C?" H 5892 4746 50  0000 L CNN
+F 1 "100nF" H 5892 4655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5800 4700 50  0001 C CNN
+F 3 "~" H 5800 4700 50  0001 C CNN
+	1    5800 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F988256
+P 6200 4700
+F 0 "C?" H 6292 4746 50  0000 L CNN
+F 1 "100nF" H 6292 4655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6200 4700 50  0001 C CNN
+F 3 "~" H 6200 4700 50  0001 C CNN
+	1    6200 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4600 3400 4600
+Wire Wire Line
+	3800 4600 3400 4600
+Connection ~ 3400 4600
+Wire Wire Line
+	3800 4600 4200 4600
+Connection ~ 3800 4600
+Wire Wire Line
+	4200 4600 4600 4600
+Connection ~ 4200 4600
+Wire Wire Line
+	4600 4600 5000 4600
+Connection ~ 4600 4600
+Wire Wire Line
+	5000 4600 5400 4600
+Connection ~ 5000 4600
+Wire Wire Line
+	5400 4600 5800 4600
+Connection ~ 5400 4600
+Wire Wire Line
+	5800 4600 6200 4600
+Connection ~ 5800 4600
+Wire Wire Line
+	6200 4800 5800 4800
+Wire Wire Line
+	5800 4800 5400 4800
+Connection ~ 5800 4800
+Wire Wire Line
+	5400 4800 5000 4800
+Connection ~ 5400 4800
+Wire Wire Line
+	5000 4800 4600 4800
+Connection ~ 5000 4800
+Wire Wire Line
+	4600 4800 4200 4800
+Connection ~ 4600 4800
+Wire Wire Line
+	4200 4800 3800 4800
+Connection ~ 4200 4800
+Wire Wire Line
+	3800 4800 3400 4800
+Connection ~ 3800 4800
+Wire Wire Line
+	3400 4800 3050 4800
+Connection ~ 3400 4800
+Text Label 3050 4600 0    50   ~ 0
+VDD_MCU
+$Comp
+L power:GND #PWR?
+U 1 1 5F98827B
+P 3050 4800
+F 0 "#PWR?" H 3050 4550 50  0001 C CNN
+F 1 "GND" H 3055 4627 50  0000 C CNN
+F 2 "" H 3050 4800 50  0001 C CNN
+F 3 "" H 3050 4800 50  0001 C CNN
+	1    3050 4800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3050 4800
+Wire Wire Line
+	3050 4800 3000 4800
+$Comp
+L Device:C_Small C?
+U 1 1 5F988283
+P 3850 3450
+F 0 "C?" H 3942 3496 50  0000 L CNN
+F 1 "100nF" H 3942 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3850 3450 50  0001 C CNN
+F 3 "~" H 3850 3450 50  0001 C CNN
+	1    3850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 5F988289
+P 4450 3200
+F 0 "C?" H 4538 3246 50  0000 L CNN
+F 1 "4.7uF" H 4538 3155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4450 3200 50  0001 C CNN
+F 3 "~" H 4450 3200 50  0001 C CNN
+	1    4450 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 5F98828F
+P 4850 3200
+F 0 "C?" H 4938 3246 50  0000 L CNN
+F 1 "4.7uF" H 4938 3155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4850 3200 50  0001 C CNN
+F 3 "~" H 4850 3200 50  0001 C CNN
+	1    4850 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3100 4850 3100
+Wire Wire Line
+	4450 3300 4650 3300
+$Comp
+L power:GND #PWR?
+U 1 1 5F988297
+P 4650 3300
+F 0 "#PWR?" H 4650 3050 50  0001 C CNN
+F 1 "GND" H 4655 3127 50  0000 C CNN
+F 2 "" H 4650 3300 50  0001 C CNN
+F 3 "" H 4650 3300 50  0001 C CNN
+	1    4650 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 4650 3300
+Wire Wire Line
+	4650 3300 4850 3300
+Text Label 4500 3100 0    50   ~ 0
+VDD_MCU
+$Comp
+L Device:CP_Small C?
+U 1 1 5F9882A0
+P 3450 3450
+F 0 "C?" H 3538 3496 50  0000 L CNN
+F 1 "1uF" H 3538 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3450 3450 50  0001 C CNN
+F 3 "~" H 3450 3450 50  0001 C CNN
+	1    3450 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3350 3850 3350
+Wire Wire Line
+	3450 3550 3650 3550
+$Comp
+L power:GND #PWR?
+U 1 1 5F9882A8
+P 3650 3550
+F 0 "#PWR?" H 3650 3300 50  0001 C CNN
+F 1 "GND" H 3655 3377 50  0000 C CNN
+F 2 "" H 3650 3550 50  0001 C CNN
+F 3 "" H 3650 3550 50  0001 C CNN
+	1    3650 3550
+	1    0    0    -1  
+$EndComp
+Connection ~ 3650 3550
+Wire Wire Line
+	3650 3550 3850 3550
+Text Label 3550 3350 0    50   ~ 0
+VDD_A
+$Comp
+L Device:C_Small C?
+U 1 1 5F9882B1
+P 5650 3500
+F 0 "C?" H 5742 3546 50  0000 L CNN
+F 1 "100nF" H 5742 3455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5650 3500 50  0001 C CNN
+F 3 "~" H 5650 3500 50  0001 C CNN
+	1    5650 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 5F9882B7
+P 5250 3500
+F 0 "C?" H 5338 3546 50  0000 L CNN
+F 1 "1uF" H 5338 3455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5250 3500 50  0001 C CNN
+F 3 "~" H 5250 3500 50  0001 C CNN
+	1    5250 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3400 5650 3400
+Wire Wire Line
+	5250 3600 5450 3600
+$Comp
+L power:GND #PWR?
+U 1 1 5F9882BF
+P 5450 3600
+F 0 "#PWR?" H 5450 3350 50  0001 C CNN
+F 1 "GND" H 5455 3427 50  0000 C CNN
+F 2 "" H 5450 3600 50  0001 C CNN
+F 3 "" H 5450 3600 50  0001 C CNN
+	1    5450 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 3600
+Wire Wire Line
+	5450 3600 5650 3600
+Text Label 5350 3400 0    50   ~ 0
+VDD_REF+
+$Comp
+L Device:C_Small C?
+U 1 1 5F9882C8
+P 3900 2750
+F 0 "C?" H 3992 2796 50  0000 L CNN
+F 1 "100nF" H 3992 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3900 2750 50  0001 C CNN
+F 3 "~" H 3900 2750 50  0001 C CNN
+	1    3900 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 5F9882CE
+P 3500 2750
+F 0 "C?" H 3588 2796 50  0000 L CNN
+F 1 "1uF" H 3588 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3500 2750 50  0001 C CNN
+F 3 "~" H 3500 2750 50  0001 C CNN
+	1    3500 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2650 3900 2650
+Wire Wire Line
+	3500 2850 3700 2850
+$Comp
+L power:GND #PWR?
+U 1 1 5F9882D6
+P 3700 2850
+F 0 "#PWR?" H 3700 2600 50  0001 C CNN
+F 1 "GND" H 3705 2677 50  0000 C CNN
+F 2 "" H 3700 2850 50  0001 C CNN
+F 3 "" H 3700 2850 50  0001 C CNN
+	1    3700 2850
+	1    0    0    -1  
+$EndComp
+Connection ~ 3700 2850
+Wire Wire Line
+	3700 2850 3900 2850
+Text Label 3600 2650 0    50   ~ 0
+DSI_VDD12
+$Comp
+L Device:C_Small C?
+U 1 1 5F9882DF
+P 3000 5350
+F 0 "C?" H 3092 5396 50  0000 L CNN
+F 1 "100nF" H 3092 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3000 5350 50  0001 C CNN
+F 3 "~" H 3000 5350 50  0001 C CNN
+	1    3000 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F9882E5
+P 3400 5350
+F 0 "C?" H 3492 5396 50  0000 L CNN
+F 1 "100nF" H 3492 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3400 5350 50  0001 C CNN
+F 3 "~" H 3400 5350 50  0001 C CNN
+	1    3400 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F9882EB
+P 3800 5350
+F 0 "C?" H 3892 5396 50  0000 L CNN
+F 1 "100nF" H 3892 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3800 5350 50  0001 C CNN
+F 3 "~" H 3800 5350 50  0001 C CNN
+	1    3800 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F9882F1
+P 4200 5350
+F 0 "C?" H 4292 5396 50  0000 L CNN
+F 1 "100nF" H 4292 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4200 5350 50  0001 C CNN
+F 3 "~" H 4200 5350 50  0001 C CNN
+	1    4200 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F9882F7
+P 4600 5350
+F 0 "C?" H 4692 5396 50  0000 L CNN
+F 1 "100nF" H 4692 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4600 5350 50  0001 C CNN
+F 3 "~" H 4600 5350 50  0001 C CNN
+	1    4600 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F9882FD
+P 5000 5350
+F 0 "C?" H 5092 5396 50  0000 L CNN
+F 1 "100nF" H 5092 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5000 5350 50  0001 C CNN
+F 3 "~" H 5000 5350 50  0001 C CNN
+	1    5000 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F988303
+P 5400 5350
+F 0 "C?" H 5492 5396 50  0000 L CNN
+F 1 "100nF" H 5492 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5400 5350 50  0001 C CNN
+F 3 "~" H 5400 5350 50  0001 C CNN
+	1    5400 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F988309
+P 5800 5350
+F 0 "C?" H 5892 5396 50  0000 L CNN
+F 1 "100nF" H 5892 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5800 5350 50  0001 C CNN
+F 3 "~" H 5800 5350 50  0001 C CNN
+	1    5800 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F98830F
+P 6200 5350
+F 0 "C?" H 6292 5396 50  0000 L CNN
+F 1 "100nF" H 6292 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6200 5350 50  0001 C CNN
+F 3 "~" H 6200 5350 50  0001 C CNN
+	1    6200 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5250 3400 5250
+Wire Wire Line
+	3800 5250 3400 5250
+Connection ~ 3400 5250
+Wire Wire Line
+	3800 5250 4200 5250
+Connection ~ 3800 5250
+Wire Wire Line
+	4200 5250 4600 5250
+Connection ~ 4200 5250
+Wire Wire Line
+	4600 5250 5000 5250
+Connection ~ 4600 5250
+Wire Wire Line
+	5000 5250 5400 5250
+Connection ~ 5000 5250
+Wire Wire Line
+	5400 5250 5800 5250
+Connection ~ 5400 5250
+Wire Wire Line
+	5800 5250 6200 5250
+Connection ~ 5800 5250
+Wire Wire Line
+	6200 5450 5800 5450
+Wire Wire Line
+	5800 5450 5400 5450
+Connection ~ 5800 5450
+Wire Wire Line
+	5400 5450 5000 5450
+Connection ~ 5400 5450
+Wire Wire Line
+	5000 5450 4600 5450
+Connection ~ 5000 5450
+Wire Wire Line
+	4600 5450 4200 5450
+Connection ~ 4600 5450
+Wire Wire Line
+	4200 5450 3800 5450
+Connection ~ 4200 5450
+Wire Wire Line
+	3800 5450 3400 5450
+Connection ~ 3800 5450
+Wire Wire Line
+	3400 5450 3050 5450
+Connection ~ 3400 5450
+Text Label 3050 5250 0    50   ~ 0
+VDD_MCU
+$Comp
+L power:GND #PWR?
+U 1 1 5F988334
+P 3050 5450
+F 0 "#PWR?" H 3050 5200 50  0001 C CNN
+F 1 "GND" H 3055 5277 50  0000 C CNN
+F 2 "" H 3050 5450 50  0001 C CNN
+F 3 "" H 3050 5450 50  0001 C CNN
+	1    3050 5450
+	1    0    0    -1  
+$EndComp
+Connection ~ 3050 5450
+Wire Wire Line
+	3050 5450 3000 5450
+$Comp
+L Device:C_Small C?
+U 1 1 5F98833C
+P 6600 5350
+F 0 "C?" H 6692 5396 50  0000 L CNN
+F 1 "100nF" H 6692 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6600 5350 50  0001 C CNN
+F 3 "~" H 6600 5350 50  0001 C CNN
+	1    6600 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 5450 6200 5450
+Connection ~ 6200 5450
+Wire Wire Line
+	6600 5250 6200 5250
+Connection ~ 6200 5250
+Wire Wire Line
+	5300 2100 5300 2550
+$Comp
+L Device:C_Small C?
+U 1 1 5F988347
+P 6600 4100
+F 0 "C?" H 6692 4146 50  0000 L CNN
+F 1 "100nF" H 6692 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6600 4100 50  0001 C CNN
+F 3 "~" H 6600 4100 50  0001 C CNN
+	1    6600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F98834D
+P 6600 4700
+F 0 "C?" H 6692 4746 50  0000 L CNN
+F 1 "100nF" H 6692 4655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6600 4700 50  0001 C CNN
+F 3 "~" H 6600 4700 50  0001 C CNN
+	1    6600 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 4000 6600 4000
+Connection ~ 6200 4000
+Wire Wire Line
+	6600 4200 6200 4200
+Connection ~ 6200 4200
+Wire Wire Line
+	6600 4600 6200 4600
+Connection ~ 6200 4600
+Wire Wire Line
+	6600 4800 6200 4800
+Connection ~ 6200 4800
+$EndSCHEMATC

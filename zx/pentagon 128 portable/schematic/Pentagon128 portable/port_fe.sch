@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 9 14
 Title ""
 Date ""
 Rev ""
@@ -26,61 +26,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS244" H 7800 2350 50  0001 C CNN
 $EndComp
 Text Label 6800 1950 0    50   ~ 0
 TAPE_IN_DIGIT
-$Comp
-L Device:R R?
-U 1 1 5F5FDC64
-P 6650 2850
-F 0 "R?" H 6720 2896 50  0000 L CNN
-F 1 "10K" H 6720 2805 50  0000 L CNN
-F 2 "" V 6580 2850 50  0001 C CNN
-F 3 "~" H 6650 2850 50  0001 C CNN
-	1    6650 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F5FDD3D
-P 6400 2850
-F 0 "R?" H 6470 2896 50  0000 L CNN
-F 1 "10K" H 6470 2805 50  0000 L CNN
-F 2 "" V 6330 2850 50  0001 C CNN
-F 3 "~" H 6400 2850 50  0001 C CNN
-	1    6400 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F5FE243
-P 6150 2850
-F 0 "R?" H 6220 2896 50  0000 L CNN
-F 1 "10K" H 6220 2805 50  0000 L CNN
-F 2 "" V 6080 2850 50  0001 C CNN
-F 3 "~" H 6150 2850 50  0001 C CNN
-	1    6150 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F5FE4EC
-P 5900 2850
-F 0 "R?" H 5970 2896 50  0000 L CNN
-F 1 "10K" H 5970 2805 50  0000 L CNN
-F 2 "" V 5830 2850 50  0001 C CNN
-F 3 "~" H 5900 2850 50  0001 C CNN
-	1    5900 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F5FE776
-P 5650 2850
-F 0 "R?" H 5720 2896 50  0000 L CNN
-F 1 "10K" H 5720 2805 50  0000 L CNN
-F 2 "" V 5580 2850 50  0001 C CNN
-F 3 "~" H 5650 2850 50  0001 C CNN
-	1    5650 2850
-	1    0    0    -1  
-$EndComp
 Text HLabel 7000 3100 3    50   Input ~ 0
 FE_RD_ENABLE
 Text Notes 7100 3400 0    50   ~ 0
@@ -94,85 +39,6 @@ Wire Wire Line
 Connection ~ 7000 2850
 Wire Wire Line
 	7000 2850 7000 2750
-Wire Wire Line
-	7300 2550 6650 2550
-Wire Wire Line
-	7300 2450 6400 2450
-Wire Wire Line
-	7300 2350 6150 2350
-Wire Wire Line
-	7300 2250 5900 2250
-$Comp
-L power:+5V #PWR?
-U 1 1 5F6067EE
-P 6150 3150
-F 0 "#PWR?" H 6150 3000 50  0001 C CNN
-F 1 "+5V" H 6165 3323 50  0000 C CNN
-F 2 "" H 6150 3150 50  0001 C CNN
-F 3 "" H 6150 3150 50  0001 C CNN
-	1    6150 3150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6150 3000 6150 3100
-Wire Wire Line
-	6650 3000 6650 3100
-Wire Wire Line
-	6650 3100 6400 3100
-Connection ~ 6150 3100
-Wire Wire Line
-	6150 3100 6150 3150
-Wire Wire Line
-	6400 3000 6400 3100
-Connection ~ 6400 3100
-Wire Wire Line
-	6400 3100 6150 3100
-Wire Wire Line
-	5650 3000 5650 3100
-Wire Wire Line
-	5650 3100 5900 3100
-Wire Wire Line
-	5900 3000 5900 3100
-Connection ~ 5900 3100
-Wire Wire Line
-	5900 3100 6150 3100
-Wire Wire Line
-	6650 2700 6650 2550
-Wire Wire Line
-	6400 2700 6400 2450
-Wire Wire Line
-	6150 2700 6150 2350
-Wire Wire Line
-	5900 2700 5900 2250
-Wire Wire Line
-	5650 2700 5650 2150
-Wire Wire Line
-	5650 2150 7300 2150
-Wire Wire Line
-	6650 2550 5350 2550
-Connection ~ 6650 2550
-Wire Wire Line
-	6400 2450 5350 2450
-Connection ~ 6400 2450
-Wire Wire Line
-	6150 2350 5350 2350
-Connection ~ 6150 2350
-Wire Wire Line
-	5900 2250 5350 2250
-Connection ~ 5900 2250
-Wire Wire Line
-	5650 2150 5350 2150
-Connection ~ 5650 2150
-Text HLabel 5350 2150 0    50   Input ~ 0
-KD4
-Text HLabel 5350 2250 0    50   Input ~ 0
-KD3
-Text HLabel 5350 2350 0    50   Input ~ 0
-KD2
-Text HLabel 5350 2450 0    50   Input ~ 0
-KD1
-Text HLabel 5350 2550 0    50   Input ~ 0
-KD0
 Wire Wire Line
 	8300 1850 8750 1850
 Wire Wire Line
