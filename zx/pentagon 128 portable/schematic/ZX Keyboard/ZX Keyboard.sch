@@ -1618,4 +1618,140 @@ Wire Wire Line
 	9750 1550 10150 1550
 Text Label 9800 1550 0    50   ~ 0
 KEY_ENBL
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5F648B45
+P 10950 900
+F 0 "J1" H 11030 942 50  0000 L CNN
+F 1 "Conn_01x03" H 11030 851 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10950 900 50  0001 C CNN
+F 3 "~" H 10950 900 50  0001 C CNN
+	1    10950 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 800  10400 800 
+Wire Wire Line
+	10750 900  10400 900 
+Wire Wire Line
+	10750 1000 10400 1000
+Text Label 10400 800  0    50   ~ 0
+A0
+Text Label 10400 1000 0    50   ~ 0
+~RD
+Text Label 10400 900  0    50   ~ 0
+~IORQ
+$Comp
+L Connector_Generic:Conn_01x14 J2
+U 1 1 5F68D465
+P 10950 2000
+F 0 "J2" H 11030 1992 50  0000 L CNN
+F 1 "Conn_01x14" H 11030 1901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 10950 2000 50  0001 C CNN
+F 3 "~" H 10950 2000 50  0001 C CNN
+	1    10950 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 1400 10400 1400
+Wire Wire Line
+	10750 1500 10400 1500
+Wire Wire Line
+	10750 1600 10400 1600
+Wire Wire Line
+	10750 1700 10400 1700
+Wire Wire Line
+	10750 1800 10400 1800
+Wire Wire Line
+	10750 1900 10400 1900
+Wire Wire Line
+	10750 2000 10400 2000
+Wire Wire Line
+	10750 2100 10400 2100
+Wire Wire Line
+	10750 2200 10400 2200
+Wire Wire Line
+	10750 2300 10400 2300
+Wire Wire Line
+	10750 2400 10400 2400
+Wire Wire Line
+	10750 2500 10400 2500
+Wire Wire Line
+	10750 2600 10400 2600
+Wire Wire Line
+	10750 2700 10400 2700
+Text Label 10400 2700 0    50   ~ 0
+KEY_ENBL
+Text Label 10400 1400 0    50   ~ 0
+A8
+Text Label 10400 1500 0    50   ~ 0
+A9
+Text Label 10400 1600 0    50   ~ 0
+A10
+Text Label 10400 1700 0    50   ~ 0
+A11
+Text Label 10400 1800 0    50   ~ 0
+A12
+Text Label 10400 1900 0    50   ~ 0
+A13
+Text Label 10400 2000 0    50   ~ 0
+A14
+Text Label 10400 2100 0    50   ~ 0
+A15
+Text Label 10400 2600 0    50   ~ 0
+D0
+Text Label 10400 2500 0    50   ~ 0
+D1
+Text Label 10400 2400 0    50   ~ 0
+D2
+Text Label 10400 2300 0    50   ~ 0
+D3
+Text Label 10400 2200 0    50   ~ 0
+D4
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5F885BE0
+P 7400 950
+F 0 "J3" H 7480 942 50  0000 L CNN
+F 1 "Conn_01x02" H 7480 851 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7400 950 50  0001 C CNN
+F 3 "~" H 7400 950 50  0001 C CNN
+	1    7400 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0109
+U 1 1 5F8866E2
+P 7200 950
+F 0 "#PWR0109" H 7200 800 50  0001 C CNN
+F 1 "+5V" H 7215 1123 50  0000 C CNN
+F 2 "" H 7200 950 50  0001 C CNN
+F 3 "" H 7200 950 50  0001 C CNN
+	1    7200 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5F886BFC
+P 7200 1050
+F 0 "#PWR0110" H 7200 800 50  0001 C CNN
+F 1 "GND" H 7205 877 50  0000 C CNN
+F 2 "" H 7200 1050 50  0001 C CNN
+F 3 "" H 7200 1050 50  0001 C CNN
+	1    7200 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 1150 8750 1250
+Wire Wire Line
+	8750 1250 8750 1350
+Connection ~ 8750 1250
+Wire Wire Line
+	8750 1350 8600 1350
+Wire Wire Line
+	8600 1350 8600 1550
+Wire Wire Line
+	8600 1550 8750 1550
+Connection ~ 8750 1350
+Connection ~ 8750 1550
 $EndSCHEMATC

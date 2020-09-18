@@ -1073,57 +1073,57 @@ A15
 $Comp
 L Connector_Generic:Conn_01x11 J3
 U 1 1 5FA988C2
-P 9850 5900
-F 0 "J3" H 9930 5942 50  0000 L CNN
-F 1 "Conn_01x11" H 9930 5851 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical" H 9850 5900 50  0001 C CNN
-F 3 "~" H 9850 5900 50  0001 C CNN
-	1    9850 5900
+P 9850 5950
+F 0 "J3" H 9930 5992 50  0000 L CNN
+F 1 "Conn_01x11" H 9930 5901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical" H 9850 5950 50  0001 C CNN
+F 3 "~" H 9850 5950 50  0001 C CNN
+	1    9850 5950
 	1    0    0    -1  
 $EndComp
-Text Label 9150 5600 0    50   ~ 0
+Text Label 9150 5650 0    50   ~ 0
 ~RFSH
 Wire Wire Line
-	9650 5400 9150 5400
+	9650 5450 9150 5450
 Wire Wire Line
-	9650 5500 9150 5500
+	9650 5550 9150 5550
 Wire Wire Line
-	9650 5600 9150 5600
+	9650 5650 9150 5650
 Wire Wire Line
-	9650 5700 9150 5700
+	9650 5750 9150 5750
 Wire Wire Line
-	9650 5800 9150 5800
+	9650 5850 9150 5850
 Wire Wire Line
-	9650 5900 9150 5900
+	9650 5950 9150 5950
 Wire Wire Line
-	9650 6000 9150 6000
+	9650 6050 9150 6050
 Wire Wire Line
-	9650 6100 9150 6100
+	9650 6150 9150 6150
 Wire Wire Line
-	9650 6200 9150 6200
+	9650 6250 9150 6250
 Wire Wire Line
-	9650 6300 9150 6300
+	9650 6350 9150 6350
 Wire Wire Line
-	9650 6400 9150 6400
-Text Label 9150 5500 0    50   ~ 0
+	9650 6450 9150 6450
+Text Label 9150 5550 0    50   ~ 0
 ~M1
-Text Label 9150 5400 0    50   ~ 0
+Text Label 9150 5450 0    50   ~ 0
 ~RESET
-Text Label 9150 6300 0    50   ~ 0
+Text Label 9150 6350 0    50   ~ 0
 ~INT
-Text Label 9150 6200 0    50   ~ 0
+Text Label 9150 6250 0    50   ~ 0
 ~NMI
-Text Label 9150 6100 0    50   ~ 0
+Text Label 9150 6150 0    50   ~ 0
 ~HALT
-Text Label 9150 6000 0    50   ~ 0
+Text Label 9150 6050 0    50   ~ 0
 ~MREQ
-Text Label 9150 5900 0    50   ~ 0
+Text Label 9150 5950 0    50   ~ 0
 ~IORQ
-Text Label 9150 5800 0    50   ~ 0
+Text Label 9150 5850 0    50   ~ 0
 ~RD
-Text Label 9150 5700 0    50   ~ 0
+Text Label 9150 5750 0    50   ~ 0
 ~WR
-Text Label 9150 6400 0    50   ~ 0
+Text Label 9150 6450 0    50   ~ 0
 CLK
 $Comp
 L Regulator_Linear:LD1117S50TR_SOT223 U1
@@ -1480,4 +1480,41 @@ Wire Wire Line
 	1400 5550 1000 5550
 Wire Wire Line
 	1350 3800 1000 3800
+$Comp
+L Connector_Generic:Conn_01x08 J8
+U 1 1 5F67168B
+P 9950 3300
+F 0 "J8" H 10030 3292 50  0000 L CNN
+F 1 "Conn_01x08" H 10030 3201 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 9950 3300 50  0001 C CNN
+F 3 "~" H 9950 3300 50  0001 C CNN
+	1    9950 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x16 J9
+U 1 1 5F672E66
+P 9950 4600
+F 0 "J9" H 10030 4592 50  0000 L CNN
+F 1 "Conn_01x16" H 10030 4501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 9950 4600 50  0001 C CNN
+F 3 "~" H 9950 4600 50  0001 C CNN
+	1    9950 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x11 J10
+U 1 1 5F688725
+P 8950 5950
+F 0 "J10" H 9030 5992 50  0000 L CNN
+F 1 "Conn_01x11" H 9030 5901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical" H 8950 5950 50  0001 C CNN
+F 3 "~" H 8950 5950 50  0001 C CNN
+	1    8950 5950
+	-1   0    0    1   
+$EndComp
+Text Notes 10600 7650 0    50   ~ 0
+1.00
+Text Notes 7400 7500 0    50   ~ 0
+Z80 Devboard
 $EndSCHEMATC

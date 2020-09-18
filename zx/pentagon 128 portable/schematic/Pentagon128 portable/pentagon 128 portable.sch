@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -111,8 +111,8 @@ $EndSheet
 $Sheet
 S 3650 4750 1600 2800
 U 5F5BE176
-F0 "Keyboard" 50
-F1 "keyboard.sch" 50
+F0 "Port FE" 50
+F1 "port_fe.sch" 50
 F2 "A8" I L 3650 6100 50 
 F3 "A9" I L 3650 6200 50 
 F4 "A10" I L 3650 6300 50 
@@ -150,5 +150,17 @@ F35 "TAPE_OUT" I R 5250 6600 50
 F36 "BORDER_COLOR_0" I R 5250 7200 50 
 F37 "BORDER_COLOR_1" I R 5250 7300 50 
 F38 "BORDER_COLOR_2" I R 5250 7400 50 
+$EndSheet
+$Sheet
+S 2800 900  1000 3300
+U 5F6C4F45
+F0 "Memory" 50
+F1 "memory.sch" 50
+$EndSheet
+$Sheet
+S 4200 3150 1050 1050
+U 5F6C4FE3
+F0 "Keyboard" 50
+F1 "keyboard.sch" 50
 $EndSheet
 $EndSCHEMATC

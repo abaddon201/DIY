@@ -66,4 +66,10 @@ D Microprocessors - MPU 20 MHZ Z80 CMOS CPU
 F https://componentsearchengine.com/Datasheets/1/Z84C0020AEG.pdf
 $ENDCMP
 #
+$CMP IS61C5128AS-25TLI
+D SRAM 4M (512Kx8) 25ns Async SRAM
+K
+F https://componentsearchengine.com/Datasheets/1/IS61C5128AS-25TLI.pdf
+$ENDCMP
+#
 #End Doc Library
