@@ -72,4 +72,28 @@ K
 F https://componentsearchengine.com/Datasheets/1/IS61C5128AS-25TLI.pdf
 $ENDCMP
 #
+$CMP 1N4148W-7-F
+D Diode Switching 150mA 100V 400mW SOD123 Diodes Inc 1N4148W-7-F Switching Diode 100V, 2-Pin SOD-123
+K
+F https://componentsearchengine.com/Datasheets/2/1N4148W-7-F.pdf
+$ENDCMP
+#
+$CMP 74HCT3G14DP,125
+D 74HC(T)3G14 - Triple inverting Schmitt trigger@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT3G14.pdf
+$ENDCMP
+#
+$CMP SN74LS74ANSRG4
+D Flip Flop D-Type Pos-Edge 2-Element 14-Pin SOP T/R
+K
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls74a
+$ENDCMP
+#
+$CMP 74HC240PW,118
+D 74HC(T)240 - Octal buffer/line driver; 3-state; inverting@en-us
+K
+F https://componentsearchengine.com/Datasheets/1/74HC240PW,118.pdf
+$ENDCMP
+#
 #End Doc Library

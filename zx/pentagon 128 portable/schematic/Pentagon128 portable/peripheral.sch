@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 14
+Sheet 14 14
 Title ""
 Date ""
 Rev ""
@@ -18,8 +18,8 @@ L Connector_Generic:Conn_02x17_Odd_Even J?
 U 1 1 5F783155
 P 1900 2000
 AR Path="/5F4A5D43/5F783155" Ref="J?"  Part="1" 
-AR Path="/5F748573/5F783155" Ref="J?"  Part="1" 
-F 0 "J?" H 1950 3017 50  0000 C CNN
+AR Path="/5F748573/5F783155" Ref="J7"  Part="1" 
+F 0 "J7" H 1950 3017 50  0000 C CNN
 F 1 "Conn_02x17_Odd_Even" H 1950 2926 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x17_P2.54mm_Vertical" H 1900 2000 50  0001 C CNN
 F 3 "~" H 1900 2000 50  0001 C CNN
@@ -183,10 +183,10 @@ Text Label 1450 4150 2    50   ~ 0
 Text Label 3150 3850 2    50   ~ 0
 SDIO_CK
 $Comp
-L SamacSys_Parts:104031-0811 J?
+L SamacSys_Parts:104031-0811 J8
 U 1 1 5F7BADBD
 P 1500 3850
-F 0 "J?" H 2150 4115 50  0000 C CNN
+F 0 "J8" H 2150 4115 50  0000 C CNN
 F 1 "104031-0811" H 2150 4024 50  0000 C CNN
 F 2 "SamacSys_Parts:1040310811" H 2650 3950 50  0001 L CNN
 F 3 "http://www.molex.com/webdocs/datasheets/pdf/en-us/1040310811_MEMORY_CARD_SOCKET.pdf" H 2650 3850 50  0001 L CNN
