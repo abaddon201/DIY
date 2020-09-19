@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\docs\GitHub\DIY\zx\pentagon 128 portable\schematic\ZX Keyboard buttons\ZX Keyboard_buttons.sch</source>
+    <date>19/09/2020 16:24:13</date>
+    <tool>Eeschema (5.1.6)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ZX Keyboard_buttons.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="S2">
+      <value>2</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F63C84D</tstamp>
+    </comp>
+    <comp ref="S3">
+      <value>3</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F63D423</tstamp>
+    </comp>
+    <comp ref="S4">
+      <value>4</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F63DEF5</tstamp>
+    </comp>
+    <comp ref="S5">
+      <value>5</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F63F23D</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>1</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F633E34</tstamp>
+    </comp>
+    <comp ref="S7">
+      <value>7</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6E9F1B</tstamp>
+    </comp>
+    <comp ref="S8">
+      <value>8</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6E9F2B</tstamp>
+    </comp>
+    <comp ref="S9">
+      <value>9</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6E9F3B</tstamp>
+    </comp>
+    <comp ref="S10">
+      <value>0</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6E9F4B</tstamp>
+    </comp>
+    <comp ref="S6">
+      <value>6</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6E9F5B</tstamp>
+    </comp>
+    <comp ref="S12">
+      <value>W</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6F5F6E</tstamp>
+    </comp>
+    <comp ref="S13">
+      <value>E</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6F5F7E</tstamp>
+    </comp>
+    <comp ref="S14">
+      <value>R</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6F5F8E</tstamp>
+    </comp>
+    <comp ref="S15">
+      <value>T</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6F5F9E</tstamp>
+    </comp>
+    <comp ref="S11">
+      <value>Q</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6F5FAE</tstamp>
+    </comp>
+    <comp ref="S17">
+      <value>U</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6F5FC8</tstamp>
+    </comp>
+    <comp ref="S18">
+      <value>I</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6F5FD8</tstamp>
+    </comp>
+    <comp ref="S19">
+      <value>O</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6F5FE8</tstamp>
+    </comp>
+    <comp ref="S20">
+      <value>P</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6F5FF8</tstamp>
+    </comp>
+    <comp ref="S16">
+      <value>Y</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6F6008</tstamp>
+    </comp>
+    <comp ref="S22">
+      <value>S</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F703636</tstamp>
+    </comp>
+    <comp ref="S23">
+      <value>D</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F703646</tstamp>
+    </comp>
+    <comp ref="S24">
+      <value>F</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F703656</tstamp>
+    </comp>
+    <comp ref="S25">
+      <value>G</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F703666</tstamp>
+    </comp>
+    <comp ref="S21">
+      <value>A</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F703676</tstamp>
+    </comp>
+    <comp ref="S27">
+      <value>J</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F703690</tstamp>
+    </comp>
+    <comp ref="S28">
+      <value>K</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7036A0</tstamp>
+    </comp>
+    <comp ref="S29">
+      <value>L</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7036B0</tstamp>
+    </comp>
+    <comp ref="S30">
+      <value>ENTER</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7036C0</tstamp>
+    </comp>
+    <comp ref="S26">
+      <value>H</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7036D0</tstamp>
+    </comp>
+    <comp ref="S32">
+      <value>Z</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7036EA</tstamp>
+    </comp>
+    <comp ref="S33">
+      <value>X</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7036FA</tstamp>
+    </comp>
+    <comp ref="S34">
+      <value>C</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F70370A</tstamp>
+    </comp>
+    <comp ref="S35">
+      <value>V</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F70371A</tstamp>
+    </comp>
+    <comp ref="S31">
+      <value>CAPS</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F70372A</tstamp>
+    </comp>
+    <comp ref="S37">
+      <value>N</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F703744</tstamp>
+    </comp>
+    <comp ref="S38">
+      <value>M</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F703754</tstamp>
+    </comp>
+    <comp ref="S39">
+      <value>SYMB</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F703764</tstamp>
+    </comp>
+    <comp ref="S40">
+      <value>SPACE</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F703774</tstamp>
+    </comp>
+    <comp ref="S36">
+      <value>B</value>
+      <footprint>SamacSys_Parts:118259104</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</datasheet>
+      <fields>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1-1825910-4" description="Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F703784</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x13</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x13" description="Generic connector, single row, 01x13, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F69E816</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x13">
+      <description>Generic connector, single row, 01x13, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x13</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="1-1825910-4">
+      <description>Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">1-1825910-4</field>
+        <field name="Footprint">118259104</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4</field>
+        <field name="Description">Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5.9mm</field>
+        <field name="Height">7.7</field>
+        <field name="Mouser Part Number">506-1-1825910-4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1-1825910-4?qs=pffCcXpkxLwYJJd3DYaJ7Q%3D%3D</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">1-1825910-4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C1" type="passive"/>
+        <pin num="2" name="C2" type="passive"/>
+        <pin num="3" name="N1" type="passive"/>
+        <pin num="4" name="N2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>D:/docs/GitHub/DIY/zx/pentagon 128 portable/KiCad/SamacSys_Parts.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/K_D3">
+      <node ref="S7" pin="3"/>
+      <node ref="S7" pin="4"/>
+      <node ref="S4" pin="3"/>
+      <node ref="S4" pin="4"/>
+      <node ref="S14" pin="4"/>
+      <node ref="J1" pin="10"/>
+      <node ref="S17" pin="3"/>
+      <node ref="S17" pin="4"/>
+      <node ref="S34" pin="4"/>
+      <node ref="S24" pin="4"/>
+      <node ref="S24" pin="3"/>
+      <node ref="S14" pin="3"/>
+      <node ref="S27" pin="3"/>
+      <node ref="S27" pin="4"/>
+      <node ref="S37" pin="3"/>
+      <node ref="S37" pin="4"/>
+      <node ref="S34" pin="3"/>
+    </net>
+    <net code="2" name="/K_D2">
+      <node ref="S23" pin="4"/>
+      <node ref="S33" pin="4"/>
+      <node ref="S28" pin="3"/>
+      <node ref="S23" pin="3"/>
+      <node ref="S33" pin="3"/>
+      <node ref="J1" pin="11"/>
+      <node ref="S18" pin="3"/>
+      <node ref="S18" pin="4"/>
+      <node ref="S3" pin="4"/>
+      <node ref="S3" pin="3"/>
+      <node ref="S8" pin="4"/>
+      <node ref="S8" pin="3"/>
+      <node ref="S13" pin="4"/>
+      <node ref="S13" pin="3"/>
+      <node ref="S38" pin="4"/>
+      <node ref="S38" pin="3"/>
+      <node ref="S28" pin="4"/>
+    </net>
+    <net code="3" name="/K_D1">
+      <node ref="S12" pin="4"/>
+      <node ref="S39" pin="4"/>
+      <node ref="S39" pin="3"/>
+      <node ref="J1" pin="12"/>
+      <node ref="S9" pin="3"/>
+      <node ref="S9" pin="4"/>
+      <node ref="S2" pin="3"/>
+      <node ref="S29" pin="4"/>
+      <node ref="S29" pin="3"/>
+      <node ref="S22" pin="3"/>
+      <node ref="S22" pin="4"/>
+      <node ref="S19" pin="4"/>
+      <node ref="S2" pin="4"/>
+      <node ref="S19" pin="3"/>
+      <node ref="S12" pin="3"/>
+      <node ref="S32" pin="3"/>
+      <node ref="S32" pin="4"/>
+    </net>
+    <net code="4" name="/K_A11">
+      <node ref="S2" pin="1"/>
+      <node ref="J1" pin="4"/>
+      <node ref="S5" pin="2"/>
+      <node ref="S1" pin="1"/>
+      <node ref="S5" pin="1"/>
+      <node ref="S4" pin="1"/>
+      <node ref="S3" pin="2"/>
+      <node ref="S3" pin="1"/>
+      <node ref="S2" pin="2"/>
+      <node ref="S4" pin="2"/>
+      <node ref="S1" pin="2"/>
+    </net>
+    <net code="5" name="/K_A15">
+      <node ref="S38" pin="1"/>
+      <node ref="S38" pin="2"/>
+      <node ref="S37" pin="2"/>
+      <node ref="S37" pin="1"/>
+      <node ref="S39" pin="1"/>
+      <node ref="S36" pin="1"/>
+      <node ref="S39" pin="2"/>
+      <node ref="S40" pin="1"/>
+      <node ref="S40" pin="2"/>
+      <node ref="S36" pin="2"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="6" name="/K_D0">
+      <node ref="S40" pin="3"/>
+      <node ref="S10" pin="4"/>
+      <node ref="S30" pin="3"/>
+      <node ref="S31" pin="3"/>
+      <node ref="S40" pin="4"/>
+      <node ref="S21" pin="4"/>
+      <node ref="S21" pin="3"/>
+      <node ref="S30" pin="4"/>
+      <node ref="S10" pin="3"/>
+      <node ref="S20" pin="4"/>
+      <node ref="S11" pin="3"/>
+      <node ref="S20" pin="3"/>
+      <node ref="S11" pin="4"/>
+      <node ref="J1" pin="13"/>
+      <node ref="S1" pin="4"/>
+      <node ref="S1" pin="3"/>
+      <node ref="S31" pin="4"/>
+    </net>
+    <net code="7" name="/K_A10">
+      <node ref="S11" pin="1"/>
+      <node ref="S11" pin="2"/>
+      <node ref="S15" pin="1"/>
+      <node ref="S15" pin="2"/>
+      <node ref="S13" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="S13" pin="1"/>
+      <node ref="S12" pin="1"/>
+      <node ref="S12" pin="2"/>
+      <node ref="S14" pin="1"/>
+      <node ref="S14" pin="2"/>
+    </net>
+    <net code="8" name="/K_A13">
+      <node ref="S16" pin="2"/>
+      <node ref="S20" pin="2"/>
+      <node ref="S20" pin="1"/>
+      <node ref="S19" pin="2"/>
+      <node ref="S19" pin="1"/>
+      <node ref="S18" pin="2"/>
+      <node ref="S18" pin="1"/>
+      <node ref="S17" pin="2"/>
+      <node ref="S17" pin="1"/>
+      <node ref="J1" pin="6"/>
+      <node ref="S16" pin="1"/>
+    </net>
+    <net code="9" name="/K_A9">
+      <node ref="S23" pin="1"/>
+      <node ref="S24" pin="1"/>
+      <node ref="S23" pin="2"/>
+      <node ref="S25" pin="1"/>
+      <node ref="S22" pin="1"/>
+      <node ref="S22" pin="2"/>
+      <node ref="S21" pin="2"/>
+      <node ref="S21" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="S24" pin="2"/>
+      <node ref="S25" pin="2"/>
+    </net>
+    <net code="10" name="/K_A12">
+      <node ref="S10" pin="1"/>
+      <node ref="S10" pin="2"/>
+      <node ref="S6" pin="1"/>
+      <node ref="S6" pin="2"/>
+      <node ref="S7" pin="1"/>
+      <node ref="S8" pin="2"/>
+      <node ref="J1" pin="5"/>
+      <node ref="S9" pin="2"/>
+      <node ref="S8" pin="1"/>
+      <node ref="S7" pin="2"/>
+      <node ref="S9" pin="1"/>
+    </net>
+    <net code="11" name="/K_D4">
+      <node ref="S35" pin="4"/>
+      <node ref="S26" pin="4"/>
+      <node ref="S26" pin="3"/>
+      <node ref="S35" pin="3"/>
+      <node ref="S16" pin="3"/>
+      <node ref="S16" pin="4"/>
+      <node ref="S25" pin="4"/>
+      <node ref="S25" pin="3"/>
+      <node ref="S15" pin="4"/>
+      <node ref="S15" pin="3"/>
+      <node ref="S36" pin="4"/>
+      <node ref="S36" pin="3"/>
+      <node ref="J1" pin="9"/>
+      <node ref="S5" pin="3"/>
+      <node ref="S5" pin="4"/>
+      <node ref="S6" pin="3"/>
+      <node ref="S6" pin="4"/>
+    </net>
+    <net code="12" name="/K_A14">
+      <node ref="S27" pin="1"/>
+      <node ref="S27" pin="2"/>
+      <node ref="S28" pin="1"/>
+      <node ref="S28" pin="2"/>
+      <node ref="J1" pin="7"/>
+      <node ref="S26" pin="1"/>
+      <node ref="S29" pin="1"/>
+      <node ref="S29" pin="2"/>
+      <node ref="S30" pin="1"/>
+      <node ref="S26" pin="2"/>
+      <node ref="S30" pin="2"/>
+    </net>
+    <net code="13" name="/K_A8">
+      <node ref="S33" pin="1"/>
+      <node ref="S32" pin="1"/>
+      <node ref="S32" pin="2"/>
+      <node ref="S33" pin="2"/>
+      <node ref="S34" pin="1"/>
+      <node ref="S34" pin="2"/>
+      <node ref="S31" pin="2"/>
+      <node ref="S35" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="S31" pin="1"/>
+      <node ref="S35" pin="1"/>
+    </net>
+  </nets>
+</export>
