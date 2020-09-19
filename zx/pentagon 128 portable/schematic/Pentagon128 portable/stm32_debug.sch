@@ -71,39 +71,6 @@ Wire Wire Line
 	3600 4550 3600 5000
 Wire Wire Line
 	3600 5000 3900 5000
-$Comp
-L Device:R_Small R15
-U 1 1 5F9AFF8C
-P 5150 4650
-F 0 "R15" H 5209 4696 50  0000 L CNN
-F 1 "10k" H 5209 4605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5150 4650 50  0001 C CNN
-F 3 "~" H 5150 4650 50  0001 C CNN
-	1    5150 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R14
-U 1 1 5F9AFF92
-P 4900 4650
-F 0 "R14" H 4959 4696 50  0000 L CNN
-F 1 "10k" H 4959 4605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4900 4650 50  0001 C CNN
-F 3 "~" H 4900 4650 50  0001 C CNN
-	1    4900 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R13
-U 1 1 5F9AFF98
-P 4650 4650
-F 0 "R13" H 4709 4696 50  0000 L CNN
-F 1 "10k" H 4709 4605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4650 4650 50  0001 C CNN
-F 3 "~" H 4650 4650 50  0001 C CNN
-	1    4650 4650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5150 4550 5150 3550
 Wire Wire Line
@@ -131,4 +98,55 @@ Wire Wire Line
 Wire Wire Line
 	5150 5000 4900 5000
 Connection ~ 4900 5000
+$Comp
+L SamacSys_Parts:10k R13
+U 1 1 5F90C9DC
+P 4650 4650
+F 0 "R13" H 4708 4696 50  0000 L CNN
+F 1 "10k" H 4708 4605 50  0000 L CNN
+F 2 "RESC1005X37N" H 4700 4500 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/MCS0402MC1002FE000.pdf" H 4700 4400 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD .1W 10Kohms 1% 0402 50ppm Auto" H 4700 4300 50  0001 L CNN "Description"
+F 5 "0.37" H 4700 4200 50  0001 L CNN "Height"
+F 6 "594-MCS0402MC1002FE0" H 4700 4100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCS0402MC1002FE0" H 4700 4000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Vishay" H 4700 3900 50  0001 L CNN "Manufacturer_Name"
+F 9 "MCS0402MC1002FE000" H 4700 3800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:10k R14
+U 1 1 5F90D320
+P 4900 4650
+F 0 "R14" H 4958 4696 50  0000 L CNN
+F 1 "10k" H 4958 4605 50  0000 L CNN
+F 2 "RESC1005X37N" H 4950 4500 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/MCS0402MC1002FE000.pdf" H 4950 4400 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD .1W 10Kohms 1% 0402 50ppm Auto" H 4950 4300 50  0001 L CNN "Description"
+F 5 "0.37" H 4950 4200 50  0001 L CNN "Height"
+F 6 "594-MCS0402MC1002FE0" H 4950 4100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCS0402MC1002FE0" H 4950 4000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Vishay" H 4950 3900 50  0001 L CNN "Manufacturer_Name"
+F 9 "MCS0402MC1002FE000" H 4950 3800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4900 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:10k R15
+U 1 1 5F90D64E
+P 5150 4650
+F 0 "R15" H 5208 4696 50  0000 L CNN
+F 1 "10k" H 5208 4605 50  0000 L CNN
+F 2 "RESC1005X37N" H 5200 4500 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/MCS0402MC1002FE000.pdf" H 5200 4400 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD .1W 10Kohms 1% 0402 50ppm Auto" H 5200 4300 50  0001 L CNN "Description"
+F 5 "0.37" H 5200 4200 50  0001 L CNN "Height"
+F 6 "594-MCS0402MC1002FE0" H 5200 4100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCS0402MC1002FE0" H 5200 4000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Vishay" H 5200 3900 50  0001 L CNN "Manufacturer_Name"
+F 9 "MCS0402MC1002FE000" H 5200 3800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5150 4650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

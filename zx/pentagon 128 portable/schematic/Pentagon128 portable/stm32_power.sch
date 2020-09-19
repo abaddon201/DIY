@@ -15,17 +15,6 @@ Comment4 ""
 $EndDescr
 Wire Wire Line
 	5300 1500 5300 1750
-$Comp
-L Device:Ferrite_Bead_Small FB1
-U 1 1 5F9881AE
-P 5300 1850
-F 0 "FB1" H 5400 1896 50  0000 L CNN
-F 1 "GZ2012D601TF" H 5400 1805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 5230 1850 50  0001 C CNN
-F 3 "~" H 5300 1850 50  0001 C CNN
-	1    5300 1850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5300 1950 5300 2100
 Wire Wire Line
@@ -39,17 +28,6 @@ Text Label 5400 2100 0    50   ~ 0
 VDD_A
 Text Label 5300 1700 1    50   ~ 0
 VDD_MCU
-$Comp
-L Device:C_Small C16
-U 1 1 5F9881BB
-P 3050 2950
-F 0 "C16" H 3142 2996 50  0000 L CNN
-F 1 "2.2uF" H 3142 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3050 2950 50  0001 C CNN
-F 3 "~" H 3050 2950 50  0001 C CNN
-	1    3050 2950
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR020
 U 1 1 5F9881C1
@@ -65,151 +43,6 @@ Wire Wire Line
 	3050 2850 3050 2300
 Text Label 3050 2750 1    50   ~ 0
 DSI_VDD12
-$Comp
-L Device:C_Small C23
-U 1 1 5F9881C9
-P 3000 4100
-F 0 "C23" H 3092 4146 50  0000 L CNN
-F 1 "100nF" H 3092 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3000 4100 50  0001 C CNN
-F 3 "~" H 3000 4100 50  0001 C CNN
-	1    3000 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C24
-U 1 1 5F9881CF
-P 3400 4100
-F 0 "C24" H 3492 4146 50  0000 L CNN
-F 1 "100nF" H 3492 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3400 4100 50  0001 C CNN
-F 3 "~" H 3400 4100 50  0001 C CNN
-	1    3400 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C25
-U 1 1 5F9881D5
-P 3800 4100
-F 0 "C25" H 3892 4146 50  0000 L CNN
-F 1 "100nF" H 3892 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3800 4100 50  0001 C CNN
-F 3 "~" H 3800 4100 50  0001 C CNN
-	1    3800 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C26
-U 1 1 5F9881DB
-P 4200 4100
-F 0 "C26" H 4292 4146 50  0000 L CNN
-F 1 "100nF" H 4292 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4200 4100 50  0001 C CNN
-F 3 "~" H 4200 4100 50  0001 C CNN
-	1    4200 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C27
-U 1 1 5F9881E1
-P 4600 4100
-F 0 "C27" H 4692 4146 50  0000 L CNN
-F 1 "100nF" H 4692 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4600 4100 50  0001 C CNN
-F 3 "~" H 4600 4100 50  0001 C CNN
-	1    4600 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C28
-U 1 1 5F9881E7
-P 5000 4100
-F 0 "C28" H 5092 4146 50  0000 L CNN
-F 1 "100nF" H 5092 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5000 4100 50  0001 C CNN
-F 3 "~" H 5000 4100 50  0001 C CNN
-	1    5000 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C29
-U 1 1 5F9881ED
-P 5400 4100
-F 0 "C29" H 5492 4146 50  0000 L CNN
-F 1 "100nF" H 5492 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5400 4100 50  0001 C CNN
-F 3 "~" H 5400 4100 50  0001 C CNN
-	1    5400 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C30
-U 1 1 5F9881F3
-P 5800 4100
-F 0 "C30" H 5892 4146 50  0000 L CNN
-F 1 "100nF" H 5892 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5800 4100 50  0001 C CNN
-F 3 "~" H 5800 4100 50  0001 C CNN
-	1    5800 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C31
-U 1 1 5F9881F9
-P 6200 4100
-F 0 "C31" H 6292 4146 50  0000 L CNN
-F 1 "100nF" H 6292 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6200 4100 50  0001 C CNN
-F 3 "~" H 6200 4100 50  0001 C CNN
-	1    6200 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3000 4000 3400 4000
-Wire Wire Line
-	3800 4000 3400 4000
-Connection ~ 3400 4000
-Wire Wire Line
-	3800 4000 4200 4000
-Connection ~ 3800 4000
-Wire Wire Line
-	4200 4000 4600 4000
-Connection ~ 4200 4000
-Wire Wire Line
-	4600 4000 5000 4000
-Connection ~ 4600 4000
-Wire Wire Line
-	5000 4000 5400 4000
-Connection ~ 5000 4000
-Wire Wire Line
-	5400 4000 5800 4000
-Connection ~ 5400 4000
-Wire Wire Line
-	5800 4000 6200 4000
-Connection ~ 5800 4000
-Wire Wire Line
-	6200 4200 5800 4200
-Wire Wire Line
-	5800 4200 5400 4200
-Connection ~ 5800 4200
-Wire Wire Line
-	5400 4200 5000 4200
-Connection ~ 5400 4200
-Wire Wire Line
-	5000 4200 4600 4200
-Connection ~ 5000 4200
-Wire Wire Line
-	4600 4200 4200 4200
-Connection ~ 4600 4200
-Wire Wire Line
-	4200 4200 3800 4200
-Connection ~ 4200 4200
-Wire Wire Line
-	3800 4200 3400 4200
-Connection ~ 3800 4200
-Wire Wire Line
-	3400 4200 3050 4200
-Connection ~ 3400 4200
 Text Label 3050 4000 0    50   ~ 0
 VDD_MCU
 $Comp
@@ -226,200 +59,6 @@ $EndComp
 Connection ~ 3050 4200
 Wire Wire Line
 	3050 4200 3000 4200
-$Comp
-L Device:C_Small C33
-U 1 1 5F988226
-P 3000 4700
-F 0 "C33" H 3092 4746 50  0000 L CNN
-F 1 "100nF" H 3092 4655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3000 4700 50  0001 C CNN
-F 3 "~" H 3000 4700 50  0001 C CNN
-	1    3000 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C34
-U 1 1 5F98822C
-P 3400 4700
-F 0 "C34" H 3492 4746 50  0000 L CNN
-F 1 "100nF" H 3492 4655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3400 4700 50  0001 C CNN
-F 3 "~" H 3400 4700 50  0001 C CNN
-	1    3400 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C35
-U 1 1 5F988232
-P 3800 4700
-F 0 "C35" H 3892 4746 50  0000 L CNN
-F 1 "100nF" H 3892 4655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3800 4700 50  0001 C CNN
-F 3 "~" H 3800 4700 50  0001 C CNN
-	1    3800 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C36
-U 1 1 5F988238
-P 4200 4700
-F 0 "C36" H 4292 4746 50  0000 L CNN
-F 1 "100nF" H 4292 4655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4200 4700 50  0001 C CNN
-F 3 "~" H 4200 4700 50  0001 C CNN
-	1    4200 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C37
-U 1 1 5F98823E
-P 4600 4700
-F 0 "C37" H 4692 4746 50  0000 L CNN
-F 1 "100nF" H 4692 4655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4600 4700 50  0001 C CNN
-F 3 "~" H 4600 4700 50  0001 C CNN
-	1    4600 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C38
-U 1 1 5F988244
-P 5000 4700
-F 0 "C38" H 5092 4746 50  0000 L CNN
-F 1 "100nF" H 5092 4655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5000 4700 50  0001 C CNN
-F 3 "~" H 5000 4700 50  0001 C CNN
-	1    5000 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C39
-U 1 1 5F98824A
-P 5400 4700
-F 0 "C39" H 5492 4746 50  0000 L CNN
-F 1 "100nF" H 5492 4655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5400 4700 50  0001 C CNN
-F 3 "~" H 5400 4700 50  0001 C CNN
-	1    5400 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C40
-U 1 1 5F988250
-P 5800 4700
-F 0 "C40" H 5892 4746 50  0000 L CNN
-F 1 "100nF" H 5892 4655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5800 4700 50  0001 C CNN
-F 3 "~" H 5800 4700 50  0001 C CNN
-	1    5800 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C41
-U 1 1 5F988256
-P 6200 4700
-F 0 "C41" H 6292 4746 50  0000 L CNN
-F 1 "100nF" H 6292 4655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6200 4700 50  0001 C CNN
-F 3 "~" H 6200 4700 50  0001 C CNN
-	1    6200 4700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3000 4600 3400 4600
-Wire Wire Line
-	3800 4600 3400 4600
-Connection ~ 3400 4600
-Wire Wire Line
-	3800 4600 4200 4600
-Connection ~ 3800 4600
-Wire Wire Line
-	4200 4600 4600 4600
-Connection ~ 4200 4600
-Wire Wire Line
-	4600 4600 5000 4600
-Connection ~ 4600 4600
-Wire Wire Line
-	5000 4600 5400 4600
-Connection ~ 5000 4600
-Wire Wire Line
-	5400 4600 5800 4600
-Connection ~ 5400 4600
-Wire Wire Line
-	5800 4600 6200 4600
-Connection ~ 5800 4600
-Wire Wire Line
-	6200 4800 5800 4800
-Wire Wire Line
-	5800 4800 5400 4800
-Connection ~ 5800 4800
-Wire Wire Line
-	5400 4800 5000 4800
-Connection ~ 5400 4800
-Wire Wire Line
-	5000 4800 4600 4800
-Connection ~ 5000 4800
-Wire Wire Line
-	4600 4800 4200 4800
-Connection ~ 4600 4800
-Wire Wire Line
-	4200 4800 3800 4800
-Connection ~ 4200 4800
-Wire Wire Line
-	3800 4800 3400 4800
-Connection ~ 3800 4800
-Wire Wire Line
-	3400 4800 3050 4800
-Connection ~ 3400 4800
-Text Label 3050 4600 0    50   ~ 0
-VDD_MCU
-$Comp
-L power:GND #PWR025
-U 1 1 5F98827B
-P 3050 4800
-F 0 "#PWR025" H 3050 4550 50  0001 C CNN
-F 1 "GND" H 3055 4627 50  0000 C CNN
-F 2 "" H 3050 4800 50  0001 C CNN
-F 3 "" H 3050 4800 50  0001 C CNN
-	1    3050 4800
-	1    0    0    -1  
-$EndComp
-Connection ~ 3050 4800
-Wire Wire Line
-	3050 4800 3000 4800
-$Comp
-L Device:C_Small C20
-U 1 1 5F988283
-P 3850 3450
-F 0 "C20" H 3942 3496 50  0000 L CNN
-F 1 "100nF" H 3942 3405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3850 3450 50  0001 C CNN
-F 3 "~" H 3850 3450 50  0001 C CNN
-	1    3850 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP_Small C17
-U 1 1 5F988289
-P 4450 3200
-F 0 "C17" H 4538 3246 50  0000 L CNN
-F 1 "4.7uF" H 4538 3155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4450 3200 50  0001 C CNN
-F 3 "~" H 4450 3200 50  0001 C CNN
-	1    4450 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP_Small C18
-U 1 1 5F98828F
-P 4850 3200
-F 0 "C18" H 4938 3246 50  0000 L CNN
-F 1 "4.7uF" H 4938 3155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4850 3200 50  0001 C CNN
-F 3 "~" H 4850 3200 50  0001 C CNN
-	1    4850 3200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4450 3100 4850 3100
 Wire Wire Line
@@ -440,17 +79,6 @@ Wire Wire Line
 	4650 3300 4850 3300
 Text Label 4500 3100 0    50   ~ 0
 VDD_MCU
-$Comp
-L Device:CP_Small C19
-U 1 1 5F9882A0
-P 3450 3450
-F 0 "C19" H 3538 3496 50  0000 L CNN
-F 1 "1uF" H 3538 3405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3450 3450 50  0001 C CNN
-F 3 "~" H 3450 3450 50  0001 C CNN
-	1    3450 3450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3450 3350 3850 3350
 Wire Wire Line
@@ -471,28 +99,6 @@ Wire Wire Line
 	3650 3550 3850 3550
 Text Label 3550 3350 0    50   ~ 0
 VDD_A
-$Comp
-L Device:C_Small C22
-U 1 1 5F9882B1
-P 5650 3500
-F 0 "C22" H 5742 3546 50  0000 L CNN
-F 1 "100nF" H 5742 3455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5650 3500 50  0001 C CNN
-F 3 "~" H 5650 3500 50  0001 C CNN
-	1    5650 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP_Small C21
-U 1 1 5F9882B7
-P 5250 3500
-F 0 "C21" H 5338 3546 50  0000 L CNN
-F 1 "1uF" H 5338 3455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5250 3500 50  0001 C CNN
-F 3 "~" H 5250 3500 50  0001 C CNN
-	1    5250 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5250 3400 5650 3400
 Wire Wire Line
@@ -513,28 +119,6 @@ Wire Wire Line
 	5450 3600 5650 3600
 Text Label 5350 3400 0    50   ~ 0
 VDD_REF+
-$Comp
-L Device:C_Small C15
-U 1 1 5F9882C8
-P 3900 2750
-F 0 "C15" H 3992 2796 50  0000 L CNN
-F 1 "100nF" H 3992 2705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3900 2750 50  0001 C CNN
-F 3 "~" H 3900 2750 50  0001 C CNN
-	1    3900 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP_Small C14
-U 1 1 5F9882CE
-P 3500 2750
-F 0 "C14" H 3588 2796 50  0000 L CNN
-F 1 "1uF" H 3588 2705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3500 2750 50  0001 C CNN
-F 3 "~" H 3500 2750 50  0001 C CNN
-	1    3500 2750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3500 2650 3900 2650
 Wire Wire Line
@@ -555,218 +139,874 @@ Wire Wire Line
 	3700 2850 3900 2850
 Text Label 3600 2650 0    50   ~ 0
 DSI_VDD12
-$Comp
-L Device:C_Small C43
-U 1 1 5F9882DF
-P 3000 5350
-F 0 "C43" H 3092 5396 50  0000 L CNN
-F 1 "100nF" H 3092 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3000 5350 50  0001 C CNN
-F 3 "~" H 3000 5350 50  0001 C CNN
-	1    3000 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C44
-U 1 1 5F9882E5
-P 3400 5350
-F 0 "C44" H 3492 5396 50  0000 L CNN
-F 1 "100nF" H 3492 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3400 5350 50  0001 C CNN
-F 3 "~" H 3400 5350 50  0001 C CNN
-	1    3400 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C45
-U 1 1 5F9882EB
-P 3800 5350
-F 0 "C45" H 3892 5396 50  0000 L CNN
-F 1 "100nF" H 3892 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3800 5350 50  0001 C CNN
-F 3 "~" H 3800 5350 50  0001 C CNN
-	1    3800 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C46
-U 1 1 5F9882F1
-P 4200 5350
-F 0 "C46" H 4292 5396 50  0000 L CNN
-F 1 "100nF" H 4292 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4200 5350 50  0001 C CNN
-F 3 "~" H 4200 5350 50  0001 C CNN
-	1    4200 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C47
-U 1 1 5F9882F7
-P 4600 5350
-F 0 "C47" H 4692 5396 50  0000 L CNN
-F 1 "100nF" H 4692 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4600 5350 50  0001 C CNN
-F 3 "~" H 4600 5350 50  0001 C CNN
-	1    4600 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C48
-U 1 1 5F9882FD
-P 5000 5350
-F 0 "C48" H 5092 5396 50  0000 L CNN
-F 1 "100nF" H 5092 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5000 5350 50  0001 C CNN
-F 3 "~" H 5000 5350 50  0001 C CNN
-	1    5000 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C49
-U 1 1 5F988303
-P 5400 5350
-F 0 "C49" H 5492 5396 50  0000 L CNN
-F 1 "100nF" H 5492 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5400 5350 50  0001 C CNN
-F 3 "~" H 5400 5350 50  0001 C CNN
-	1    5400 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C50
-U 1 1 5F988309
-P 5800 5350
-F 0 "C50" H 5892 5396 50  0000 L CNN
-F 1 "100nF" H 5892 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5800 5350 50  0001 C CNN
-F 3 "~" H 5800 5350 50  0001 C CNN
-	1    5800 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C51
-U 1 1 5F98830F
-P 6200 5350
-F 0 "C51" H 6292 5396 50  0000 L CNN
-F 1 "100nF" H 6292 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6200 5350 50  0001 C CNN
-F 3 "~" H 6200 5350 50  0001 C CNN
-	1    6200 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3000 5250 3400 5250
-Wire Wire Line
-	3800 5250 3400 5250
-Connection ~ 3400 5250
-Wire Wire Line
-	3800 5250 4200 5250
-Connection ~ 3800 5250
-Wire Wire Line
-	4200 5250 4600 5250
-Connection ~ 4200 5250
-Wire Wire Line
-	4600 5250 5000 5250
-Connection ~ 4600 5250
-Wire Wire Line
-	5000 5250 5400 5250
-Connection ~ 5000 5250
-Wire Wire Line
-	5400 5250 5800 5250
-Connection ~ 5400 5250
-Wire Wire Line
-	5800 5250 6200 5250
-Connection ~ 5800 5250
-Wire Wire Line
-	6200 5450 5800 5450
-Wire Wire Line
-	5800 5450 5400 5450
-Connection ~ 5800 5450
-Wire Wire Line
-	5400 5450 5000 5450
-Connection ~ 5400 5450
-Wire Wire Line
-	5000 5450 4600 5450
-Connection ~ 5000 5450
-Wire Wire Line
-	4600 5450 4200 5450
-Connection ~ 4600 5450
-Wire Wire Line
-	4200 5450 3800 5450
-Connection ~ 4200 5450
-Wire Wire Line
-	3800 5450 3400 5450
-Connection ~ 3800 5450
-Wire Wire Line
-	3400 5450 3050 5450
-Connection ~ 3400 5450
-Text Label 3050 5250 0    50   ~ 0
-VDD_MCU
-$Comp
-L power:GND #PWR026
-U 1 1 5F988334
-P 3050 5450
-F 0 "#PWR026" H 3050 5200 50  0001 C CNN
-F 1 "GND" H 3055 5277 50  0000 C CNN
-F 2 "" H 3050 5450 50  0001 C CNN
-F 3 "" H 3050 5450 50  0001 C CNN
-	1    3050 5450
-	1    0    0    -1  
-$EndComp
-Connection ~ 3050 5450
-Wire Wire Line
-	3050 5450 3000 5450
-$Comp
-L Device:C_Small C52
-U 1 1 5F98833C
-P 6600 5350
-F 0 "C52" H 6692 5396 50  0000 L CNN
-F 1 "100nF" H 6692 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6600 5350 50  0001 C CNN
-F 3 "~" H 6600 5350 50  0001 C CNN
-	1    6600 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6600 5450 6200 5450
-Connection ~ 6200 5450
-Wire Wire Line
-	6600 5250 6200 5250
-Connection ~ 6200 5250
 Wire Wire Line
 	5300 2100 5300 2550
 $Comp
-L Device:C_Small C32
-U 1 1 5F988347
+L SamacSys_Parts:100nF C15
+U 1 1 5F780D55
+P 3900 2750
+F 0 "C15" H 3992 2796 50  0000 L CNN
+F 1 "100nF" H 3992 2705 50  0000 L CNN
+F 2 "CAPC1005X55N" H 4000 2600 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 4000 2500 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 4000 2400 50  0001 L CNN "Description"
+F 5 "0.55" H 4000 2300 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 4000 2200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 4000 2100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 4000 2000 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 4000 1900 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3900 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4000 3400 4000
+Wire Wire Line
+	3050 4200 3400 4200
+$Comp
+L SamacSys_Parts:100nF C23
+U 1 1 5F781EBA
+P 3000 4100
+F 0 "C23" H 3092 4146 50  0000 L CNN
+F 1 "100nF" H 3092 4055 50  0000 L CNN
+F 2 "CAPC1005X55N" H 3100 3950 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3100 3850 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 3100 3750 50  0001 L CNN "Description"
+F 5 "0.55" H 3100 3650 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 3100 3550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 3100 3450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 3100 3350 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 3100 3250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:100nF C24
+U 1 1 5F782473
+P 3400 4100
+F 0 "C24" H 3492 4146 50  0000 L CNN
+F 1 "100nF" H 3492 4055 50  0000 L CNN
+F 2 "CAPC1005X55N" H 3500 3950 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3500 3850 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 3500 3750 50  0001 L CNN "Description"
+F 5 "0.55" H 3500 3650 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 3500 3550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 3500 3450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 3500 3350 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 3500 3250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3400 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 3400 4000
+Connection ~ 3400 4200
+Wire Wire Line
+	3400 4000 3800 4000
+Wire Wire Line
+	3400 4200 3800 4200
+$Comp
+L SamacSys_Parts:100nF C25
+U 1 1 5F782858
+P 3800 4100
+F 0 "C25" H 3892 4146 50  0000 L CNN
+F 1 "100nF" H 3892 4055 50  0000 L CNN
+F 2 "CAPC1005X55N" H 3900 3950 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3900 3850 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 3900 3750 50  0001 L CNN "Description"
+F 5 "0.55" H 3900 3650 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 3900 3550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 3900 3450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 3900 3350 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 3900 3250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3800 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 3800 4000
+Wire Wire Line
+	3800 4000 4200 4000
+Connection ~ 3800 4200
+Wire Wire Line
+	3800 4200 4200 4200
+$Comp
+L SamacSys_Parts:100nF C26
+U 1 1 5F782F0D
+P 4200 4100
+F 0 "C26" H 4292 4146 50  0000 L CNN
+F 1 "100nF" H 4292 4055 50  0000 L CNN
+F 2 "CAPC1005X55N" H 4300 3950 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 4300 3850 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 4300 3750 50  0001 L CNN "Description"
+F 5 "0.55" H 4300 3650 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 4300 3550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 4300 3450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 4300 3350 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 4300 3250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4200 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 4200 4000
+Wire Wire Line
+	4200 4000 4600 4000
+Connection ~ 4200 4200
+Wire Wire Line
+	4200 4200 4600 4200
+$Comp
+L SamacSys_Parts:100nF C27
+U 1 1 5F7831E8
+P 4600 4100
+F 0 "C27" H 4692 4146 50  0000 L CNN
+F 1 "100nF" H 4692 4055 50  0000 L CNN
+F 2 "CAPC1005X55N" H 4700 3950 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 4700 3850 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 4700 3750 50  0001 L CNN "Description"
+F 5 "0.55" H 4700 3650 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 4700 3550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 4700 3450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 4700 3350 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 4700 3250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4600 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 4600 4000
+Wire Wire Line
+	4600 4000 5000 4000
+Connection ~ 4600 4200
+Wire Wire Line
+	4600 4200 5000 4200
+$Comp
+L SamacSys_Parts:100nF C28
+U 1 1 5F7833C5
+P 5000 4100
+F 0 "C28" H 5092 4146 50  0000 L CNN
+F 1 "100nF" H 5092 4055 50  0000 L CNN
+F 2 "CAPC1005X55N" H 5100 3950 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 5100 3850 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 5100 3750 50  0001 L CNN "Description"
+F 5 "0.55" H 5100 3650 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 5100 3550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 5100 3450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 5100 3350 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 5100 3250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5000 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 4000
+Connection ~ 5000 4200
+Wire Wire Line
+	5000 4000 5400 4000
+Wire Wire Line
+	5000 4200 5400 4200
+$Comp
+L SamacSys_Parts:100nF C29
+U 1 1 5F78395F
+P 5400 4100
+F 0 "C29" H 5492 4146 50  0000 L CNN
+F 1 "100nF" H 5492 4055 50  0000 L CNN
+F 2 "CAPC1005X55N" H 5500 3950 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 5500 3850 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 5500 3750 50  0001 L CNN "Description"
+F 5 "0.55" H 5500 3650 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 5500 3550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 5500 3450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 5500 3350 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 5500 3250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5400 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 5400 4000
+Wire Wire Line
+	5400 4000 5800 4000
+Connection ~ 5400 4200
+Wire Wire Line
+	5400 4200 5800 4200
+$Comp
+L SamacSys_Parts:100nF C30
+U 1 1 5F78420D
+P 5800 4100
+F 0 "C30" H 5892 4146 50  0000 L CNN
+F 1 "100nF" H 5892 4055 50  0000 L CNN
+F 2 "CAPC1005X55N" H 5900 3950 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 5900 3850 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 5900 3750 50  0001 L CNN "Description"
+F 5 "0.55" H 5900 3650 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 5900 3550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 5900 3450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 5900 3350 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 5900 3250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5800 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 4000
+Wire Wire Line
+	5800 4000 6200 4000
+Connection ~ 5800 4200
+Wire Wire Line
+	5800 4200 6200 4200
+$Comp
+L SamacSys_Parts:100nF C31
+U 1 1 5F78443D
+P 6200 4100
+F 0 "C31" H 6292 4146 50  0000 L CNN
+F 1 "100nF" H 6292 4055 50  0000 L CNN
+F 2 "CAPC1005X55N" H 6300 3950 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 6300 3850 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 6300 3750 50  0001 L CNN "Description"
+F 5 "0.55" H 6300 3650 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 6300 3550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 6300 3450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 6300 3350 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 6300 3250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6200 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 6200 4000
+Wire Wire Line
+	6200 4000 6600 4000
+Connection ~ 6200 4200
+Wire Wire Line
+	6200 4200 6600 4200
+$Comp
+L SamacSys_Parts:100nF C32
+U 1 1 5F784662
 P 6600 4100
 F 0 "C32" H 6692 4146 50  0000 L CNN
 F 1 "100nF" H 6692 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6600 4100 50  0001 C CNN
-F 3 "~" H 6600 4100 50  0001 C CNN
+F 2 "CAPC1005X55N" H 6700 3950 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 6700 3850 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 6700 3750 50  0001 L CNN "Description"
+F 5 "0.55" H 6700 3650 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 6700 3550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 6700 3450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 6700 3350 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 6700 3250 50  0001 L CNN "Manufacturer_Part_Number"
 	1    6600 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C42
-U 1 1 5F98834D
-P 6600 4700
-F 0 "C42" H 6692 4746 50  0000 L CNN
-F 1 "100nF" H 6692 4655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6600 4700 50  0001 C CNN
-F 3 "~" H 6600 4700 50  0001 C CNN
-	1    6600 4700
+L SamacSys_Parts:100nF C22
+U 1 1 5F784883
+P 5650 3500
+F 0 "C22" H 5742 3546 50  0000 L CNN
+F 1 "100nF" H 5742 3455 50  0000 L CNN
+F 2 "CAPC1005X55N" H 5750 3350 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 5750 3250 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 5750 3150 50  0001 L CNN "Description"
+F 5 "0.55" H 5750 3050 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 5750 2950 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 5750 2850 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 5750 2750 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 5750 2650 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5650 3500
 	1    0    0    -1  
 $EndComp
+$Comp
+L SamacSys_Parts:100nF C20
+U 1 1 5F784C97
+P 3850 3450
+F 0 "C20" H 3942 3496 50  0000 L CNN
+F 1 "100nF" H 3942 3405 50  0000 L CNN
+F 2 "CAPC1005X55N" H 3950 3300 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3950 3200 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 3950 3100 50  0001 L CNN "Description"
+F 5 "0.55" H 3950 3000 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 3950 2900 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 3950 2800 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 3950 2700 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 3950 2600 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3850 3450
+	1    0    0    -1  
+$EndComp
+Text Label 3050 4550 0    50   ~ 0
+VDD_MCU
+$Comp
+L power:GND #PWR025
+U 1 1 5F786A15
+P 3050 4750
+F 0 "#PWR025" H 3050 4500 50  0001 C CNN
+F 1 "GND" H 3055 4577 50  0000 C CNN
+F 2 "" H 3050 4750 50  0001 C CNN
+F 3 "" H 3050 4750 50  0001 C CNN
+	1    3050 4750
+	1    0    0    -1  
+$EndComp
+Connection ~ 3050 4750
 Wire Wire Line
-	6200 4000 6600 4000
-Connection ~ 6200 4000
+	3050 4750 3000 4750
 Wire Wire Line
-	6600 4200 6200 4200
-Connection ~ 6200 4200
+	3000 4550 3400 4550
 Wire Wire Line
-	6600 4600 6200 4600
-Connection ~ 6200 4600
+	3050 4750 3400 4750
+$Comp
+L SamacSys_Parts:100nF C33
+U 1 1 5F786A29
+P 3000 4650
+F 0 "C33" H 3092 4696 50  0000 L CNN
+F 1 "100nF" H 3092 4605 50  0000 L CNN
+F 2 "CAPC1005X55N" H 3100 4500 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3100 4400 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 3100 4300 50  0001 L CNN "Description"
+F 5 "0.55" H 3100 4200 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 3100 4100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 3100 4000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 3100 3900 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 3100 3800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3000 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:100nF C34
+U 1 1 5F786A39
+P 3400 4650
+F 0 "C34" H 3492 4696 50  0000 L CNN
+F 1 "100nF" H 3492 4605 50  0000 L CNN
+F 2 "CAPC1005X55N" H 3500 4500 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3500 4400 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 3500 4300 50  0001 L CNN "Description"
+F 5 "0.55" H 3500 4200 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 3500 4100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 3500 4000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 3500 3900 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 3500 3800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3400 4650
+	1    0    0    -1  
+$EndComp
+Connection ~ 3400 4550
+Connection ~ 3400 4750
 Wire Wire Line
-	6600 4800 6200 4800
-Connection ~ 6200 4800
+	3400 4550 3800 4550
+Wire Wire Line
+	3400 4750 3800 4750
+$Comp
+L SamacSys_Parts:100nF C35
+U 1 1 5F786A4D
+P 3800 4650
+F 0 "C35" H 3892 4696 50  0000 L CNN
+F 1 "100nF" H 3892 4605 50  0000 L CNN
+F 2 "CAPC1005X55N" H 3900 4500 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3900 4400 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 3900 4300 50  0001 L CNN "Description"
+F 5 "0.55" H 3900 4200 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 3900 4100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 3900 4000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 3900 3900 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 3900 3800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3800 4650
+	1    0    0    -1  
+$EndComp
+Connection ~ 3800 4550
+Wire Wire Line
+	3800 4550 4200 4550
+Connection ~ 3800 4750
+Wire Wire Line
+	3800 4750 4200 4750
+$Comp
+L SamacSys_Parts:100nF C36
+U 1 1 5F786A61
+P 4200 4650
+F 0 "C36" H 4292 4696 50  0000 L CNN
+F 1 "100nF" H 4292 4605 50  0000 L CNN
+F 2 "CAPC1005X55N" H 4300 4500 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 4300 4400 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 4300 4300 50  0001 L CNN "Description"
+F 5 "0.55" H 4300 4200 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 4300 4100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 4300 4000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 4300 3900 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 4300 3800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4200 4650
+	1    0    0    -1  
+$EndComp
+Connection ~ 4200 4550
+Wire Wire Line
+	4200 4550 4600 4550
+Connection ~ 4200 4750
+Wire Wire Line
+	4200 4750 4600 4750
+$Comp
+L SamacSys_Parts:100nF C37
+U 1 1 5F786A75
+P 4600 4650
+F 0 "C37" H 4692 4696 50  0000 L CNN
+F 1 "100nF" H 4692 4605 50  0000 L CNN
+F 2 "CAPC1005X55N" H 4700 4500 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 4700 4400 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 4700 4300 50  0001 L CNN "Description"
+F 5 "0.55" H 4700 4200 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 4700 4100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 4700 4000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 4700 3900 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 4700 3800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4600 4650
+	1    0    0    -1  
+$EndComp
+Connection ~ 4600 4550
+Wire Wire Line
+	4600 4550 5000 4550
+Connection ~ 4600 4750
+Wire Wire Line
+	4600 4750 5000 4750
+$Comp
+L SamacSys_Parts:100nF C38
+U 1 1 5F786A89
+P 5000 4650
+F 0 "C38" H 5092 4696 50  0000 L CNN
+F 1 "100nF" H 5092 4605 50  0000 L CNN
+F 2 "CAPC1005X55N" H 5100 4500 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 5100 4400 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 5100 4300 50  0001 L CNN "Description"
+F 5 "0.55" H 5100 4200 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 5100 4100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 5100 4000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 5100 3900 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 5100 3800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5000 4650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 4550
+Connection ~ 5000 4750
+Wire Wire Line
+	5000 4550 5400 4550
+Wire Wire Line
+	5000 4750 5400 4750
+$Comp
+L SamacSys_Parts:100nF C39
+U 1 1 5F786A9D
+P 5400 4650
+F 0 "C39" H 5492 4696 50  0000 L CNN
+F 1 "100nF" H 5492 4605 50  0000 L CNN
+F 2 "CAPC1005X55N" H 5500 4500 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 5500 4400 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 5500 4300 50  0001 L CNN "Description"
+F 5 "0.55" H 5500 4200 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 5500 4100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 5500 4000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 5500 3900 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 5500 3800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5400 4650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5400 4550
+Wire Wire Line
+	5400 4550 5800 4550
+Connection ~ 5400 4750
+Wire Wire Line
+	5400 4750 5800 4750
+$Comp
+L SamacSys_Parts:100nF C40
+U 1 1 5F786AB1
+P 5800 4650
+F 0 "C40" H 5892 4696 50  0000 L CNN
+F 1 "100nF" H 5892 4605 50  0000 L CNN
+F 2 "CAPC1005X55N" H 5900 4500 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 5900 4400 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 5900 4300 50  0001 L CNN "Description"
+F 5 "0.55" H 5900 4200 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 5900 4100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 5900 4000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 5900 3900 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 5900 3800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5800 4650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 4550
+Wire Wire Line
+	5800 4550 6200 4550
+Connection ~ 5800 4750
+Wire Wire Line
+	5800 4750 6200 4750
+$Comp
+L SamacSys_Parts:100nF C41
+U 1 1 5F786AC5
+P 6200 4650
+F 0 "C41" H 6292 4696 50  0000 L CNN
+F 1 "100nF" H 6292 4605 50  0000 L CNN
+F 2 "CAPC1005X55N" H 6300 4500 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 6300 4400 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 6300 4300 50  0001 L CNN "Description"
+F 5 "0.55" H 6300 4200 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 6300 4100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 6300 4000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 6300 3900 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 6300 3800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6200 4650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6200 4550
+Wire Wire Line
+	6200 4550 6600 4550
+Connection ~ 6200 4750
+Wire Wire Line
+	6200 4750 6600 4750
+$Comp
+L SamacSys_Parts:100nF C42
+U 1 1 5F786AD9
+P 6600 4650
+F 0 "C42" H 6692 4696 50  0000 L CNN
+F 1 "100nF" H 6692 4605 50  0000 L CNN
+F 2 "CAPC1005X55N" H 6700 4500 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 6700 4400 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 6700 4300 50  0001 L CNN "Description"
+F 5 "0.55" H 6700 4200 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 6700 4100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 6700 4000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 6700 3900 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 6700 3800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6600 4650
+	1    0    0    -1  
+$EndComp
+Text Label 3050 5100 0    50   ~ 0
+VDD_MCU
+$Comp
+L power:GND #PWR026
+U 1 1 5F78B5E0
+P 3050 5300
+F 0 "#PWR026" H 3050 5050 50  0001 C CNN
+F 1 "GND" H 3055 5127 50  0000 C CNN
+F 2 "" H 3050 5300 50  0001 C CNN
+F 3 "" H 3050 5300 50  0001 C CNN
+	1    3050 5300
+	1    0    0    -1  
+$EndComp
+Connection ~ 3050 5300
+Wire Wire Line
+	3050 5300 3000 5300
+Wire Wire Line
+	3000 5100 3400 5100
+Wire Wire Line
+	3050 5300 3400 5300
+$Comp
+L SamacSys_Parts:100nF C43
+U 1 1 5F78B5F4
+P 3000 5200
+F 0 "C43" H 3092 5246 50  0000 L CNN
+F 1 "100nF" H 3092 5155 50  0000 L CNN
+F 2 "CAPC1005X55N" H 3100 5050 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3100 4950 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 3100 4850 50  0001 L CNN "Description"
+F 5 "0.55" H 3100 4750 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 3100 4650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 3100 4550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 3100 4450 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 3100 4350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3000 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:100nF C44
+U 1 1 5F78B604
+P 3400 5200
+F 0 "C44" H 3492 5246 50  0000 L CNN
+F 1 "100nF" H 3492 5155 50  0000 L CNN
+F 2 "CAPC1005X55N" H 3500 5050 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3500 4950 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 3500 4850 50  0001 L CNN "Description"
+F 5 "0.55" H 3500 4750 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 3500 4650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 3500 4550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 3500 4450 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 3500 4350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3400 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 3400 5100
+Connection ~ 3400 5300
+Wire Wire Line
+	3400 5100 3800 5100
+Wire Wire Line
+	3400 5300 3800 5300
+$Comp
+L SamacSys_Parts:100nF C45
+U 1 1 5F78B618
+P 3800 5200
+F 0 "C45" H 3892 5246 50  0000 L CNN
+F 1 "100nF" H 3892 5155 50  0000 L CNN
+F 2 "CAPC1005X55N" H 3900 5050 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3900 4950 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 3900 4850 50  0001 L CNN "Description"
+F 5 "0.55" H 3900 4750 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 3900 4650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 3900 4550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 3900 4450 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 3900 4350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3800 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 3800 5100
+Wire Wire Line
+	3800 5100 4200 5100
+Connection ~ 3800 5300
+Wire Wire Line
+	3800 5300 4200 5300
+$Comp
+L SamacSys_Parts:100nF C46
+U 1 1 5F78B62C
+P 4200 5200
+F 0 "C46" H 4292 5246 50  0000 L CNN
+F 1 "100nF" H 4292 5155 50  0000 L CNN
+F 2 "CAPC1005X55N" H 4300 5050 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 4300 4950 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 4300 4850 50  0001 L CNN "Description"
+F 5 "0.55" H 4300 4750 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 4300 4650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 4300 4550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 4300 4450 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 4300 4350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4200 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 4200 5100
+Wire Wire Line
+	4200 5100 4600 5100
+Connection ~ 4200 5300
+Wire Wire Line
+	4200 5300 4600 5300
+$Comp
+L SamacSys_Parts:100nF C47
+U 1 1 5F78B640
+P 4600 5200
+F 0 "C47" H 4692 5246 50  0000 L CNN
+F 1 "100nF" H 4692 5155 50  0000 L CNN
+F 2 "CAPC1005X55N" H 4700 5050 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 4700 4950 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 4700 4850 50  0001 L CNN "Description"
+F 5 "0.55" H 4700 4750 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 4700 4650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 4700 4550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 4700 4450 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 4700 4350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4600 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 4600 5100
+Wire Wire Line
+	4600 5100 5000 5100
+Connection ~ 4600 5300
+Wire Wire Line
+	4600 5300 5000 5300
+$Comp
+L SamacSys_Parts:100nF C48
+U 1 1 5F78B654
+P 5000 5200
+F 0 "C48" H 5092 5246 50  0000 L CNN
+F 1 "100nF" H 5092 5155 50  0000 L CNN
+F 2 "CAPC1005X55N" H 5100 5050 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 5100 4950 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 5100 4850 50  0001 L CNN "Description"
+F 5 "0.55" H 5100 4750 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 5100 4650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 5100 4550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 5100 4450 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 5100 4350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5000 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 5100
+Connection ~ 5000 5300
+Wire Wire Line
+	5000 5100 5400 5100
+Wire Wire Line
+	5000 5300 5400 5300
+$Comp
+L SamacSys_Parts:100nF C49
+U 1 1 5F78B668
+P 5400 5200
+F 0 "C49" H 5492 5246 50  0000 L CNN
+F 1 "100nF" H 5492 5155 50  0000 L CNN
+F 2 "CAPC1005X55N" H 5500 5050 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 5500 4950 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 5500 4850 50  0001 L CNN "Description"
+F 5 "0.55" H 5500 4750 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 5500 4650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 5500 4550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 5500 4450 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 5500 4350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5400 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 5400 5100
+Wire Wire Line
+	5400 5100 5800 5100
+Connection ~ 5400 5300
+Wire Wire Line
+	5400 5300 5800 5300
+$Comp
+L SamacSys_Parts:100nF C50
+U 1 1 5F78B67C
+P 5800 5200
+F 0 "C50" H 5892 5246 50  0000 L CNN
+F 1 "100nF" H 5892 5155 50  0000 L CNN
+F 2 "CAPC1005X55N" H 5900 5050 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 5900 4950 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 5900 4850 50  0001 L CNN "Description"
+F 5 "0.55" H 5900 4750 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 5900 4650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 5900 4550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 5900 4450 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 5900 4350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5800 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 5100
+Wire Wire Line
+	5800 5100 6200 5100
+Connection ~ 5800 5300
+Wire Wire Line
+	5800 5300 6200 5300
+$Comp
+L SamacSys_Parts:100nF C51
+U 1 1 5F78B690
+P 6200 5200
+F 0 "C51" H 6292 5246 50  0000 L CNN
+F 1 "100nF" H 6292 5155 50  0000 L CNN
+F 2 "CAPC1005X55N" H 6300 5050 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 6300 4950 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 6300 4850 50  0001 L CNN "Description"
+F 5 "0.55" H 6300 4750 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 6300 4650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 6300 4550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 6300 4450 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 6300 4350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6200 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 6200 5100
+Wire Wire Line
+	6200 5100 6600 5100
+Connection ~ 6200 5300
+Wire Wire Line
+	6200 5300 6600 5300
+$Comp
+L SamacSys_Parts:100nF C52
+U 1 1 5F78B6A4
+P 6600 5200
+F 0 "C52" H 6692 5246 50  0000 L CNN
+F 1 "100nF" H 6692 5155 50  0000 L CNN
+F 2 "CAPC1005X55N" H 6700 5050 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 6700 4950 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 6700 4850 50  0001 L CNN "Description"
+F 5 "0.55" H 6700 4750 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 6700 4650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 6700 4550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 6700 4450 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 6700 4350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:2.2uF C16
+U 1 1 5F8197AB
+P 3050 2950
+F 0 "C16" H 3142 2996 50  0000 L CNN
+F 1 "2.2uF" H 3142 2905 50  0000 L CNN
+F 2 "CAPC1005X55N" H 3150 2800 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GRM155B30J225KE95%23.html" H 3150 2700 50  0001 L CNN
+F 4 "Capacitor MLCC GRM 0402 6.3V 2.2uF Murata 1005 GRM 2200nF Ceramic Multilayer Capacitor, 6.3 V dc, +85C, B Dielectric, +/-10%" H 3150 2600 50  0001 L CNN "Description"
+F 5 "0.55" H 3150 2500 50  0001 L CNN "Height"
+F 6 "81-GRM155B30J225KE95" H 3150 2400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155B30J225KE95D?qs=%252B6g0mu59x7JEYqPAFq87TQ%3D%3D" H 3150 2300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 3150 2200 50  0001 L CNN "Manufacturer_Name"
+F 9 "GRM155B30J225KE95D" H 3150 2100 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3050 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:1uF C19
+U 1 1 5F88D709
+P 3450 3450
+F 0 "C19" H 3542 3496 50  0000 L CNN
+F 1 "1uF" H 3542 3405 50  0000 L CNN
+F 2 "CAPC1005X33N" H 3550 3300 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/JMK105BJ105KP-F.pdf" H 3550 3200 50  0001 L CNN
+F 4 "Taiyo Yuden JMK105BJ105KP-F 1F MLCC 6.3V dc +/-10% Tolerance SMD" H 3550 3100 50  0001 L CNN "Description"
+F 5 "0.33" H 3550 3000 50  0001 L CNN "Height"
+F 6 "963-JMK105BJ105KP-F" H 3550 2900 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/JMK105BJ105KP-F?qs=vF%252B8ahGVilcfgxT2k6hjqQ%3D%3D" H 3550 2800 50  0001 L CNN "Mouser Price/Stock"
+F 8 "TAIYO YUDEN" H 3550 2700 50  0001 L CNN "Manufacturer_Name"
+F 9 "JMK105BJ105KP-F" H 3550 2600 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3450 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:1uF C14
+U 1 1 5F88DF39
+P 3500 2750
+F 0 "C14" H 3592 2796 50  0000 L CNN
+F 1 "1uF" H 3592 2705 50  0000 L CNN
+F 2 "CAPC1005X33N" H 3600 2600 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/JMK105BJ105KP-F.pdf" H 3600 2500 50  0001 L CNN
+F 4 "Taiyo Yuden JMK105BJ105KP-F 1F MLCC 6.3V dc +/-10% Tolerance SMD" H 3600 2400 50  0001 L CNN "Description"
+F 5 "0.33" H 3600 2300 50  0001 L CNN "Height"
+F 6 "963-JMK105BJ105KP-F" H 3600 2200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/JMK105BJ105KP-F?qs=vF%252B8ahGVilcfgxT2k6hjqQ%3D%3D" H 3600 2100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "TAIYO YUDEN" H 3600 2000 50  0001 L CNN "Manufacturer_Name"
+F 9 "JMK105BJ105KP-F" H 3600 1900 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3500 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:1uF C21
+U 1 1 5F88E76C
+P 5250 3500
+F 0 "C21" H 5342 3546 50  0000 L CNN
+F 1 "1uF" H 5342 3455 50  0000 L CNN
+F 2 "CAPC1005X33N" H 5350 3350 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/JMK105BJ105KP-F.pdf" H 5350 3250 50  0001 L CNN
+F 4 "Taiyo Yuden JMK105BJ105KP-F 1F MLCC 6.3V dc +/-10% Tolerance SMD" H 5350 3150 50  0001 L CNN "Description"
+F 5 "0.33" H 5350 3050 50  0001 L CNN "Height"
+F 6 "963-JMK105BJ105KP-F" H 5350 2950 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/JMK105BJ105KP-F?qs=vF%252B8ahGVilcfgxT2k6hjqQ%3D%3D" H 5350 2850 50  0001 L CNN "Mouser Price/Stock"
+F 8 "TAIYO YUDEN" H 5350 2750 50  0001 L CNN "Manufacturer_Name"
+F 9 "JMK105BJ105KP-F" H 5350 2650 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5250 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:4.7uF C17
+U 1 1 5F89A82D
+P 4450 3200
+F 0 "C17" H 4542 3246 50  0000 L CNN
+F 1 "4.7uF" H 4542 3155 50  0000 L CNN
+F 2 "CAPC1005X55N" H 4550 3050 50  0001 L CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" H 4550 2950 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 4.7uF 6.3volts *Derate Voltage/Temp" H 4550 2850 50  0001 L CNN "Description"
+F 5 "0.55" H 4550 2750 50  0001 L CNN "Height"
+F 6 "81-GRM155R60J475ME8D" H 4550 2650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155R60J475ME87D?qs=pTGEtN%252BMLlBnU9jM8bPB0Q%3D%3D" H 4550 2550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 4550 2450 50  0001 L CNN "Manufacturer_Name"
+F 9 "GRM155R60J475ME87D" H 4550 2350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4450 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:4.7uF C18
+U 1 1 5F89B526
+P 4850 3200
+F 0 "C18" H 4942 3246 50  0000 L CNN
+F 1 "4.7uF" H 4942 3155 50  0000 L CNN
+F 2 "CAPC1005X55N" H 4950 3050 50  0001 L CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" H 4950 2950 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 4.7uF 6.3volts *Derate Voltage/Temp" H 4950 2850 50  0001 L CNN "Description"
+F 5 "0.55" H 4950 2750 50  0001 L CNN "Height"
+F 6 "81-GRM155R60J475ME8D" H 4950 2650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155R60J475ME87D?qs=pTGEtN%252BMLlBnU9jM8bPB0Q%3D%3D" H 4950 2550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 4950 2450 50  0001 L CNN "Manufacturer_Name"
+F 9 "GRM155R60J475ME87D" H 4950 2350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4850 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:BLM15PX601SZ1D FB1
+U 1 1 5F8CD49F
+P 5300 1850
+F 0 "FB1" H 5400 1896 50  0000 L CNN
+F 1 "BLM15PX601SZ1D" H 5400 1805 50  0000 L CNN
+F 2 "NFZ15SG152SN10B" H 5400 1700 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/BLM15PX601SZ1D.pdf" H 5400 1600 50  0001 L CNN
+F 4 "BLM15_Z1D Series EMI Suppression Filter 600+/-25% at 100MHz 900mA @85" H 5400 1500 50  0001 L CNN "Description"
+F 5 "0.55" H 5400 1400 50  0001 L CNN "Height"
+F 6 "81-BLM15PX601SZ1D" H 5400 1300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=81-BLM15PX601SZ1D" H 5400 1200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 5400 1100 50  0001 L CNN "Manufacturer_Name"
+F 9 "BLM15PX601SZ1D" H 5400 1000 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5300 1850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

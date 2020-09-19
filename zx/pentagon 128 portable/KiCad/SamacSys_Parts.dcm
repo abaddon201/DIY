@@ -5,10 +5,25 @@ D Black Button Tactile Switch, Single Pole Single Throw (SPST) 50 mA @ 24 V dc 5
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825910%7FC10%7Fpdf%7FEnglish%7FENG_CD_1825910_C10.pdf%7F1-1825910-4
 $ENDCMP
 #
+$CMP 1.5k
+D Vishay Resistor Chip 0402
+F http://www.vishay.com/docs/28705/mcx0x0xpro.pdf
+$ENDCMP
+#
 $CMP 10033526-N3212LF
 D MiniUSB SMD AMPHENOL FCI NANTONG - 10033526-N3212LF. - CONN USB RCP 5 POS 0.8MM SLDR RA SMD 5TERM
 K miniusb
 F https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10033526.pdf
+$ENDCMP
+#
+$CMP 100k
+D Panasonic ERA Series Thin Film Surface Mount Resistor 0402 Case 100k +/-0.5% 63mW +/-25ppm/C
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf
+$ENDCMP
+#
+$CMP 100nF
+D KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL
+F https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf
 $ENDCMP
 #
 $CMP 104031-0811
@@ -21,6 +36,102 @@ D Coin Cell Battery Holders BATTERY HOLDER FOR CR1220 / 1225 Tape and Reel
 F http://www.keystoneelectronics.net/ENG._DEPT/WEB_ORACLE/PDF/PDF%20CAT%20NO%20DRAWINGS/1000-1999/1072.PDF
 $ENDCMP
 #
+$CMP 10k
+D Thin Film Resistors - SMD .1W 10Kohms 1% 0402 50ppm Auto
+F https://componentsearchengine.com/Datasheets/1/MCS0402MC1002FE000.pdf
+$ENDCMP
+#
+$CMP 10uF
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 20% 6.3 Volts 0402
+$ENDCMP
+#
+$CMP 1N4148W-7-F
+D Diode Switching 150mA 100V 400mW SOD123 Diodes Inc 1N4148W-7-F Switching Diode 100V, 2-Pin SOD-123
+F https://componentsearchengine.com/Datasheets/2/1N4148W-7-F.pdf
+$ENDCMP
+#
+$CMP 1k
+D Thin Film Resistors - SMD 1K ohm 1% 1/16W
+F http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf
+$ENDCMP
+#
+$CMP 1uF
+D Taiyo Yuden JMK105BJ105KP-F 1F MLCC 6.3V dc +/-10% Tolerance SMD
+F https://componentsearchengine.com/Datasheets/1/JMK105BJ105KP-F.pdf
+$ENDCMP
+#
+$CMP 2.2uF
+D Capacitor MLCC GRM 0402 6.3V 2.2uF Murata 1005 GRM 2200nF Ceramic Multilayer Capacitor, 6.3 V dc, +85C, B Dielectric, +/-10%
+F https://psearch.en.murata.com/capacitor/product/GRM155B30J225KE95%23.html
+$ENDCMP
+#
+$CMP 2.2uF_tantalum
+D Tantalum Capacitors - Solid SMD 10V 2.2uF 10% 1206 ESR=6.5Ohm AEC-Q200
+$ENDCMP
+#
+$CMP 220
+D Thin Film Resistors - SMD 1/16W 220ohm 0.5% 25ppm
+F https://componentsearchengine.com/Datasheets/1/RR0510P-221-D.pdf
+$ENDCMP
+#
+$CMP 2k
+D Thin Film Resistors - SMD 1/16W 2K ohm 1% 50ppm
+F http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_8.pdf
+$ENDCMP
+#
+$CMP 32.768HKz
+D Crystals 32.768 KHz 12.5pF
+F https://www.ecsxtal.com/store/pdf/ecx-306x.pdf
+$ENDCMP
+#
+$CMP 3pF
+D Murata 0402 GJM 3pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-0.25pF SMD
+F https://componentsearchengine.com/Datasheets/1/GJM1555C1H3R0CB01D.pdf
+$ENDCMP
+#
+$CMP 4.7k
+D Thin Film Resistors - SMD 1/16W 4.7K ohm 1% 50ppm
+F http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf
+$ENDCMP
+#
+$CMP 4.7uF
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 4.7uF 6.3volts *Derate Voltage/Temp
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf
+$ENDCMP
+#
+$CMP 430
+D Thin Film Resistors - SMD
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_11.pdf
+$ENDCMP
+#
+$CMP 49.9k
+D Thin Film Resistors - SMD .200W 49.9Kohms .5% 0402 25ppm Hi Power
+F https://componentsearchengine.com/Datasheets/1/MCS0402PD4992DE500.pdf
+$ENDCMP
+#
+$CMP 5.1k
+D Panasonic ERA Series Thin Film Surface Mount Resistor 0402 Case 5.1k +/-0.1% 63mW +/-25ppm/C
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf
+$ENDCMP
+#
+$CMP 620
+D TE Connectivity CPF Series Precision Thin Film Surface Mount Resistor 0402 Case 620 +/-0.1% 0.063W +/-25ppm/C
+$ENDCMP
+#
+$CMP 74HC240PW,118
+D 74HC(T)240 - Octal buffer/line driver; 3-state; inverting@en-us
+F https://componentsearchengine.com/Datasheets/1/74HC240PW,118.pdf
+$ENDCMP
+#
+$CMP 74HCT3G14DP,125
+D 74HC(T)3G14 - Triple inverting Schmitt trigger@en-us
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT3G14.pdf
+$ENDCMP
+#
+$CMP 8.2pF
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 8.2pF C0G 0402 .1pF Tol
+$ENDCMP
+#
 $CMP 8432-11B1-RK-TP
 D PLCC32 socket IC & Component Sockets 32P PLCC SOCKET THRU-HOLE
 F https://componentsearchengine.com/Datasheets/1/8432-11B1-RK-TP.pdf
@@ -31,9 +142,34 @@ D Abracon 8MHz Crystal +/-10ppm 4-SMD, No Lead 5 x 3 x 1.1mm
 F https://abracon.com/Resonators/abm3b.pdf
 $ENDCMP
 #
+$CMP BLM15PX601SZ1D
+D BLM15_Z1D Series EMI Suppression Filter 600+/-25% at 100MHz 900mA @85
+F https://componentsearchengine.com/Datasheets/1/BLM15PX601SZ1D.pdf
+$ENDCMP
+#
+$CMP IS61C5128AS-25TLI
+D SRAM 4M (512Kx8) 25ns Async SRAM
+F https://componentsearchengine.com/Datasheets/1/IS61C5128AS-25TLI.pdf
+$ENDCMP
+#
 $CMP IS62C1024AL-35QLI
 D STATIC RAM
 F https://componentsearchengine.com/Datasheets/2/IS62C1024AL-35QLI.pdf
+$ENDCMP
+#
+$CMP JMK105BJ105KP-F
+D Taiyo Yuden JMK105BJ105KP-F 1F MLCC 6.3V dc +/-10% Tolerance SMD
+F https://componentsearchengine.com/Datasheets/1/JMK105BJ105KP-F.pdf
+$ENDCMP
+#
+$CMP LD1117S33TR
+D LDO Voltage Regulators 5.0V 0.8A Positive
+F https://ru.mouser.com/datasheet/2/389/cd00000544-1795431.pdf
+$ENDCMP
+#
+$CMP LD1117S50TR
+D LDO Voltage Regulators 5.0V 0.8A Positive
+F https://datasheet.lcsc.com/szlcsc/STMicroelectronics-LD1117S50TR_C134077.pdf
 $ENDCMP
 #
 $CMP NE555DR
@@ -56,6 +192,11 @@ D Triple 3 i/p NOR gate,SN74LS27N DIP14
 F http://www.ti.com/lit/gpn/sn74ls27
 $ENDCMP
 #
+$CMP SN74LS74ANSRG4
+D Flip Flop D-Type Pos-Edge 2-Element 14-Pin SOP T/R
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls74a
+$ENDCMP
+#
 $CMP TXB0108PWR
 D 8-Bit Bidirectional Voltage-Level Shifter with Auto Direction Sensing and +/-15-kV ESD Protect
 F http://www.ti.com/lit/ds/symlink/txb0108.pdf
@@ -64,36 +205,6 @@ $ENDCMP
 $CMP Z84C0020AEG
 D Microprocessors - MPU 20 MHZ Z80 CMOS CPU
 F https://componentsearchengine.com/Datasheets/1/Z84C0020AEG.pdf
-$ENDCMP
-#
-$CMP IS61C5128AS-25TLI
-D SRAM 4M (512Kx8) 25ns Async SRAM
-K
-F https://componentsearchengine.com/Datasheets/1/IS61C5128AS-25TLI.pdf
-$ENDCMP
-#
-$CMP 1N4148W-7-F
-D Diode Switching 150mA 100V 400mW SOD123 Diodes Inc 1N4148W-7-F Switching Diode 100V, 2-Pin SOD-123
-K
-F https://componentsearchengine.com/Datasheets/2/1N4148W-7-F.pdf
-$ENDCMP
-#
-$CMP 74HCT3G14DP,125
-D 74HC(T)3G14 - Triple inverting Schmitt trigger@en-us
-K
-F https://assets.nexperia.com/documents/data-sheet/74HC_HCT3G14.pdf
-$ENDCMP
-#
-$CMP SN74LS74ANSRG4
-D Flip Flop D-Type Pos-Edge 2-Element 14-Pin SOP T/R
-K
-F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls74a
-$ENDCMP
-#
-$CMP 74HC240PW,118
-D 74HC(T)240 - Octal buffer/line driver; 3-state; inverting@en-us
-K
-F https://componentsearchengine.com/Datasheets/1/74HC240PW,118.pdf
 $ENDCMP
 #
 #End Doc Library

@@ -15,53 +15,12 @@ Comment4 ""
 $EndDescr
 Text HLabel 950  2200 0    50   Input ~ 0
 TAPE_IN
-$Comp
-L Device:C C69
-U 1 1 5F633B63
-P 1300 2200
-F 0 "C69" V 1048 2200 50  0000 C CNN
-F 1 "1.0" V 1139 2200 50  0000 C CNN
-F 2 "" H 1338 2050 50  0001 C CNN
-F 3 "~" H 1300 2200 50  0001 C CNN
-	1    1300 2200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:CP C68
-U 1 1 5F636BB7
-P 1600 1850
-F 0 "C68" H 1718 1896 50  0000 L CNN
-F 1 "10.0" H 1718 1805 50  0000 L CNN
-F 2 "" H 1638 1700 50  0001 C CNN
-F 3 "~" H 1600 1850 50  0001 C CNN
-	1    1600 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R35
-U 1 1 5F6386E6
-P 1900 2200
-F 0 "R35" V 1693 2200 50  0000 C CNN
-F 1 "620" V 1784 2200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 1830 2200 50  0001 C CNN
-F 3 "~" H 1900 2200 50  0001 C CNN
-	1    1900 2200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1450 2200 1600 2200
-Wire Wire Line
-	1600 2200 1600 2000
 Connection ~ 1600 2200
-Wire Wire Line
-	1600 2200 1750 2200
-Wire Wire Line
-	1150 2200 950  2200
 $Comp
-L power:GND #PWR065
+L power:GND #PWR068
 U 1 1 5F655480
 P 1600 950
-F 0 "#PWR065" H 1600 700 50  0001 C CNN
+F 0 "#PWR068" H 1600 700 50  0001 C CNN
 F 1 "GND" H 1605 777 50  0000 C CNN
 F 2 "" H 1600 950 50  0001 C CNN
 F 3 "" H 1600 950 50  0001 C CNN
@@ -77,10 +36,10 @@ Wire Wire Line
 Text HLabel 8000 4350 0    50   Input ~ 0
 D4
 $Comp
-L 74xx:74LS175 U12
+L 74xx:74LS175 U7
 U 1 1 5F70FF3A
 P 2000 5200
-F 0 "U12" H 2000 6081 50  0000 C CNN
+F 0 "U7" H 2000 6081 50  0000 C CNN
 F 1 "74LS175" H 2000 5990 50  0000 C CNN
 F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 2000 5200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS175" H 2000 5200 50  0001 C CNN
@@ -89,10 +48,10 @@ F 4 " 595-SN74LS175DR " H 2000 5200 50  0001 C CNN "Mouser Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR071
+L power:GND #PWR077
 U 1 1 5F7115B3
 P 2000 6100
-F 0 "#PWR071" H 2000 5850 50  0001 C CNN
+F 0 "#PWR077" H 2000 5850 50  0001 C CNN
 F 1 "GND" H 2005 5927 50  0000 C CNN
 F 2 "" H 2000 6100 50  0001 C CNN
 F 3 "" H 2000 6100 50  0001 C CNN
@@ -100,10 +59,10 @@ F 3 "" H 2000 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR070
+L power:+5V #PWR076
 U 1 1 5F717360
 P 1150 5700
-F 0 "#PWR070" H 1150 5550 50  0001 C CNN
+F 0 "#PWR076" H 1150 5550 50  0001 C CNN
 F 1 "+5V" V 1165 5828 50  0000 L CNN
 F 2 "" H 1150 5700 50  0001 C CNN
 F 3 "" H 1150 5700 50  0001 C CNN
@@ -132,39 +91,6 @@ Wire Wire Line
 	1150 5200 1500 5200
 Wire Wire Line
 	1150 5400 1500 5400
-$Comp
-L Device:C C72
-U 1 1 5F766718
-P 2650 5800
-F 0 "C72" H 2535 5754 50  0000 R CNN
-F 1 "0.22uF" H 2535 5845 50  0000 R CNN
-F 2 "" H 2688 5650 50  0001 C CNN
-F 3 "~" H 2650 5800 50  0001 C CNN
-	1    2650 5800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C73
-U 1 1 5F767366
-P 3100 6350
-F 0 "C73" V 3352 6350 50  0000 C CNN
-F 1 "0.1uF" V 3261 6350 50  0000 C CNN
-F 2 "" H 3138 6200 50  0001 C CNN
-F 3 "~" H 3100 6350 50  0001 C CNN
-	1    3100 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R37
-U 1 1 5F768081
-P 2650 6350
-F 0 "R37" H 2580 6304 50  0000 R CNN
-F 1 "10k" H 2580 6395 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 2580 6350 50  0001 C CNN
-F 3 "~" H 2650 6350 50  0001 C CNN
-	1    2650 6350
-	-1   0    0    1   
-$EndComp
 Text HLabel 2650 6700 3    50   Input ~ 0
 TAPE_OUT
 Wire Wire Line
@@ -176,10 +102,10 @@ Wire Wire Line
 Wire Wire Line
 	2000 6000 2000 6100
 $Comp
-L power:GND #PWR072
+L power:GND #PWR078
 U 1 1 5F7FCD41
 P 3100 6700
-F 0 "#PWR072" H 3100 6450 50  0001 C CNN
+F 0 "#PWR078" H 3100 6450 50  0001 C CNN
 F 1 "GND" H 3105 6527 50  0000 C CNN
 F 2 "" H 3100 6700 50  0001 C CNN
 F 3 "" H 3100 6700 50  0001 C CNN
@@ -189,20 +115,8 @@ $EndComp
 Wire Wire Line
 	2500 5400 2650 5400
 Wire Wire Line
-	2650 5400 2650 5650
-Wire Wire Line
-	2650 5950 2650 6100
-Wire Wire Line
-	3100 6200 3100 6100
-Wire Wire Line
 	3100 6100 2650 6100
 Connection ~ 2650 6100
-Wire Wire Line
-	2650 6100 2650 6200
-Wire Wire Line
-	2650 6500 2650 6700
-Wire Wire Line
-	3100 6500 3100 6700
 Text HLabel 3900 4800 2    50   Input ~ 0
 BORDER_COLOR_0
 Text HLabel 3900 5000 2    50   Input ~ 0
@@ -301,10 +215,10 @@ Wire Wire Line
 	1450 950  1450 1000
 Connection ~ 1600 950 
 $Comp
-L SamacSys_Parts:74HCT3G14DP,125 IC13
+L SamacSys_Parts:74HCT3G14DP,125 IC14
 U 1 1 5F6A771D
 P 2850 2450
-F 0 "IC13" H 3350 2715 50  0000 C CNN
+F 0 "IC14" H 3350 2715 50  0000 C CNN
 F 1 "74HCT3G14DP,125" H 3350 2624 50  0000 C CNN
 F 2 "SamacSys_Parts:SOP65P400X110-8N" H 3700 2550 50  0001 L CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT3G14.pdf" H 3700 2450 50  0001 L CNN
@@ -322,10 +236,10 @@ Wire Wire Line
 Wire Wire Line
 	6600 4050 6600 3950
 $Comp
-L power:GND #PWR068
+L power:GND #PWR070
 U 1 1 5F629796
 P 6600 4050
-F 0 "#PWR068" H 6600 3800 50  0001 C CNN
+F 0 "#PWR070" H 6600 3800 50  0001 C CNN
 F 1 "GND" H 6605 3877 50  0000 C CNN
 F 2 "" H 6600 4050 50  0001 C CNN
 F 3 "" H 6600 4050 50  0001 C CNN
@@ -350,10 +264,10 @@ Wire Wire Line
 Wire Wire Line
 	6600 2350 6950 2350
 $Comp
-L power:+5V #PWR066
+L power:+5V #PWR069
 U 1 1 5F62BD91
 P 6950 2200
-F 0 "#PWR066" H 6950 2050 50  0001 C CNN
+F 0 "#PWR069" H 6950 2050 50  0001 C CNN
 F 1 "+5V" H 6965 2373 50  0000 C CNN
 F 2 "" H 6950 2200 50  0001 C CNN
 F 3 "" H 6950 2200 50  0001 C CNN
@@ -392,66 +306,23 @@ Wire Wire Line
 	7100 2650 7550 2650
 Text Label 5600 2750 0    50   ~ 0
 TAPE_IN_DIGIT
-$Comp
-L Device:C C71
-U 1 1 5F6C9F7A
-P 4150 2550
-F 0 "C71" V 3898 2550 50  0000 C CNN
-F 1 "0.1uF" V 3989 2550 50  0000 C CNN
-F 2 "" H 4188 2400 50  0001 C CNN
-F 3 "~" H 4150 2550 50  0001 C CNN
-	1    4150 2550
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4300 2550 4300 2650
 Wire Wire Line
 	4300 2650 3850 2650
 Wire Wire Line
 	2850 2550 2750 2550
-$Comp
-L Device:C C70
-U 1 1 5F6CE3D2
-P 2550 2550
-F 0 "C70" V 2298 2550 50  0000 C CNN
-F 1 "0.1uF" V 2389 2550 50  0000 C CNN
-F 2 "" H 2588 2400 50  0001 C CNN
-F 3 "~" H 2550 2550 50  0001 C CNN
-	1    2550 2550
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R34
-U 1 1 5F6CEC88
-P 3600 3200
-F 0 "R34" V 3393 3200 50  0000 C CNN
-F 1 "100k" V 3484 3200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 3530 3200 50  0001 C CNN
-F 3 "~" H 3600 3200 50  0001 C CNN
-	1    3600 3200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4300 2650 4300 3200
-Wire Wire Line
-	4300 3200 3750 3200
 Connection ~ 4300 2650
-Wire Wire Line
-	3450 3200 2750 3200
 Wire Wire Line
 	2750 3200 2750 2550
 Connection ~ 2750 2550
-Wire Wire Line
-	2750 2550 2700 2550
 Wire Wire Line
 	2400 2550 2400 2650
 Wire Wire Line
 	2400 2650 2850 2650
 Connection ~ 3950 2550
-Wire Wire Line
-	3950 2550 4000 2550
-Wire Wire Line
-	2050 2200 2750 2200
 Connection ~ 2750 2200
 Wire Wire Line
 	2750 2450 2850 2450
@@ -473,10 +344,10 @@ Wire Wire Line
 Wire Wire Line
 	3850 2750 6100 2750
 $Comp
-L SamacSys_Parts:SN74LS74ANSRG4 IC14
+L SamacSys_Parts:SN74LS74ANSRG4 IC15
 U 1 1 5F710322
 P 8400 4250
-F 0 "IC14" H 9000 4515 50  0000 C CNN
+F 0 "IC15" H 9000 4515 50  0000 C CNN
 F 1 "SN74LS74ANSRG4" H 9000 4424 50  0000 C CNN
 F 2 "SamacSys_Parts:SOIC127P780X200-14N" H 9450 4350 50  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls74a" H 9450 4250 50  0001 L CNN
@@ -506,29 +377,14 @@ Wire Wire Line
 	8400 4650 8250 4650
 Text HLabel 8100 4650 0    50   Input ~ 0
 SOUND
-$Comp
-L Device:R R36
-U 1 1 5F7237B3
-P 8250 4900
-F 0 "R36" H 8320 4946 50  0000 L CNN
-F 1 "430" H 8320 4855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 8180 4900 50  0001 C CNN
-F 3 "~" H 8250 4900 50  0001 C CNN
-	1    8250 4900
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	8250 4750 8250 4650
 Connection ~ 8250 4650
 Wire Wire Line
 	8250 4650 8100 4650
-Wire Wire Line
-	8250 5050 8250 5150
 $Comp
-L power:+5V #PWR067
+L power:+5V #PWR071
 U 1 1 5F72891D
 P 8400 4250
-F 0 "#PWR067" H 8400 4100 50  0001 C CNN
+F 0 "#PWR071" H 8400 4100 50  0001 C CNN
 F 1 "+5V" H 8415 4423 50  0000 C CNN
 F 2 "" H 8400 4250 50  0001 C CNN
 F 3 "" H 8400 4250 50  0001 C CNN
@@ -536,10 +392,10 @@ F 3 "" H 8400 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR069
+L power:+5V #PWR072
 U 1 1 5F728E5F
 P 9600 4250
-F 0 "#PWR069" H 9600 4100 50  0001 C CNN
+F 0 "#PWR072" H 9600 4100 50  0001 C CNN
 F 1 "+5V" H 9615 4423 50  0000 C CNN
 F 2 "" H 9600 4250 50  0001 C CNN
 F 3 "" H 9600 4250 50  0001 C CNN
@@ -580,10 +436,10 @@ NoConn ~ 9600 4850
 Wire Wire Line
 	7100 3150 7550 3150
 $Comp
-L 74xx:74LS244 U10
+L 74xx:74LS244 U6
 U 1 1 5F5F9FD0
 P 6600 3150
-F 0 "U10" H 6600 4131 50  0000 C CNN
+F 0 "U6" H 6600 4131 50  0000 C CNN
 F 1 "74LS244" H 6600 4040 50  0000 C CNN
 F 2 "Package_SO:SSOP-20_5.3x7.2mm_P0.65mm" H 6600 3150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS244" H 6600 3150 50  0001 C CNN
@@ -591,5 +447,213 @@ F 4 " 595-SN74LS244DBR " H 6600 3150 50  0001 C CNN "Mouser Part Number"
 F 5 "SN74LS244DBR " H 6600 3150 50  0001 C CNN "Manufacturer_Part_Number"
 	1    6600 3150
 	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3200 4300 3200
+Wire Wire Line
+	2750 3200 3500 3200
+Wire Wire Line
+	2650 2550 2750 2550
+Wire Wire Line
+	2450 2550 2400 2550
+Wire Wire Line
+	3950 2550 4050 2550
+Wire Wire Line
+	4250 2550 4300 2550
+Wire Wire Line
+	2000 2200 2750 2200
+Wire Wire Line
+	1600 2200 1800 2200
+Wire Wire Line
+	1400 2200 1600 2200
+Wire Wire Line
+	950  2200 1200 2200
+Wire Wire Line
+	1600 1750 1600 1700
+Wire Wire Line
+	1600 1950 1600 2200
+Wire Wire Line
+	8250 4650 8250 4800
+Wire Wire Line
+	8250 5000 8250 5150
+Wire Wire Line
+	2650 6100 2650 6250
+Wire Wire Line
+	2650 6450 2650 6700
+Wire Wire Line
+	3100 6450 3100 6700
+Wire Wire Line
+	3100 6100 3100 6250
+Wire Wire Line
+	2650 5400 2650 5700
+Wire Wire Line
+	2650 5900 2650 6100
+$Comp
+L SamacSys_Parts:100nF C70
+U 1 1 5F815B9D
+P 2550 2550
+F 0 "C70" V 2321 2550 50  0000 C CNN
+F 1 "100nF" V 2412 2550 50  0000 C CNN
+F 2 "CAPC1005X55N" H 2650 2400 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 2650 2300 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 2650 2200 50  0001 L CNN "Description"
+F 5 "0.55" H 2650 2100 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 2650 2000 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 2650 1900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 2650 1800 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 2650 1700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2550 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:100nF C71
+U 1 1 5F816114
+P 4150 2550
+F 0 "C71" V 3921 2550 50  0000 C CNN
+F 1 "100nF" V 4012 2550 50  0000 C CNN
+F 2 "CAPC1005X55N" H 4250 2400 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 4250 2300 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 4250 2200 50  0001 L CNN "Description"
+F 5 "0.55" H 4250 2100 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 4250 2000 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 4250 1900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 4250 1800 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 4250 1700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4150 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:100nF C73
+U 1 1 5F81713C
+P 3100 6350
+F 0 "C73" H 3008 6304 50  0000 R CNN
+F 1 "100nF" H 3008 6395 50  0000 R CNN
+F 2 "CAPC1005X55N" H 3200 6200 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3200 6100 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H 3200 6000 50  0001 L CNN "Description"
+F 5 "0.55" H 3200 5900 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H 3200 5800 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H 3200 5700 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H 3200 5600 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H 3200 5500 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3100 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L SamacSys_Parts:10uF C68
+U 1 1 5F8B7BB4
+P 1600 1850
+F 0 "C68" H 1692 1896 50  0000 L CNN
+F 1 "10uF" H 1692 1805 50  0000 L CNN
+F 2 "CAPC1005X55N" H 1700 1700 50  0001 L CNN
+F 3 "" H 1700 1600 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 20% 6.3 Volts 0402" H 1700 1500 50  0001 L CNN "Description"
+F 5 "0.55" H 1700 1400 50  0001 L CNN "Height"
+F 6 "791-0402X106M6R3CT" H 1700 1300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Walsin/0402X106M6R3CT?qs=K66U1JmYfS7Y7bXr0va0Xw%3D%3D" H 1700 1200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Walsin Technology Corporation" H 1700 1100 50  0001 L CNN "Manufacturer_Name"
+F 9 "0402X106M6R3CT" H 1700 1000 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:1uF C69
+U 1 1 5F8B90F4
+P 1300 2200
+F 0 "C69" V 1071 2200 50  0000 C CNN
+F 1 "1uF" V 1162 2200 50  0000 C CNN
+F 2 "CAPC1005X33N" H 1400 2050 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/JMK105BJ105KP-F.pdf" H 1400 1950 50  0001 L CNN
+F 4 "Taiyo Yuden JMK105BJ105KP-F 1F MLCC 6.3V dc +/-10% Tolerance SMD" H 1400 1850 50  0001 L CNN "Description"
+F 5 "0.33" H 1400 1750 50  0001 L CNN "Height"
+F 6 "963-JMK105BJ105KP-F" H 1400 1650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/JMK105BJ105KP-F?qs=vF%252B8ahGVilcfgxT2k6hjqQ%3D%3D" H 1400 1550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "TAIYO YUDEN" H 1400 1450 50  0001 L CNN "Manufacturer_Name"
+F 9 "JMK105BJ105KP-F" H 1400 1350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1300 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:0.22uF C72
+U 1 1 5F8C143E
+P 2650 5800
+F 0 "C72" H 2742 5846 50  0000 L CNN
+F 1 "0.22uF" H 2742 5755 50  0000 L CNN
+F 2 "CAPC1005X56N" H 2750 5650 50  0001 L CNN
+F 3 "" H 2750 5550 50  0001 L CNN
+F 4 "" H 2750 5450 50  0001 L CNN "Description"
+F 5 "0.56" H 2750 5350 50  0001 L CNN "Height"
+F 6 "581-0402ZD224K" H 2750 5250 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/AVX/0402ZD224KAT2A?qs=q%252BYstVZXB1kcnMe2oVlTyQ%3D%3D" H 2750 5150 50  0001 L CNN "Mouser Price/Stock"
+F 8 "AVX" H 2750 5050 50  0001 L CNN "Manufacturer_Name"
+F 9 "0402ZD224KAT2A" H 2750 4950 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2650 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:10k R38
+U 1 1 5F90EB5D
+P 2650 6350
+F 0 "R38" H 2563 6304 50  0000 R CNN
+F 1 "10k" H 2563 6395 50  0000 R CNN
+F 2 "RESC1005X37N" H 2700 6200 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/MCS0402MC1002FE000.pdf" H 2700 6100 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD .1W 10Kohms 1% 0402 50ppm Auto" H 2700 6000 50  0001 L CNN "Description"
+F 5 "0.37" H 2700 5900 50  0001 L CNN "Height"
+F 6 "594-MCS0402MC1002FE0" H 2700 5800 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCS0402MC1002FE0" H 2700 5700 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Vishay" H 2700 5600 50  0001 L CNN "Manufacturer_Name"
+F 9 "MCS0402MC1002FE000" H 2700 5500 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2650 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L SamacSys_Parts:100k R36
+U 1 1 5F923994
+P 3600 3200
+F 0 "R36" V 3375 3200 50  0000 C CNN
+F 1 "100k" V 3466 3200 50  0000 C CNN
+F 2 "RESC1005X40N" H 3650 3050 50  0001 L CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 3650 2950 50  0001 L CNN
+F 4 "Panasonic ERA Series Thin Film Surface Mount Resistor 0402 Case 100k +/-0.5% 63mW +/-25ppm/C" H 3650 2850 50  0001 L CNN "Description"
+F 5 "0.4" H 3650 2750 50  0001 L CNN "Height"
+F 6 "667-ERA-2AED104X" H 3650 2650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-2AED104X?qs=nho8PGNfA6oWiExMQMbJyw%3D%3D" H 3650 2550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 3650 2450 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERA-2AED104X" H 3650 2350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3600 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:620 R35
+U 1 1 5F969489
+P 1900 2200
+F 0 "R35" V 1675 2200 50  0000 C CNN
+F 1 "620" V 1766 2200 50  0000 C CNN
+F 2 "RESC1005X35N" H 1950 2050 50  0001 L CNN
+F 3 "" H 1950 1950 50  0001 L CNN
+F 4 "TE Connectivity CPF Series Precision Thin Film Surface Mount Resistor 0402 Case 620 +/-0.1% 0.063W +/-25ppm/C" H 1950 1850 50  0001 L CNN "Description"
+F 5 "0.35" H 1950 1750 50  0001 L CNN "Height"
+F 6 "TE Connectivity" H 1950 1450 50  0001 L CNN "Manufacturer_Name"
+F 7 "CPF0402B620RE1" H 1950 1350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1900 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:430 R37
+U 1 1 5F96A0B8
+P 8250 4900
+F 0 "R37" H 8450 4850 50  0000 R CNN
+F 1 "430" H 8450 4950 50  0000 R CNN
+F 2 "RESC1005X35N" H 8300 4750 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 8300 4650 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD" H 8300 4550 50  0001 L CNN "Description"
+F 5 "0.35" H 8300 4450 50  0001 L CNN "Height"
+F 6 "603-RT0402FRE07430RL" H 8300 4350 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RT0402FRE07430RL?qs=gY0y7AQI9SOig4wFT5o%2FZQ%3D%3D" H 8300 4250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 8300 4150 50  0001 L CNN "Manufacturer_Name"
+F 9 "RT0402FRE07430RL" H 8300 4050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8250 4900
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC

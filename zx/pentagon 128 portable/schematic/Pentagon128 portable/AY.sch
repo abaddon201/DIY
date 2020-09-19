@@ -139,105 +139,6 @@ Wire Wire Line
 	3750 2300 3750 2100
 Wire Wire Line
 	3350 4700 3350 4850
-$Comp
-L Device:R R16
-U 1 1 5F5C365A
-P 5500 1850
-F 0 "R16" H 5570 1896 50  0000 L CNN
-F 1 "4.7k" H 5570 1805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5430 1850 50  0001 C CNN
-F 3 "~" H 5500 1850 50  0001 C CNN
-	1    5500 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R17
-U 1 1 5F5C4183
-P 5850 1850
-F 0 "R17" H 5920 1896 50  0000 L CNN
-F 1 "4.7k" H 5920 1805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5780 1850 50  0001 C CNN
-F 3 "~" H 5850 1850 50  0001 C CNN
-	1    5850 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R21
-U 1 1 5F5C440C
-P 5500 2900
-F 0 "R21" H 5570 2946 50  0000 L CNN
-F 1 "2k" H 5570 2855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5430 2900 50  0001 C CNN
-F 3 "~" H 5500 2900 50  0001 C CNN
-	1    5500 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R23
-U 1 1 5F5C4CDD
-P 6900 2900
-F 0 "R23" H 6970 2946 50  0000 L CNN
-F 1 "5.1k" H 6970 2855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 6830 2900 50  0001 C CNN
-F 3 "~" H 6900 2900 50  0001 C CNN
-	1    6900 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R18
-U 1 1 5F5C4FC7
-P 6850 1850
-F 0 "R18" H 6920 1896 50  0000 L CNN
-F 1 "5.1k" H 6920 1805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 6780 1850 50  0001 C CNN
-F 3 "~" H 6850 1850 50  0001 C CNN
-	1    6850 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R19
-U 1 1 5F5C547E
-P 4950 2150
-F 0 "R19" V 4743 2150 50  0000 C CNN
-F 1 "1k" V 4834 2150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4880 2150 50  0001 C CNN
-F 3 "~" H 4950 2150 50  0001 C CNN
-	1    4950 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R20
-U 1 1 5F5C5A5C
-P 4950 2650
-F 0 "R20" V 4743 2650 50  0000 C CNN
-F 1 "1k" V 4834 2650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4880 2650 50  0001 C CNN
-F 3 "~" H 4950 2650 50  0001 C CNN
-	1    4950 2650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:CP C57
-U 1 1 5F5C5F2C
-P 7400 2150
-F 0 "C57" V 7145 2150 50  0000 C CNN
-F 1 "10.0uF" V 7236 2150 50  0000 C CNN
-F 2 "" H 7438 2000 50  0001 C CNN
-F 3 "~" H 7400 2150 50  0001 C CNN
-	1    7400 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:CP C58
-U 1 1 5F5C6BAA
-P 7400 2650
-F 0 "C58" V 7145 2650 50  0000 C CNN
-F 1 "10.0uF" V 7236 2650 50  0000 C CNN
-F 2 "" H 7438 2500 50  0001 C CNN
-F 3 "~" H 7400 2650 50  0001 C CNN
-	1    7400 2650
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7250 2150 6850 2150
 Wire Wire Line
@@ -246,14 +147,10 @@ Wire Wire Line
 	5500 2750 5500 2650
 Connection ~ 5500 2650
 Wire Wire Line
-	5500 2650 5100 2650
-Wire Wire Line
 	5500 2650 5500 2000
 Wire Wire Line
 	5850 2000 5850 2150
 Connection ~ 5850 2150
-Wire Wire Line
-	5850 2150 5100 2150
 Wire Wire Line
 	5850 2150 5850 2750
 Wire Wire Line
@@ -269,50 +166,46 @@ Wire Wire Line
 $Comp
 L power:GND #PWR036
 U 1 1 5F5CDE29
-P 6900 3150
-F 0 "#PWR036" H 6900 2900 50  0001 C CNN
-F 1 "GND" H 6905 2977 50  0000 C CNN
-F 2 "" H 6900 3150 50  0001 C CNN
-F 3 "" H 6900 3150 50  0001 C CNN
-	1    6900 3150
+P 6900 3050
+F 0 "#PWR036" H 6900 2800 50  0001 C CNN
+F 1 "GND" H 6905 2877 50  0000 C CNN
+F 2 "" H 6900 3050 50  0001 C CNN
+F 3 "" H 6900 3050 50  0001 C CNN
+	1    6900 3050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR034
 U 1 1 5F5CE47F
-P 6850 1600
-F 0 "#PWR034" H 6850 1350 50  0001 C CNN
-F 1 "GND" H 6855 1427 50  0000 C CNN
-F 2 "" H 6850 1600 50  0001 C CNN
-F 3 "" H 6850 1600 50  0001 C CNN
-	1    6850 1600
+P 6850 1700
+F 0 "#PWR034" H 6850 1450 50  0001 C CNN
+F 1 "GND" H 6855 1527 50  0000 C CNN
+F 2 "" H 6850 1700 50  0001 C CNN
+F 3 "" H 6850 1700 50  0001 C CNN
+	1    6850 1700
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6850 1600 6850 1700
+	6850 1700 6850 1800
 Wire Wire Line
-	6900 3050 6900 3150
+	6900 2950 6900 3050
 Wire Wire Line
-	5850 1700 5850 1550
+	5850 1800 5850 1650
 Wire Wire Line
-	5850 1550 5700 1550
+	5850 1650 5700 1650
 Wire Wire Line
-	5500 1550 5500 1700
+	5500 1650 5500 1800
 Wire Wire Line
-	5700 1550 5700 1250
+	5700 1650 5700 1350
 Wire Wire Line
-	5700 1250 4550 1250
-Connection ~ 5700 1550
+	5700 1350 4550 1350
+Connection ~ 5700 1650
 Wire Wire Line
-	5700 1550 5500 1550
-Text HLabel 4550 1250 0    50   Input ~ 0
+	5700 1650 5500 1650
+Text HLabel 4550 1350 0    50   Input ~ 0
 SOUND
 Wire Wire Line
-	5500 3050 5500 3200
-Wire Wire Line
 	5500 3200 5700 3200
-Wire Wire Line
-	5850 3200 5850 3050
 Wire Wire Line
 	5700 3200 5700 3400
 Wire Wire Line
@@ -336,23 +229,190 @@ Wire Wire Line
 	4650 2700 4650 2650
 Wire Wire Line
 	4650 2650 4800 2650
-Text HLabel 7900 2150 2    50   Input ~ 0
+Text HLabel 7800 2150 2    50   Input ~ 0
 SOUND_RIGHT
-Text HLabel 7900 2650 2    50   Input ~ 0
+Text HLabel 7800 2650 2    50   Input ~ 0
 SOUND_LEFT
 Wire Wire Line
-	7550 2150 7900 2150
+	7450 2150 7800 2150
 Wire Wire Line
-	7550 2650 7900 2650
+	7450 2650 7800 2650
 $Comp
-L Device:R R22
-U 1 1 5F5C4893
-P 5850 2900
-F 0 "R22" H 5920 2946 50  0000 L CNN
-F 1 "2k" H 5920 2855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5780 2900 50  0001 C CNN
-F 3 "~" H 5850 2900 50  0001 C CNN
-	1    5850 2900
+L SamacSys_Parts:10uF C57
+U 1 1 5F8B1D34
+P 7350 2150
+F 0 "C57" V 7121 2150 50  0000 C CNN
+F 1 "10uF" V 7212 2150 50  0000 C CNN
+F 2 "CAPC1005X55N" H 7450 2000 50  0001 L CNN
+F 3 "" H 7450 1900 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 20% 6.3 Volts 0402" H 7450 1800 50  0001 L CNN "Description"
+F 5 "0.55" H 7450 1700 50  0001 L CNN "Height"
+F 6 "791-0402X106M6R3CT" H 7450 1600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Walsin/0402X106M6R3CT?qs=K66U1JmYfS7Y7bXr0va0Xw%3D%3D" H 7450 1500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Walsin Technology Corporation" H 7450 1400 50  0001 L CNN "Manufacturer_Name"
+F 9 "0402X106M6R3CT" H 7450 1300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7350 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:10uF C58
+U 1 1 5F8B27E1
+P 7350 2650
+F 0 "C58" V 7121 2650 50  0000 C CNN
+F 1 "10uF" V 7212 2650 50  0000 C CNN
+F 2 "CAPC1005X55N" H 7450 2500 50  0001 L CNN
+F 3 "" H 7450 2400 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 20% 6.3 Volts 0402" H 7450 2300 50  0001 L CNN "Description"
+F 5 "0.55" H 7450 2200 50  0001 L CNN "Height"
+F 6 "791-0402X106M6R3CT" H 7450 2100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Walsin/0402X106M6R3CT?qs=K66U1JmYfS7Y7bXr0va0Xw%3D%3D" H 7450 2000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Walsin Technology Corporation" H 7450 1900 50  0001 L CNN "Manufacturer_Name"
+F 9 "0402X106M6R3CT" H 7450 1800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7350 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:4.7k R17
+U 1 1 5F8D5C65
+P 5500 1900
+F 0 "R17" H 5558 1946 50  0000 L CNN
+F 1 "4.7k" H 5558 1855 50  0000 L CNN
+F 2 "RESC1005X35N" H 5600 1750 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 5600 1650 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD 1/16W 4.7K ohm 1% 50ppm" H 5600 1550 50  0001 L CNN "Description"
+F 5 "0.35" H 5600 1450 50  0001 L CNN "Height"
+F 6 "603-RT0402FRE074K7L" H 5600 1350 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-RT0402FRE074K7L" H 5600 1250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 5600 1150 50  0001 L CNN "Manufacturer_Name"
+F 9 "RT0402FRE074K7L" H 5600 1050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5500 1900
 	1    0    0    -1  
 $EndComp
+$Comp
+L SamacSys_Parts:4.7k R18
+U 1 1 5F8D6232
+P 5850 1900
+F 0 "R18" H 5908 1946 50  0000 L CNN
+F 1 "4.7k" H 5908 1855 50  0000 L CNN
+F 2 "RESC1005X35N" H 5950 1750 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 5950 1650 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD 1/16W 4.7K ohm 1% 50ppm" H 5950 1550 50  0001 L CNN "Description"
+F 5 "0.35" H 5950 1450 50  0001 L CNN "Height"
+F 6 "603-RT0402FRE074K7L" H 5950 1350 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-RT0402FRE074K7L" H 5950 1250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 5950 1150 50  0001 L CNN "Manufacturer_Name"
+F 9 "RT0402FRE074K7L" H 5950 1050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5850 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:5.1k R16
+U 1 1 5F933375
+P 6850 1900
+F 0 "R16" H 6908 1946 50  0000 L CNN
+F 1 "5.1k" H 6908 1855 50  0000 L CNN
+F 2 "RESC1005X40N" H 6900 1750 50  0001 L CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 6900 1650 50  0001 L CNN
+F 4 "Panasonic ERA Series Thin Film Surface Mount Resistor 0402 Case 5.1k +/-0.1% 63mW +/-25ppm/C" H 6900 1550 50  0001 L CNN "Description"
+F 5 "0.4" H 6900 1450 50  0001 L CNN "Height"
+F 6 "667-ERA-2AEB512X" H 6900 1350 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-2AEB512X?qs=YFwoyZoVY0ghygGvNfkWgQ%3D%3D" H 6900 1250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 6900 1150 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERA-2AEB512X" H 6900 1050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6850 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:5.1k R23
+U 1 1 5F93399B
+P 6900 2850
+F 0 "R23" H 6958 2896 50  0000 L CNN
+F 1 "5.1k" H 6958 2805 50  0000 L CNN
+F 2 "RESC1005X40N" H 6950 2700 50  0001 L CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H 6950 2600 50  0001 L CNN
+F 4 "Panasonic ERA Series Thin Film Surface Mount Resistor 0402 Case 5.1k +/-0.1% 63mW +/-25ppm/C" H 6950 2500 50  0001 L CNN "Description"
+F 5 "0.4" H 6950 2400 50  0001 L CNN "Height"
+F 6 "667-ERA-2AEB512X" H 6950 2300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-2AEB512X?qs=YFwoyZoVY0ghygGvNfkWgQ%3D%3D" H 6950 2200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 6950 2100 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERA-2AEB512X" H 6950 2000 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6900 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:1k R19
+U 1 1 5F93DAD2
+P 4900 2150
+F 0 "R19" V 4675 2150 50  0000 C CNN
+F 1 "1k" V 4766 2150 50  0000 C CNN
+F 2 "RESC1005X35N" H 4950 2000 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 4950 1900 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD 1K ohm 1% 1/16W" H 4950 1800 50  0001 L CNN "Description"
+F 5 "0.35" H 4950 1700 50  0001 L CNN "Height"
+F 6 "603-RT0402FRE071KL" H 4950 1600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RT0402FRE071KL?qs=BXCcY9r%252B08AJmLKodK5LLA%3D%3D" H 4950 1500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 4950 1400 50  0001 L CNN "Manufacturer_Name"
+F 9 "RT0402FRE071KL" H 4950 1300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4900 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:1k R20
+U 1 1 5F93E57E
+P 4900 2650
+F 0 "R20" V 4675 2650 50  0000 C CNN
+F 1 "1k" V 4766 2650 50  0000 C CNN
+F 2 "RESC1005X35N" H 4950 2500 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 4950 2400 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD 1K ohm 1% 1/16W" H 4950 2300 50  0001 L CNN "Description"
+F 5 "0.35" H 4950 2200 50  0001 L CNN "Height"
+F 6 "603-RT0402FRE071KL" H 4950 2100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RT0402FRE071KL?qs=BXCcY9r%252B08AJmLKodK5LLA%3D%3D" H 4950 2000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 4950 1900 50  0001 L CNN "Manufacturer_Name"
+F 9 "RT0402FRE071KL" H 4950 1800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4900 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 2150 5850 2150
+Wire Wire Line
+	5000 2650 5500 2650
+$Comp
+L SamacSys_Parts:2k R21
+U 1 1 5F949D64
+P 5500 2850
+F 0 "R21" H 5559 2896 50  0000 L CNN
+F 1 "2k" H 5559 2805 50  0000 L CNN
+F 2 "RESC1005X35N" H 5550 2700 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_8.pdf" H 5550 2600 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD 1/16W 2K ohm 1% 50ppm" H 5550 2500 50  0001 L CNN "Description"
+F 5 "0.35" H 5550 2400 50  0001 L CNN "Height"
+F 6 "603-RT0402FRE072KL" H 5550 2300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RT0402FRE072KL?qs=BXCcY9r%252B08AaoyuNta8Ffg%3D%3D" H 5550 2200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 5550 2100 50  0001 L CNN "Manufacturer_Name"
+F 9 "RT0402FRE072KL" H 5550 2000 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:2k R22
+U 1 1 5F94A449
+P 5850 2850
+F 0 "R22" H 5909 2896 50  0000 L CNN
+F 1 "2k" H 5909 2805 50  0000 L CNN
+F 2 "RESC1005X35N" H 5900 2700 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_8.pdf" H 5900 2600 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD 1/16W 2K ohm 1% 50ppm" H 5900 2500 50  0001 L CNN "Description"
+F 5 "0.35" H 5900 2400 50  0001 L CNN "Height"
+F 6 "603-RT0402FRE072KL" H 5900 2300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RT0402FRE072KL?qs=BXCcY9r%252B08AaoyuNta8Ffg%3D%3D" H 5900 2200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 5900 2100 50  0001 L CNN "Manufacturer_Name"
+F 9 "RT0402FRE072KL" H 5900 2000 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5850 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2950 5500 3200
+Wire Wire Line
+	5850 2950 5850 3200
 $EndSCHEMATC

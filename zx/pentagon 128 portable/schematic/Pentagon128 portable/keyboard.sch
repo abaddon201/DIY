@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SamacSys_Parts:SN74LS245DW IC10
+L SamacSys_Parts:SN74LS245DW IC11
 U 1 1 5F635A2B
 P 2200 950
-F 0 "IC10" H 2700 1215 50  0000 C CNN
+F 0 "IC11" H 2700 1215 50  0000 C CNN
 F 1 "SN74LS245DW" H 2700 1124 50  0000 C CNN
 F 2 "SamacSys_Parts:SOIC127P1030X265-20N" H 3050 1050 50  0001 L CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls245" H 3050 950 50  0001 L CNN
@@ -31,10 +31,10 @@ F 9 "SN74LS245DW" H 3050 350 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SamacSys_Parts:SN74LS245DW IC12
+L SamacSys_Parts:SN74LS245DW IC13
 U 1 1 5F638018
 P 4950 1050
-F 0 "IC12" H 5450 1315 50  0000 C CNN
+F 0 "IC13" H 5450 1315 50  0000 C CNN
 F 1 "SN74LS245DW" H 5450 1224 50  0000 C CNN
 F 2 "SamacSys_Parts:SOIC127P1030X265-20N" H 5800 1150 50  0001 L CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls245" H 5800 1050 50  0001 L CNN
@@ -48,10 +48,10 @@ F 9 "SN74LS245DW" H 5800 450 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SamacSys_Parts:SN74LS27N IC11
+L SamacSys_Parts:SN74LS27N IC12
 U 1 1 5F639610
 P 8750 950
-F 0 "IC11" H 9250 1215 50  0000 C CNN
+F 0 "IC12" H 9250 1215 50  0000 C CNN
 F 1 "SN74LS27N" H 9250 1124 50  0000 C CNN
 F 2 "SamacSys_Parts:DIP794W53P254L1930H508Q14N" H 9600 1050 50  0001 L CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls27" H 9600 950 50  0001 L CNN
@@ -118,61 +118,6 @@ Text Label 1850 1650 0    50   ~ 0
 A14
 Text Label 1850 1750 0    50   ~ 0
 A15
-$Comp
-L Device:R_Small R32
-U 1 1 5F7762E9
-P 4850 1550
-F 0 "R32" H 4909 1596 50  0001 L CNN
-F 1 "1.5k" H 4909 1550 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4850 1550 50  0001 C CNN
-F 3 "~" H 4850 1550 50  0001 C CNN
-	1    4850 1550
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R31
-U 1 1 5F778111
-P 4850 1450
-F 0 "R31" H 4909 1496 50  0001 L CNN
-F 1 "1.5k" H 4909 1450 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4850 1450 50  0001 C CNN
-F 3 "~" H 4850 1450 50  0001 C CNN
-	1    4850 1450
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R30
-U 1 1 5F778635
-P 4850 1350
-F 0 "R30" H 4909 1396 50  0001 L CNN
-F 1 "1.5k" H 4909 1350 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4850 1350 50  0001 C CNN
-F 3 "~" H 4850 1350 50  0001 C CNN
-	1    4850 1350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R29
-U 1 1 5F7789CC
-P 4850 1250
-F 0 "R29" H 4909 1296 50  0001 L CNN
-F 1 "1.5k" H 4909 1250 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4850 1250 50  0001 C CNN
-F 3 "~" H 4850 1250 50  0001 C CNN
-	1    4850 1250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R38
-U 1 1 5F778D57
-P 4850 1150
-F 0 "R38" H 4450 1200 50  0000 L CNN
-F 1 "1.5k" H 4550 1100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4850 1150 50  0001 C CNN
-F 3 "~" H 4850 1150 50  0001 C CNN
-	1    4850 1150
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4750 1150 4400 1150
 Wire Wire Line
@@ -194,10 +139,10 @@ D3
 Text Label 4400 1550 0    50   ~ 0
 D4
 $Comp
-L power:GND #PWR055
+L power:GND #PWR058
 U 1 1 5F7AFB1D
 P 4850 2050
-F 0 "#PWR055" H 4850 1800 50  0001 C CNN
+F 0 "#PWR058" H 4850 1800 50  0001 C CNN
 F 1 "GND" H 4855 1877 50  0000 C CNN
 F 2 "" H 4850 2050 50  0001 C CNN
 F 3 "" H 4850 2050 50  0001 C CNN
@@ -205,10 +150,10 @@ F 3 "" H 4850 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR054
+L power:GND #PWR057
 U 1 1 5F7B050F
 P 1800 1850
-F 0 "#PWR054" H 1800 1600 50  0001 C CNN
+F 0 "#PWR057" H 1800 1600 50  0001 C CNN
 F 1 "GND" H 1805 1677 50  0000 C CNN
 F 2 "" H 1800 1850 50  0001 C CNN
 F 3 "" H 1800 1850 50  0001 C CNN
@@ -220,10 +165,10 @@ Wire Wire Line
 Wire Wire Line
 	4850 1950 4850 2050
 $Comp
-L power:GND #PWR052
+L power:GND #PWR055
 U 1 1 5F7B4A74
 P 3800 1100
-F 0 "#PWR052" H 3800 850 50  0001 C CNN
+F 0 "#PWR055" H 3800 850 50  0001 C CNN
 F 1 "GND" H 3805 927 50  0000 C CNN
 F 2 "" H 3800 1100 50  0001 C CNN
 F 3 "" H 3800 1100 50  0001 C CNN
@@ -238,10 +183,10 @@ Wire Wire Line
 	4950 1050 3800 1050
 Connection ~ 3800 1050
 $Comp
-L power:+5V #PWR049
+L power:+5V #PWR052
 U 1 1 5F7BD7E0
 P 3550 950
-F 0 "#PWR049" H 3550 800 50  0001 C CNN
+F 0 "#PWR052" H 3550 800 50  0001 C CNN
 F 1 "+5V" H 3565 1123 50  0000 C CNN
 F 2 "" H 3550 950 50  0001 C CNN
 F 3 "" H 3550 950 50  0001 C CNN
@@ -249,10 +194,10 @@ F 3 "" H 3550 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR051
+L power:+5V #PWR054
 U 1 1 5F7BE238
 P 6100 1000
-F 0 "#PWR051" H 6100 850 50  0001 C CNN
+F 0 "#PWR054" H 6100 850 50  0001 C CNN
 F 1 "+5V" H 6115 1173 50  0000 C CNN
 F 2 "" H 6100 1000 50  0001 C CNN
 F 3 "" H 6100 1000 50  0001 C CNN
@@ -264,10 +209,10 @@ Wire Wire Line
 Wire Wire Line
 	6100 1050 6100 1000
 $Comp
-L power:+5V #PWR048
+L power:+5V #PWR051
 U 1 1 5F7C29E8
 P 1800 950
-F 0 "#PWR048" H 1800 800 50  0001 C CNN
+F 0 "#PWR051" H 1800 800 50  0001 C CNN
 F 1 "+5V" H 1815 1123 50  0000 C CNN
 F 2 "" H 1800 950 50  0001 C CNN
 F 3 "" H 1800 950 50  0001 C CNN
@@ -321,10 +266,10 @@ Wire Wire Line
 Wire Wire Line
 	9750 1050 10100 1050
 $Comp
-L power:+5V #PWR050
+L power:+5V #PWR053
 U 1 1 5FBD27E7
 P 9750 950
-F 0 "#PWR050" H 9750 800 50  0001 C CNN
+F 0 "#PWR053" H 9750 800 50  0001 C CNN
 F 1 "+5V" H 9765 1123 50  0000 C CNN
 F 2 "" H 9750 950 50  0001 C CNN
 F 3 "" H 9750 950 50  0001 C CNN
@@ -332,10 +277,10 @@ F 3 "" H 9750 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR053
+L power:GND #PWR056
 U 1 1 5FBD2F9F
 P 8750 1550
-F 0 "#PWR053" H 8750 1300 50  0001 C CNN
+F 0 "#PWR056" H 8750 1300 50  0001 C CNN
 F 1 "GND" H 8755 1377 50  0000 C CNN
 F 2 "" H 8750 1550 50  0001 C CNN
 F 3 "" H 8750 1550 50  0001 C CNN
@@ -374,10 +319,10 @@ Wire Wire Line
 Connection ~ 8750 1350
 Connection ~ 8750 1550
 $Comp
-L Connector_Generic:Conn_01x13 J4
+L Connector_Generic:Conn_01x13 J5
 U 1 1 5F69613A
 P 8600 2900
-F 0 "J4" H 8680 2942 50  0000 L CNN
+F 0 "J5" H 8680 2942 50  0000 L CNN
 F 1 "Conn_01x13" H 8680 2851 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x13_P2.54mm_Vertical" H 8600 2900 50  0001 C CNN
 F 3 "~" H 8600 2900 50  0001 C CNN
@@ -468,4 +413,89 @@ Text HLabel 1800 1650 0    50   Input ~ 0
 A14
 Text HLabel 1800 1750 0    50   Input ~ 0
 A15
+$Comp
+L SamacSys_Parts:1.5k R32
+U 1 1 5F952AA8
+P 4850 1450
+F 0 "R32" V 4250 1450 50  0000 C CNN
+F 1 "1.5k" V 4250 1300 50  0000 C CNN
+F 2 "RESC1005X37N" H 4900 1300 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 4900 1200 50  0001 L CNN
+F 4 "Vishay Resistor Chip 0402" H 4900 1100 50  0001 L CNN "Description"
+F 5 "0.37" H 4900 1000 50  0001 L CNN "Height"
+F 6 "594-MCS04020C1501FE0" H 4900 900 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Vishay-Beyschlag/MCS04020C1501FE000?qs=7ZE6F4QMOBb1CssuhAOnZw%3D%3D" H 4900 800 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Vishay" H 4900 700 50  0001 L CNN "Manufacturer_Name"
+F 9 "MCS04020C1501FE000" H 4900 600 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4850 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:1.5k R33
+U 1 1 5F9533BC
+P 4850 1550
+F 0 "R33" V 4250 1550 50  0000 C CNN
+F 1 "1.5k" V 4250 1400 50  0000 C CNN
+F 2 "RESC1005X37N" H 4900 1400 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 4900 1300 50  0001 L CNN
+F 4 "Vishay Resistor Chip 0402" H 4900 1200 50  0001 L CNN "Description"
+F 5 "0.37" H 4900 1100 50  0001 L CNN "Height"
+F 6 "594-MCS04020C1501FE0" H 4900 1000 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Vishay-Beyschlag/MCS04020C1501FE000?qs=7ZE6F4QMOBb1CssuhAOnZw%3D%3D" H 4900 900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Vishay" H 4900 800 50  0001 L CNN "Manufacturer_Name"
+F 9 "MCS04020C1501FE000" H 4900 700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4850 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:1.5k R31
+U 1 1 5F953A2B
+P 4850 1350
+F 0 "R31" V 4250 1350 50  0000 C CNN
+F 1 "1.5k" V 4250 1200 50  0000 C CNN
+F 2 "RESC1005X37N" H 4900 1200 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 4900 1100 50  0001 L CNN
+F 4 "Vishay Resistor Chip 0402" H 4900 1000 50  0001 L CNN "Description"
+F 5 "0.37" H 4900 900 50  0001 L CNN "Height"
+F 6 "594-MCS04020C1501FE0" H 4900 800 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Vishay-Beyschlag/MCS04020C1501FE000?qs=7ZE6F4QMOBb1CssuhAOnZw%3D%3D" H 4900 700 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Vishay" H 4900 600 50  0001 L CNN "Manufacturer_Name"
+F 9 "MCS04020C1501FE000" H 4900 500 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4850 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:1.5k R30
+U 1 1 5F953C31
+P 4850 1250
+F 0 "R30" V 4250 1250 50  0000 C CNN
+F 1 "1.5k" V 4250 1100 50  0000 C CNN
+F 2 "RESC1005X37N" H 4900 1100 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 4900 1000 50  0001 L CNN
+F 4 "Vishay Resistor Chip 0402" H 4900 900 50  0001 L CNN "Description"
+F 5 "0.37" H 4900 800 50  0001 L CNN "Height"
+F 6 "594-MCS04020C1501FE0" H 4900 700 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Vishay-Beyschlag/MCS04020C1501FE000?qs=7ZE6F4QMOBb1CssuhAOnZw%3D%3D" H 4900 600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Vishay" H 4900 500 50  0001 L CNN "Manufacturer_Name"
+F 9 "MCS04020C1501FE000" H 4900 400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4850 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:1.5k R29
+U 1 1 5F953E88
+P 4850 1150
+F 0 "R29" V 4250 1150 50  0000 C CNN
+F 1 "1.5k" V 4250 1000 50  0000 C CNN
+F 2 "RESC1005X37N" H 4900 1000 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 4900 900 50  0001 L CNN
+F 4 "Vishay Resistor Chip 0402" H 4900 800 50  0001 L CNN "Description"
+F 5 "0.37" H 4900 700 50  0001 L CNN "Height"
+F 6 "594-MCS04020C1501FE0" H 4900 600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Vishay-Beyschlag/MCS04020C1501FE000?qs=7ZE6F4QMOBb1CssuhAOnZw%3D%3D" H 4900 500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Vishay" H 4900 400 50  0001 L CNN "Manufacturer_Name"
+F 9 "MCS04020C1501FE000" H 4900 300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4850 1150
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

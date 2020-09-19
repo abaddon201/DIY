@@ -383,49 +383,8 @@ Text Label 5000 5400 0    50   ~ 0
 SDIO_D0
 Wire Wire Line
 	1850 1200 1400 1200
-Wire Wire Line
-	1850 1400 1400 1400
 Text Label 1400 1200 0    50   ~ 0
 NRST
-$Comp
-L Device:R_Small R?
-U 1 1 5F9BCBF8
-P 1550 1600
-AR Path="/5F4A5D43/5F9BCBF8" Ref="R?"  Part="1" 
-AR Path="/5F4A5D43/5F7467A7/5F9BCBF8" Ref="R10"  Part="1" 
-F 0 "R10" V 1354 1600 50  0000 C CNN
-F 1 "10k" V 1445 1600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1550 1600 50  0001 C CNN
-F 3 "~" H 1550 1600 50  0001 C CNN
-	1    1550 1600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5F9BCBFE
-P -1950 10200
-AR Path="/5F4A5D43/5F9BCBFE" Ref="C?"  Part="1" 
-AR Path="/5F4A5D43/5F7467A7/5F9BCBFE" Ref="C13"  Part="1" 
-F 0 "C13" H -1858 10246 50  0000 L CNN
-F 1 "100nF" H -1858 10155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H -1950 10200 50  0001 C CNN
-F 3 "~" H -1950 10200 50  0001 C CNN
-	1    -1950 10200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5F9BCC04
-P -1950 9750
-AR Path="/5F4A5D43/5F9BCC04" Ref="R?"  Part="1" 
-AR Path="/5F4A5D43/5F7467A7/5F9BCC04" Ref="R11"  Part="1" 
-F 0 "R11" H -1891 9796 50  0000 L CNN
-F 1 "100k" H -1891 9705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H -1950 9750 50  0001 C CNN
-F 3 "~" H -1950 9750 50  0001 C CNN
-	1    -1950 9750
-	1    0    0    -1  
-$EndComp
 $Comp
 L Switch:SW_Push SW?
 U 1 1 5F9BCC0A
@@ -541,19 +500,6 @@ Wire Wire Line
 	2600 650  2600 750 
 Wire Wire Line
 	2600 750  2500 750 
-$Comp
-L Device:R_Small R?
-U 1 1 5F9BCC42
-P 1100 1300
-AR Path="/5F4A5D43/5F9BCC42" Ref="R?"  Part="1" 
-AR Path="/5F4A5D43/5F7467A7/5F9BCC42" Ref="R8"  Part="1" 
-F 0 "R8" V 904 1300 50  0000 C CNN
-F 1 "10k" V 995 1300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1100 1300 50  0001 C CNN
-F 3 "~" H 1100 1300 50  0001 C CNN
-	1    1100 1300
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	750  1000 850  1000
 Wire Wire Line
@@ -563,38 +509,6 @@ Wire Wire Line
 Connection ~ 850  1000
 Wire Wire Line
 	1200 1300 1850 1300
-$Comp
-L Device:C_Small C?
-U 1 1 5F9BCC4D
-P 950 1800
-AR Path="/5F4A5D43/5F9BCC4D" Ref="C?"  Part="1" 
-AR Path="/5F4A5D43/5F7467A7/5F9BCC4D" Ref="C11"  Part="1" 
-F 0 "C11" V 721 1800 50  0000 C CNN
-F 1 "2.2uF" V 812 1800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 950 1800 50  0001 C CNN
-F 3 "~" H 950 1800 50  0001 C CNN
-	1    950  1800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5F9BCC53
-P 650 1900
-AR Path="/5F4A5D43/5F9BCC53" Ref="C?"  Part="1" 
-AR Path="/5F4A5D43/5F7467A7/5F9BCC53" Ref="C12"  Part="1" 
-F 0 "C12" V 421 1900 50  0000 C CNN
-F 1 "2.2uF" V 512 1900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 650 1900 50  0001 C CNN
-F 3 "~" H 650 1900 50  0001 C CNN
-	1    650  1900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1850 1800 1050 1800
-Wire Wire Line
-	1850 1900 750  1900
-Wire Wire Line
-	850  1800 400  1800
 Wire Wire Line
 	400  1800 400  1900
 Wire Wire Line
@@ -905,19 +819,6 @@ PE14
 Text GLabel 5350 9500 2    50   Input ~ 0
 PE15
 $Comp
-L Device:R_Small R?
-U 1 1 5F9BCCF6
-P 1300 1400
-AR Path="/5F4A5D43/5F9BCCF6" Ref="R?"  Part="1" 
-AR Path="/5F4A5D43/5F7467A7/5F9BCCF6" Ref="R9"  Part="1" 
-F 0 "R9" V 1104 1400 50  0000 C CNN
-F 1 "10k" V 1195 1400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1300 1400 50  0001 C CNN
-F 3 "~" H 1300 1400 50  0001 C CNN
-	1    1300 1400
-	0    1    1    0   
-$EndComp
-$Comp
 L power:+3.3V #PWR?
 U 1 1 5F9BCCFC
 P 1200 1400
@@ -997,6 +898,133 @@ F 1 "STM32F469IITx" H 2400 900 50  0000 C CNN
 F 2 "Package_QFP:LQFP-176_24x24mm_P0.5mm" H 2050 1000 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00219980.pdf" H 3450 5300 50  0001 C CNN
 	1    3450 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:100nF C13
+U 1 1 5F796A70
+P -1950 10200
+F 0 "C13" H -1858 10246 50  0000 L CNN
+F 1 "100nF" H -1858 10155 50  0000 L CNN
+F 2 "CAPC1005X55N" H -1850 10050 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H -1850 9950 50  0001 L CNN
+F 4 "KEMET - C0402C104K9PACTU - CAP, MLCC, X5R, 0.1UF, 6.3V, 0402, REEL" H -1850 9850 50  0001 L CNN "Description"
+F 5 "0.55" H -1850 9750 50  0001 L CNN "Height"
+F 6 "80-C0402C104K9P" H -1850 9650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9PACTU?qs=DBJr%252BvBUjU7yQ9iUbxvTPw%3D%3D" H -1850 9550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Kemet" H -1850 9450 50  0001 L CNN "Manufacturer_Name"
+F 9 "C0402C104K9PACTU" H -1850 9350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    -1950 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:2.2uF_tantalum C11
+U 1 1 5F842E04
+P 950 1800
+F 0 "C11" V 725 1800 50  0000 C CNN
+F 1 "2.2uF_tantalum" V 816 1800 50  0000 C CNN
+F 2 "CAPPM3216X180N" H 1050 1650 50  0001 L CNN
+F 3 "" H 1050 1550 50  0001 L CNN
+F 4 "Tantalum Capacitors - Solid SMD 10V 2.2uF 10% 1206 ESR=6.5Ohm AEC-Q200" H 1050 1450 50  0001 L CNN "Description"
+F 5 "1.8" H 1050 1350 50  0001 L CNN "Height"
+F 6 "581-TAJA225K010TNJ" H 1050 1250 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/AVX/TAJA225K010TNJ?qs=XLNwXgtzMM%2F9RK%2FJN7CZtw%3D%3D" H 1050 1150 50  0001 L CNN "Mouser Price/Stock"
+F 8 "AVX" H 1050 1050 50  0001 L CNN "Manufacturer_Name"
+F 9 "TAJA225K010TNJ" H 1050 950 50  0001 L CNN "Manufacturer_Part_Number"
+	1    950  1800
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:2.2uF_tantalum C12
+U 1 1 5F843617
+P 650 1900
+F 0 "C12" V 750 1900 50  0000 C CNN
+F 1 "2.2uF_tantalum" V 850 2050 50  0000 C CNN
+F 2 "CAPPM3216X180N" H 750 1750 50  0001 L CNN
+F 3 "" H 750 1650 50  0001 L CNN
+F 4 "Tantalum Capacitors - Solid SMD 10V 2.2uF 10% 1206 ESR=6.5Ohm AEC-Q200" H 750 1550 50  0001 L CNN "Description"
+F 5 "1.8" H 750 1450 50  0001 L CNN "Height"
+F 6 "581-TAJA225K010TNJ" H 750 1350 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/AVX/TAJA225K010TNJ?qs=XLNwXgtzMM%2F9RK%2FJN7CZtw%3D%3D" H 750 1250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "AVX" H 750 1150 50  0001 L CNN "Manufacturer_Name"
+F 9 "TAJA225K010TNJ" H 750 1050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    650  1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 1800 1050 1800
+Wire Wire Line
+	850  1800 400  1800
+Wire Wire Line
+	750  1900 1850 1900
+$Comp
+L SamacSys_Parts:10k R8
+U 1 1 5F909097
+P 1100 1300
+F 0 "R8" V 875 1300 50  0000 C CNN
+F 1 "10k" V 966 1300 50  0000 C CNN
+F 2 "RESC1005X37N" H 1150 1150 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/MCS0402MC1002FE000.pdf" H 1150 1050 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD .1W 10Kohms 1% 0402 50ppm Auto" H 1150 950 50  0001 L CNN "Description"
+F 5 "0.37" H 1150 850 50  0001 L CNN "Height"
+F 6 "594-MCS0402MC1002FE0" H 1150 750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCS0402MC1002FE0" H 1150 650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Vishay" H 1150 550 50  0001 L CNN "Manufacturer_Name"
+F 9 "MCS0402MC1002FE000" H 1150 450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1100 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 1400 1400 1400
+$Comp
+L SamacSys_Parts:10k R9
+U 1 1 5F90A7D1
+P 1300 1400
+F 0 "R9" V 1075 1400 50  0000 C CNN
+F 1 "10k" V 1166 1400 50  0000 C CNN
+F 2 "RESC1005X37N" H 1350 1250 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/MCS0402MC1002FE000.pdf" H 1350 1150 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD .1W 10Kohms 1% 0402 50ppm Auto" H 1350 1050 50  0001 L CNN "Description"
+F 5 "0.37" H 1350 950 50  0001 L CNN "Height"
+F 6 "594-MCS0402MC1002FE0" H 1350 850 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCS0402MC1002FE0" H 1350 750 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Vishay" H 1350 650 50  0001 L CNN "Manufacturer_Name"
+F 9 "MCS0402MC1002FE000" H 1350 550 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1300 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:10k R10
+U 1 1 5F90AAEA
+P 1550 1600
+F 0 "R10" V 1325 1600 50  0000 C CNN
+F 1 "10k" V 1416 1600 50  0000 C CNN
+F 2 "RESC1005X37N" H 1600 1450 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/MCS0402MC1002FE000.pdf" H 1600 1350 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD .1W 10Kohms 1% 0402 50ppm Auto" H 1600 1250 50  0001 L CNN "Description"
+F 5 "0.37" H 1600 1150 50  0001 L CNN "Height"
+F 6 "594-MCS0402MC1002FE0" H 1600 1050 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCS0402MC1002FE0" H 1600 950 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Vishay" H 1600 850 50  0001 L CNN "Manufacturer_Name"
+F 9 "MCS0402MC1002FE000" H 1600 750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1550 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:100k R11
+U 1 1 5F921649
+P -1950 9750
+F 0 "R11" H -1891 9796 50  0000 L CNN
+F 1 "100k" H -1891 9705 50  0000 L CNN
+F 2 "RESC1005X40N" H -1900 9600 50  0001 L CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C237.pdf" H -1900 9500 50  0001 L CNN
+F 4 "Panasonic ERA Series Thin Film Surface Mount Resistor 0402 Case 100k +/-0.5% 63mW +/-25ppm/C" H -1900 9400 50  0001 L CNN "Description"
+F 5 "0.4" H -1900 9300 50  0001 L CNN "Height"
+F 6 "667-ERA-2AED104X" H -1900 9200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-2AED104X?qs=nho8PGNfA6oWiExMQMbJyw%3D%3D" H -1900 9100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H -1900 9000 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERA-2AED104X" H -1900 8900 50  0001 L CNN "Manufacturer_Part_Number"
+	1    -1950 9750
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
