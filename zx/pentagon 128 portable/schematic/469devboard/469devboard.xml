@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>D:\docs\GitHub\DIY\zx\pentagon 128 portable\469devboard\469devboard.sch</source>
-    <date>14/09/2020 21:06:04</date>
+    <source>D:\docs\GitHub\DIY\zx\pentagon 128 portable\schematic\469devboard\469devboard.sch</source>
+    <date>10/10/2020 13:52:49</date>
     <tool>Eeschema (5.1.6)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -518,7 +518,7 @@
         <field name="Mouser Part Number">649-10033526-N3212LF</field>
         <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10033526-N3212LF?qs=LmzVcvYPptRTPTxae6JWyQ%3D%3D</field>
       </fields>
-      <libsource lib="SamacSys_Parts" part="10033526-N3212LF" description="AMPHENOL FCI NANTONG - 10033526-N3212LF. - CONN USB RCP 5 POS 0.8MM SLDR RA SMD 5TERM"/>
+      <libsource lib="SamacSys_Parts" part="10033526-N3212LF" description="MiniUSB SMD AMPHENOL FCI NANTONG - 10033526-N3212LF. - CONN USB RCP 5 POS 0.8MM SLDR RA SMD 5TERM"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F9C34E9</tstamp>
     </comp>
@@ -1297,14 +1297,13 @@
       </pins>
     </libpart>
     <libpart lib="SamacSys_Parts" part="10033526-N3212LF">
-      <description>AMPHENOL FCI NANTONG - 10033526-N3212LF. - CONN USB RCP 5 POS 0.8MM SLDR RA SMD 5TERM</description>
+      <description>MiniUSB SMD AMPHENOL FCI NANTONG - 10033526-N3212LF. - CONN USB RCP 5 POS 0.8MM SLDR RA SMD 5TERM</description>
       <docs>https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10033526.pdf</docs>
       <fields>
         <field name="Reference">J</field>
         <field name="Value">10033526-N3212LF</field>
         <field name="Footprint">10033526N3212LF</field>
-        <field name="Datasheet">https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10033526.pdf</field>
-        <field name="Description">AMPHENOL FCI NANTONG - 10033526-N3212LF. - CONN USB RCP 5 POS 0.8MM SLDR RA SMD 5TERM</field>
+        <field name="Description">MiniUSB SMD AMPHENOL FCI NANTONG - 10033526-N3212LF. - CONN USB RCP 5 POS 0.8MM SLDR RA SMD 5TERM</field>
         <field name="Height">4.15</field>
         <field name="Mouser Part Number">649-10033526-N3212LF</field>
         <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10033526-N3212LF?qs=LmzVcvYPptRTPTxae6JWyQ%3D%3D</field>
