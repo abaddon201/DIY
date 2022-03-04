@@ -207,4 +207,40 @@ D Microprocessors - MPU 20 MHZ Z80 CMOS CPU
 F https://componentsearchengine.com/Datasheets/1/Z84C0020AEG.pdf
 $ENDCMP
 #
+$CMP XC7A35T-1FTG256C
+D Artix-7 FPGA, BGA-256
+K
+F http://www.xilinx.com/support/documentation/data_sheets/ds181_Artix_7_Data_Sheet.pdf
+$ENDCMP
+#
+$CMP SN74ALS05AD
+D SN74ALS05ADG4, 6-Bit Buffer, Driver, ALS, Open Collector, Inverting 5V 14-Pin SOIC
+K
+F http://www.ti.com/lit/ds/symlink/sn74als05a.pdf
+$ENDCMP
+#
+$CMP 5M80ZE64C4N
+D CPLD, MAX V, 64 cell 184.1MHz, EQFP64 EP 5M80ZE64C4N, CPLD MAX V Flash 64 Cells, 54 I/O, 80 Labs, 7.9ns, ISP, 1.71  1.89 V 64-Pin EQFP
+K
+F https://www.altera.com/content/dam/altera-www/global/en_US/pdfs/literature/hb/max-v/mv51003.pdf
+$ENDCMP
+#
+$CMP IS62C51216AL-55TLI
+D SRAM 8M (512Kx8) 55ns 5V Async SRAM 5v
+K
+F https://componentsearchengine.com/Datasheets/1/IS62C51216AL-55TLI.pdf
+$ENDCMP
+#
+$CMP 74AHC16244DGGRG4
+D Buffers & Line Drivers 16B Buffers/Drivers
+K
+F https://www.ti.com/lit/ds/symlink/sn74ahc16244.pdf?ts=1622982611149&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DSN74AHC16244DGGR
+$ENDCMP
+#
+$CMP 74LVC8T245PW,118
+D 74LVC(H)8T245 - 8-bit dual supply translating transceiver; 3-state@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH8T245.pdf
+$ENDCMP
+#
 #End Doc Library

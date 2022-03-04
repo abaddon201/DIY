@@ -1,5 +1,5 @@
 (module "SOIC127P600X175-14N" (layer F.Cu)
-  (descr "D (R-PDSO-G14)_4")
+  (descr "D(R-DPSO-G14)")
   (tags "Integrated Circuit")
   (attr smd)
   (fp_text reference IC** (at 0 0) (layer F.SilkS)
@@ -39,7 +39,7 @@
   (pad 12 smd rect (at 2.712 -1.27 90) (size 0.65 1.525) (layers F.Cu F.Paste F.Mask))
   (pad 13 smd rect (at 2.712 -2.54 90) (size 0.65 1.525) (layers F.Cu F.Paste F.Mask))
   (pad 14 smd rect (at 2.712 -3.81 90) (size 0.65 1.525) (layers F.Cu F.Paste F.Mask))
-  (model "D:\\docs\\GitHub\\DIY\\zx\\pentagon 128 portable\\KiCad\\SamacSys_Parts.3dshapes\\SN74AHCT04D.stp"
+  (model "D:\\docs\\GitHub\\DIY\\zx\\pentagon 128 portable\\KiCad\\SamacSys_Parts.3dshapes\\SN74ALS05AD.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

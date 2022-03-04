@@ -316,7 +316,7 @@ SCREEN_RESET
 Text Label 6200 2750 0    50   ~ 0
 GND
 Text Label 6200 2850 0    50   ~ 0
-+3.3
++3.3V
 Text Label 7050 3850 0    50   ~ 0
 FMC_D0
 Text Label 7050 3750 0    50   ~ 0
@@ -2836,4 +2836,8 @@ Connection ~ -1800 2100
 Wire Wire Line
 	-1800 2200 -1800 2300
 Connection ~ -1800 2200
+Text Label 7050 2950 0    50   ~ 0
++3.3V
+Text Label 7100 2850 0    50   ~ 0
+GND
 $EndSCHEMATC
